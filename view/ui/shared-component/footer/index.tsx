@@ -109,7 +109,7 @@ const Footer = () => {
             Newsletter
           </p>
           <nav className='list-none flex justify-center'>
-            <div className='relative max-w-xs md:w-full bg-[#09132E] rounded py-2 mb-4 px-3 leading-8 flex items-center'>
+            <div className='relative  md:w-full bg-[#09132E] rounded py-2 mb-4 px-3 leading-8 flex justify-between'>
               <input
                 placeholder='Enter your email'
                 className='bg-[#09132E] focus:outline-none border-0 py-1 pl-1 text-white'

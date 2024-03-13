@@ -73,3 +73,16 @@ body {
 /* body[data-aos-delay='6000'] {
   transition-duration: 6000ms;
 } */
+
+
+.border-circle::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 90%;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 100;
+}
