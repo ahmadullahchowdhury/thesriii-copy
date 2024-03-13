@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { IoIosArrowForward } from 'react-icons/io';
 
 const About = () => {
   return (
@@ -64,11 +65,13 @@ const About = () => {
         <div className='pt-8 md:pt-10 lg:pt-14  pb-4 md:pb-5 lg:pb-8 flex justify-center items-center'>
           <div className=' relative px-[25px] py-3 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'>
             <div className='p-[5px] justify-center items-center gap-2.5 flex'>
-              <div className='text-center text-slate-500 text-2xl font-medium  capitalize'>
+              <div className='text-center text-slate-500 text-base  lg:text-2xl font-medium  capitalize'>
                 Learn more about our mission
               </div>
             </div>
-            <div className='w-12 h-12  top-0 right-0 bg-indigo-400 rounded-[30px]' />
+            <div className='w-12 h-12 flex justify-center items-center  top-0 right-0 bg-indigo-400 rounded-[30px]'>
+              <IoIosArrowForward className=''  color='white'  size={44}/>
+            </div>
           </div>
         </div>
       </div>

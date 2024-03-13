@@ -42,7 +42,7 @@ const Footer = () => {
   return (
     <footer className='text-text_color  duration-700 body-font bg-primary  relative'>
       <div className='container-sm px-10 sm:max-lg:pl-10 py-10 lg:py-14 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-y-12 md:gap-y-16 gap-x-8 sm:gap-x-16  lg:gap-x-8'>
-        <div className='lg:col-span-2'>
+        <div className='flex flex-col justify-around lg:col-span-2'>
           {/* <div className=""> */}
 
           <a className='flex title-font font-medium items-center justify-start  text-text_color  duration-700'>
@@ -55,6 +55,14 @@ const Footer = () => {
                </p> */}
           {/* <p className="text-text_color  duration-700 hover:text-gray-700 rounded mt-3 font-bold">Phone: + 919980007455</p> */}
           {/* <p className="text-text_color  duration-700 hover:text-gray-700 rounded mt-3 font-bold">Email: srakesh99@yahoo.com</p> */}
+        <div className="flex gap-4">
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/facebook.svg'} />
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/twitter.svg'} />
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/linkedin.svg'} />
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/youtube.svg'} />
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/vimeo.svg'} />
+        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/flickr.svg'} />
+        </div>
         </div>
         {/* </div> */}
         {footerData?.map((dt, i) => (
