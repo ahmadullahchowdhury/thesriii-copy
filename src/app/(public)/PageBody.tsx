@@ -11,6 +11,7 @@ import Members from 'view/page/home/members'
 
 
 
+
 const PageBody = () => {
 
     return (
@@ -19,6 +20,7 @@ const PageBody = () => {
             <About />
             <Conference />
             <Members />
+            
             {/* <MyResume /> 
             <ContactSection /> */}
         </Fragment>

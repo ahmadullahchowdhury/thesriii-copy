@@ -1,3 +1,4 @@
+
 export const footerData = [
   {
     title: 'Sitemap',
@@ -458,3 +459,32 @@ export const data = [
     image: '/image/IanEllisonTaylor.png'
   },
 ]
+
+
+export const data1 = [
+  {
+    name: 'Kris Sing',
+    designation: 'SRII President',
+    image: '/image/mem_kris.png'
+  },
+  {
+    name: 'Mark Gorenberg',
+    designation: 'Managing Director of Hummer Winblad Venture Partners',
+    image: '/image/mem_mark.png'
+  },
+  {
+    name: 'Ajit Singh',
+    designation: 'Partner at Artiman Venture & Consulting Professor at Stanford University',
+    image: '/image/mem_ajit.png'
+  },
+  {
+    name: 'Rajeeb Hazra',
+    designation: 'Vice President at Intel',
+    image: '/image/mem_rajeeb.png'
+  },
+  {
+    name: 'Rajeeb Hazra',
+    designation: 'Vice President at Intel',
+    image: '/image/mem_rajeeb.png'
+  }
+];
