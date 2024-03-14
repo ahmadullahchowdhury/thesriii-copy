@@ -375,3 +375,86 @@ export const TermsAndConditionData = [
     ]
   }
 ];
+
+export const data = [
+  {
+    name: "Kris Sing",
+    designation : "SRII President",
+    image: '/image/Kris.png'
+  },
+  {
+    name: "Tim Draper",
+    designation : "VP, Services & research, IBM",
+    image: '/image/Draper.png'
+  },
+  {
+    name: "Prith Banerjee",
+    designation : "Senior VP Research, HP",
+    image: '/image/Banerjee.png'
+  },
+  {
+    name: "Tony Scott",
+    designation : "CTO Corporate Networks, Google",
+    image: '/image/Scott.png'
+  },
+  {
+    name: "Geng Lin",
+    designation : "CTO Corporate Networks, Google",
+    image: '/image/Lin.png'
+  },
+  {
+    name: "Martin Duursma",
+    designation : "CTO Office Chair & VP, Citrix Labs",
+    image: '/image/Duursma.png'
+  },
+  {
+    name: "Jeff Welser",
+    designation : "VP & Lab Director, IBM Almaden",
+    image: '/image/Welser.png'
+  },
+  {
+    name: "Rajeeb Hazra",
+    designation : "VP, Intel Architecture Group & GM Technical Computing",
+    image: '/image/Hazra.png'
+  },
+  {
+    name: "John Seely Brown",
+    designation : "Board of directors at Amazon",
+    image: '/image/SeelyBrown.png'
+  },
+  {
+    name: "Steve Kirsch",
+    designation : "CEO at OneID and  Cointrust",
+    image: '/image/kirsch.png'
+  },
+  {
+    name: "Peter Denning",
+    designation : "Distinguished Professor   at Naval Postgraduate School",
+    image: '/image/Denning.png'
+  },
+  {
+    name: "Chris C. Kemp",
+    designation : "Founder of Nebula & OpenStack",
+    image: '/image/kris.png'
+  },
+  {
+    name: "Sumit Dhawan",
+    designation : "VP and General  Manager, VMware",
+    image: '/image/Kemp.png'
+  },
+  {
+    name: "Manoj Leelanivas",
+    designation : "CEO at Cyphort",
+    image: '/image/Leelanivas.png'
+  },
+  {
+    name: "Ikhlaq Sidhu",
+    designation : "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
+    image: '/image/Ikhlaq_Sidhu.png'
+  },
+  {
+    name: "Ian Ellison-Taylor",
+    designation : "Director of “Open Web Platform”, Google",
+    image: '/image/IanEllisonTaylor.png'
+  },
+]

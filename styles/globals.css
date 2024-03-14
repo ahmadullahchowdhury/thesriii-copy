@@ -81,8 +81,148 @@ body {
   left: 0;
   top: 90%;
   height: 10px;
-  width: 10px;
+  width: 40px;
   background-color: black;
   border-radius: 50%;
   z-index: 100;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev::after {
+  /* content: "" !important ;  */
+  padding: 10px !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #6E8BEB  !important;
+  top: var(--swiper-navigation-top-offset, 10%) !important;
+  /* width: calc(var(--swiper-navigation-size) / 100* 27) !important;
+  height: calc(var(--swiper-navigation-size) / 44* 27) !important; */
+}
+
+/* .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+} */
+
+/* .swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44* 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+  padding: 2rem;
+}
+
+.swiper .res-slide {
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 350px;
+  border: 2px solid hsl(210, 100%, 50%);
+  border-radius: 20px;
+}
+
+.member-swiper-nav-btns{
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  /* align-items: center;
+  margin-top: 2rem; */
+
+}
+
+.member-swiper-nav-btns button {
+  width: 60px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: hsl(210, 100%, 50%);
+  color: #fff;
+  margin: 0px 0.5rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  transition: all .5s;
+}
+
+/* .swiper-nav-btns button:hover {
+  background-color: hsl(210, 100%, 40%);
+  cursor: pointer;
+}
+
+.res-slide:nth-child(1) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444282/samples/landscapes/nature-mountains.jpg");
+}
+
+.res-slide:nth-child(2) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444278/samples/landscapes/beach-boat.jpg");
+}
+
+.res-slide:nth-child(3) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444275/samples/landscapes/girl-urban-view.jpg");
+}
+
+.res-slide:nth-child(4) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444277/samples/animals/three-dogs.jpg");
+}
+
+.res-slide:nth-child(5) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444273/samples/animals/reindeer.jpg");
+}
+
+.res-slide:nth-child(6) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444278/samples/people/bicycle.jpg");
+}
+
+.res-slide:nth-child(7) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444279/samples/ecommerce/leather-bag-gray.jpg");
+}
+
+.res-slide:nth-child(8) {
+  background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444271/samples/ecommerce/analog-classic.jpg");
+} */

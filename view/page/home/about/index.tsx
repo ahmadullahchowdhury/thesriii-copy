@@ -3,7 +3,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const About = () => {
   return (
-    <div className='bg-[#FBFBFB] py-28 px-10 md:px-20 lg:px-10'>
+    <div className='bg-[#FBFBFB] py-26 md:py-20 lg:py-28  px-10 md:px-20 lg:px-10'>
       <div className='container-sm bg-blue-50 shadow-lg  p-8'>
         <h2 className='text-3xl py-5 lg:text-5xl font-bold text-slate-500  text-center'>About Us</h2>
         <div className='  mx-auto border-b-2  mb-10 relative '>
