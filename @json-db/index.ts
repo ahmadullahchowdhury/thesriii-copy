@@ -57,7 +57,7 @@ export const navbarData = {
   navbarList: [
     {
       title: 'About Us',
-      link: '/#resume'
+      link: '/about'
     },
     {
       title: 'Conferences',

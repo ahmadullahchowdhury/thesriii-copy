@@ -45,7 +45,8 @@ const Navbar = () => {
                         title={lt.title}
                         className={`font-medium 
                                             tracking-normal 
-                                            text-lg
+                                            md:text-base
+                                            lg:text-lg
                                             text-white
                                             transition-colors 
                                             duration-200 
@@ -64,7 +65,7 @@ const Navbar = () => {
 
               {/* DROP DOWN BUTTON ON THE MOBILE SIZE */}
               <div className='lg:hidden gap-4 flex items-center'>
-                <ThemeSwitch />
+                {/* <ThemeSwitch /> */}
                 <button
                   aria-label='Open Menu'
                   title='Open Menu'

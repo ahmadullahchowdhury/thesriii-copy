@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 export default function Slider() {
   return (
-    <div className=' container-sm'>
+    <div className=' '>
       <div className=''>
         <Swiper
           slidesPerView={1}
@@ -37,14 +37,14 @@ export default function Slider() {
               <div className='px-0 md:px-9 py-[50px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
                 <div className='flex-col h-[] justify-start items-center gap-[25px] lg:gap-[53px] flex'>
                   <div className='justify-center items-center gap-[100px] inline-flex'>
-                    <div className='pt-12 px-20 md:px-0 md:pt-0 text-center text-slate-500 text-sm lg:text-2xl font-bold'>
+                    <div className='pt-24  px-20 md:px-0 md:pt-0 text-center text-slate-500 text-sm lg:text-2xl font-bold'>
                       SRII Global Conference 2014 Keynote/Panel Speakers Included:
                     </div>
                   </div>
                   <div className='flex-col justify-start items-start gap-8 flex'>
-                    <div className='px-1 md:px-5 justify-center items-center gap-y-4 md:gap-y-0 gap-x-2 md:gap-x-4 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8'>
+                    <div className='px-1 md:px-5 justify-center items-center gap-y-12 md:gap-y-0 gap-x-2.5 md:gap-x-4 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8'>
                       {data.map(item => (
-                        <div className='lg:h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
+                        <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                           <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
                             <Image
                               width={100}

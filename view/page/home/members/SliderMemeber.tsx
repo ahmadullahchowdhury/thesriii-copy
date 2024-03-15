@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -14,9 +14,24 @@ import { data, data1,  } from '@json-db';
 function SliderMember() {
 
 
+
   return (
     <div className='App '>
-      <Swiper modules={[Navigation, Pagination, A11y]} spaceBetween={30} slidesPerView={4}>
+      <Swiper modules={[Navigation, Pagination, A11y]} spaceBetween={30} 
+            breakpoints={{
+              // when window width is <= 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when window width is <= 768px
+              768: {
+                slidesPerView: 2,
+              },
+              // when window width is <= 1024px
+              1024: {
+                slidesPerView: 4,
+              },
+            }}>
 
         {
           data1.map(item => (
