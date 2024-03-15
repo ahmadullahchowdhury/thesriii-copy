@@ -1,4 +1,4 @@
-import { data } from '@json-db';
+
 import Image from 'next/image';
 import React from 'react';
 import Slider from '../Slider';

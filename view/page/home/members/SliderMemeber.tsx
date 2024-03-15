@@ -6,10 +6,10 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { SwiperNavButtons } from 'view/ui/shared-component/component/swiperbutton';
 
-import '/styles/customswiper.css';
+import '../../../../styles/customswiper.css';
 
 import Image from 'next/image';
-import { data, data1,  } from '@json-db';
+import {  members,  } from '@json-db';
 
 function SliderMember() {
 
@@ -34,7 +34,7 @@ function SliderMember() {
             }}>
 
         {
-          data1.map(item => (
+          members.map(item => (
             
         <SwiperSlide className=' h-[100px] '>
           {' '}

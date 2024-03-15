@@ -60,7 +60,7 @@ const Navbar = () => {
                     </li>
                   );
                 })}
-                <ThemeSwitch />
+                {/* <ThemeSwitch /> */}
               </ul>
 
               {/* DROP DOWN BUTTON ON THE MOBILE SIZE */}
