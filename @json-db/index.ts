@@ -73,7 +73,7 @@ export const navbarData = {
     },
     {
       title: 'Join SRII',
-      link: '/#contact'
+      link: '/pricing'
     },
     {
       title: 'TUSeminar',
