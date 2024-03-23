@@ -28,7 +28,7 @@ const MobileNavbar = ({ isMenuOpen, setIsMenuOpen, navbarData }: SidebarLayoutPr
             isMenuOpen ? 'top-0 left-0' : 'top-0 -left-full'
           }`}
         >
-          <div className=' bg-primary dark:bg-dark_primary_higher  bg-base-100 relative flex flex-col p-6 mt-2 text-lg font-normal leading-6'>
+          <div className=' bg-primary   bg-base-100 relative flex flex-col p-6 mt-2 text-lg font-normal leading-6'>
             <div className='flex items-center justify-between mb-6'>
               <Link
                 href={navbarData.companyName.link}

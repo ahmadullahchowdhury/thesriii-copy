@@ -5,27 +5,27 @@ export const footerData = [
     links: [
       {
         name: 'Home',
-        to: '/#resume'
+        to: '/'
       },
       {
-        name: 'Abouts',
-        to: '/#about-us'
+        name: 'About Us',
+        to: '/about'
       },
       {
         name: 'Summits',
-        to: '/early-detection'
+        to: '/#'
       },
       {
         name: 'Digital Content',
-        to: '/#contact'
+        to: '/#'
       },
       {
         name: 'TU Seminar',
-        to: '/#contact'
+        to: '/#'
       },
       {
         name: 'Contact Us',
-        to: '/#contact'
+        to: '/contact'
       }
     ]
   },
@@ -61,15 +61,15 @@ export const navbarData = {
     },
     {
       title: 'Conferences',
-    link: '/#about-us'
+    link: '/#a'
     },
     {
       title: 'Summits',
-      link: '/early-detection'
+      link: '/#'
     },
     {
       title: 'Digital Content',
-      link: '/#contact'
+      link: '/#'
     },
     {
       title: 'Join SRII',
@@ -77,7 +77,7 @@ export const navbarData = {
     },
     {
       title: 'TUSeminar',
-      link: '/#contact'
+      link: '/#'
     },
     {
       title: 'Contact Us',

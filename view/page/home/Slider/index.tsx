@@ -145,7 +145,6 @@ export default function Slider() {
               </div>
             </div>
           </SwiperSlide>
-          
         </Swiper>
       </div>
     </div>

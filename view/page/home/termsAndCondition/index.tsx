@@ -1,4 +1,4 @@
-import { TermsAndConditionData } from "@json-db";
+
 import Image from "next/image";
 
 const TermsAndCondition = () => {
@@ -16,11 +16,11 @@ const TermsAndCondition = () => {
 
             <div className='container-sm py-16 bg-primary_lower dark:bg-dark_primary_lower duration-700 rounded-3xl px-4 md:px-16'>
 
-                {
+                {/* {
                     TermsAndConditionData.map((section, index: number) => (
                         <PrivacySection key={index} title={section.title} content={section.content} />
                     ))
-                }
+                } */}
             </div>
 
             <Image src={'/icon/bg-round.svg'} className='absolute transform w-96 -top-0 -left-28 z-0 opacity-30' alt='bus' width={200} height={200} priority />
