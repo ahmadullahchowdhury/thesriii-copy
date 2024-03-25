@@ -47,8 +47,8 @@ export default function Slider() {
                         <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                           <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
                             <Image
-                              width={100}
-                              height={100}
+                              width={500}
+                              height={500}
                               alt='conf'
                               className='w-[117px] h-[156px] rounded-xl'
                               src={item.image}
@@ -85,8 +85,8 @@ export default function Slider() {
                         <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                           <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
                             <Image
-                              width={100}
-                              height={100}
+                              width={300}
+                              height={300}
                               alt='conf'
                               className='w-[117px] h-[156px] rounded-xl'
                               src={item.image}
@@ -123,8 +123,8 @@ export default function Slider() {
                         <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                           <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
                             <Image
-                              width={100}
-                              height={100}
+                              width={500}
+                              height={500}
                               alt='conf'
                               className='w-[117px] h-[156px] rounded-xl'
                               src={item.image}

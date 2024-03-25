@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Kumbh_Sans , Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "../../styles/globals.css";
 import ThemeProviders from "./theme-providers";
 // import dynamic from "next/dynamic";
 
 // const  ThemeProviders = dynamic(() => import('./theme-providers'), { ssr: false })
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={`${poppins.className}`}>
         <ThemeProviders>
           {children}
         </ThemeProviders>

@@ -12,8 +12,8 @@ const About = () => {
             <div className='    '>
               <Image
                 alt='members'
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className='w-[240px] h-[240px] rounded-[5px]'
                 src={item.image}
               />
@@ -34,8 +34,8 @@ const About = () => {
             <div className='    '>
               <Image
                 alt='members'
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className='w-[240px] h-[240px] rounded-[5px]'
                 src={item.image}
               />
@@ -56,8 +56,8 @@ const About = () => {
             <div className='    '>
               <Image
                 alt='members'
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className='w-[240px] h-[240px] rounded-[5px]'
                 src={item.image}
               />

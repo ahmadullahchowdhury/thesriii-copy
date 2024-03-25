@@ -1,3 +1,4 @@
+import { companyData } from '@json-db';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -10,16 +11,18 @@ const Hero = () => {
   const handleClick = () => {
     router.push('/#contact');
   };
-  // something
+
+  // console.log(companyData);
+
   return (
     <div className='mx-10 md:mx-20 lg:mx-10 relative'>
-      <div className='  container-sm mt-16 md:mt-20 lg:mt-24 mb-5 md:mb-8 lg:mb-10 bg-gradient-to-r from-slate-500 to-slate-500 rounded-[10px] '>
+      <div style={{ background: "linear-gradient(104deg, #4B6585 0.02%, #6E86A3 68.05%)" }} className='container-sm mt-16 md:mt-20 lg:mt-20 mb-5 md:mb-8 lg:mb-10 rounded-[10px] '>
         <div className='px-10 md:px-20 lg:px-24 py-8 md:py-12 lg:py-14 grid gap-x-5 gap-y-10 grid-cols-1  lg:grid-cols-5 '>
           <div className='lg:col-span-3 '>
-            <h1 className=' lg:leading-[55px] text-white text-3xl font-bold md:text-5xl lg:text-5xl  capitalize tracking-[4.50px]  '>
+            <h1 className=' lg:leading-[55px] text-white text-3xl font-semibold md:text-5xl lg:text-5xl  capitalize tracking-[4.50px]  '>
               Empowering Global Innovation for a Sustainable Tomorrow
             </h1>
-            <p className='text-white text-base md:text-lg lg:text-lg capitalize tracking-[4.50px] pt-5 md:pt-7 lg:pt-10'>
+            <p className='lg:leading-[35px] text-white text-base md:text-lg lg:text-lg capitalize tracking-[3px] pt-5 md:pt-7 lg:pt-10'>
               We are committed to driving positive change through cutting-edge research, innovation, and collaboration.
               Our mission is to tackle some of the most pressing challenges facing our planet by harnessing the power of
               science, technology, and entrepreneurship.
@@ -37,39 +40,14 @@ const Hero = () => {
         </div>
       </div>
       <div className='-z-10 max-w-[1280px] mx-auto border-b-2  mb-10 relative '>
-        <p className='text-slate-500 text-2xl pb-3'>SRII Sponsors & Partner Organizations</p>
-        <div className='z-10 absolute left-[0px] -bottom-[4px] h-2 w-2 bg-slate-500 rounded-full'></div>
+        <p className='text-slate-500 text-2xl pb-2'>SRII Sponsors & Partner Organizations</p>
+        <div className='z-10 absolute left-[0px]  -bottom-[4.5px] h-2 w-2 bg-slate-500 rounded-full'></div>
       </div>
-      <div className=' max-w-[1280px] mx-auto '>
+      <div className=' max-w-[1280px] mx-auto pb-20 md:pb-28 lg:pb-56'>
         <Marquee style={{ flexDirection: 'row' }} className=''>
-          <Image src={'/image/google.png'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/intel.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/vmware.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/citrix.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/ibm.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/accenture.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/sap.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/xerox.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/qualcomm.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/quicklogic.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/brocode.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/mcafee.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/netapp.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/ge.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/paypal.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/verifone.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/tata.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/nebula.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/cyphort.png'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/oneid.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/lumiata.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/intrahouse.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/exasol.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/safeway.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/openmedicine.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/dac.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/draper.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
-          <Image src={'/image/zetta.jpeg'} className='mr-10' alt='hero' width={200} height={200} />
+          {companyData.map((company, index) => (
+            <Image key={index} src={company.image} className='mr-10' alt='hero' width={200} height={200} />
+          ))}
         </Marquee>
       </div>
     </div>

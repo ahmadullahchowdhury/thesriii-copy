@@ -9,9 +9,9 @@ const Conference = () => {
   return (
     <div className='mx-10 md:mx-20 lg:mx-10'>
       <div className='container-sm py-8 md:py-16 lg:py-20'>
-        <div className='text-center text-slate-500 text-4xl  md:text-[50px] font-medium  capitalize'>Conference & summits </div>
+        <div className='text-center text-slate-500 text-4xl  md:text-[50px] font-medium  capitalize'>Keynote/Speaker panel</div>
 
-        <div className='px-5 py-5 lg:px-64 text-center text-slate-500 text-base font-normal  leading-normal'>
+        <div className='px-5 py-5  lg:px-64 text-center text-slate-500 text-base font-normal  leading-normal'>
           Lorem ipsum dolor sit amet consectetur. Donec adipiscing ac condimentum tristique suspendisse malesuada. Sem
           adipiscing praesent vitae dolor dolor at augue viverra aenean. Diam eu accumsan nulla odio risus nunc amet
           praesent urna. Consequat egestas aliquet urna leo cursus suscipit.

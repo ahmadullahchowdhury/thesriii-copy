@@ -1,4 +1,3 @@
-
 export const footerData = [
   {
     title: 'Sitemap',
@@ -28,7 +27,7 @@ export const footerData = [
         to: '/contact'
       }
     ]
-  },
+  }
   // {
   //   title: 'Useful Websites',
   //   tel: '02-222394444',
@@ -61,7 +60,7 @@ export const navbarData = {
     },
     {
       title: 'Conferences',
-    link: '/#a'
+      link: '/#a'
     },
     {
       title: 'Summits',
@@ -82,8 +81,7 @@ export const navbarData = {
     {
       title: 'Contact Us',
       link: '/contact'
-    },
-    
+    }
   ]
 };
 
@@ -379,231 +377,230 @@ export const navbarData = {
 
 export const conference_slider_1 = [
   {
-    name: "Kris Sing",
-    designation : "SRII President",
+    name: 'Kris Sing',
+    designation: 'SRII President',
     image: '/image/Kris.png'
   },
   {
-    name: "Tim Draper",
-    designation : "VP, Services & research, IBM",
+    name: 'Tim Draper',
+    designation: 'VP, Services & research, IBM',
     image: '/image/Draper.png'
   },
   {
-    name: "Prith Banerjee",
-    designation : "Senior VP Research, HP",
+    name: 'Prith Banerjee',
+    designation: 'Senior VP Research, HP',
     image: '/image/Banerjee.png'
   },
   {
-    name: "Tony Scott",
-    designation : "CTO Corporate Networks, Google",
+    name: 'Tony Scott',
+    designation: 'CTO Corporate Networks, Google',
     image: '/image/Scott.png'
   },
   {
-    name: "Geng Lin",
-    designation : "CTO Corporate Networks, Google",
+    name: 'Geng Lin',
+    designation: 'CTO Corporate Networks, Google',
     image: '/image/Lin.png'
   },
   {
-    name: "Martin Duursma",
-    designation : "CTO Office Chair & VP, Citrix Labs",
+    name: 'Martin Duursma',
+    designation: 'CTO Office Chair & VP, Citrix Labs',
     image: '/image/Duursma.png'
   },
   {
-    name: "Jeff Welser",
-    designation : "VP & Lab Director, IBM Almaden",
+    name: 'Jeff Welser',
+    designation: 'VP & Lab Director, IBM Almaden',
     image: '/image/Welser.png'
   },
   {
-    name: "Rajeeb Hazra",
-    designation : "VP, Intel Architecture Group & GM Technical Computing",
+    name: 'Rajeeb Hazra',
+    designation: 'VP, Intel Architecture Group & GM Technical Computing',
     image: '/image/Hazra.png'
   },
   {
-    name: "John Seely Brown",
-    designation : "Board of directors at Amazon",
+    name: 'John Seely Brown',
+    designation: 'Board of directors at Amazon',
     image: '/image/SeelyBrown.png'
   },
   {
-    name: "Steve Kirsch",
-    designation : "CEO at OneID and  Cointrust",
+    name: 'Steve Kirsch',
+    designation: 'CEO at OneID and  Cointrust',
     image: '/image/kirsch.png'
   },
   {
-    name: "Peter Denning",
-    designation : "Distinguished Professor   at Naval Postgraduate School",
+    name: 'Peter Denning',
+    designation: 'Distinguished Professor   at Naval Postgraduate School',
     image: '/image/Denning.png'
   },
   {
-    name: "Chris C. Kemp",
-    designation : "Founder of Nebula & OpenStack",
+    name: 'Chris C. Kemp',
+    designation: 'Founder of Nebula & OpenStack',
     image: '/image/kris.png'
   },
   {
-    name: "Sumit Dhawan",
-    designation : "VP and General  Manager, VMware",
+    name: 'Sumit Dhawan',
+    designation: 'VP and General  Manager, VMware',
     image: '/image/Kemp.png'
   },
   {
-    name: "Manoj Leelanivas",
-    designation : "CEO at Cyphort",
+    name: 'Manoj Leelanivas',
+    designation: 'CEO at Cyphort',
     image: '/image/Leelanivas.png'
   },
   {
-    name: "Ikhlaq Sidhu",
-    designation : "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
+    name: 'Ikhlaq Sidhu',
+    designation: "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
     image: '/image/Ikhlaq_Sidhu.png'
   },
   {
-    name: "Ian Ellison-Taylor",
-    designation : "Director of “Open Web Platform”, Google",
+    name: 'Ian Ellison-Taylor',
+    designation: 'Director of “Open Web Platform”, Google',
     image: '/image/IanEllisonTaylor.png'
-  },
-]
+  }
+];
 export const conference_slider_3 = [
   {
-    name: "Kris Sing",
-    designation : "SRII President",
+    name: 'Kris Sing',
+    designation: 'SRII President',
     image: '/image/Kris.png'
   },
   {
-    name: "Tim Draper",
-    designation : "VP, Services & research, IBM",
+    name: 'Tim Draper',
+    designation: 'VP, Services & research, IBM',
     image: '/image/Draper.png'
   },
   {
-    name: "Prith Banerjee",
-    designation : "Senior VP Research, HP",
+    name: 'Prith Banerjee',
+    designation: 'Senior VP Research, HP',
     image: '/image/Banerjee.png'
   },
   {
-    name: "Tony Scott",
-    designation : "CTO Corporate Networks, Google",
+    name: 'Tony Scott',
+    designation: 'CTO Corporate Networks, Google',
     image: '/image/Scott.png'
   },
   {
-    name: "Geng Lin",
-    designation : "CTO Corporate Networks, Google",
+    name: 'Geng Lin',
+    designation: 'CTO Corporate Networks, Google',
     image: '/image/Lin.png'
   },
   {
-    name: "Martin Duursma",
-    designation : "CTO Office Chair & VP, Citrix Labs",
+    name: 'Martin Duursma',
+    designation: 'CTO Office Chair & VP, Citrix Labs',
     image: '/image/Duursma.png'
   },
   {
-    name: "Jeff Welser",
-    designation : "VP & Lab Director, IBM Almaden",
+    name: 'Jeff Welser',
+    designation: 'VP & Lab Director, IBM Almaden',
     image: '/image/Welser.png'
   },
   {
-    name: "Rajeeb Hazra",
-    designation : "VP, Intel Architecture Group & GM Technical Computing",
+    name: 'Rajeeb Hazra',
+    designation: 'VP, Intel Architecture Group & GM Technical Computing',
     image: '/image/Hazra.png'
   },
   {
-    name: "John Seely Brown",
-    designation : "Board of directors at Amazon",
+    name: 'John Seely Brown',
+    designation: 'Board of directors at Amazon',
     image: '/image/SeelyBrown.png'
   },
   {
-    name: "Steve Kirsch",
-    designation : "CEO at OneID and  Cointrust",
+    name: 'Steve Kirsch',
+    designation: 'CEO at OneID and  Cointrust',
     image: '/image/kirsch.png'
   },
   {
-    name: "Peter Denning",
-    designation : "Distinguished Professor   at Naval Postgraduate School",
+    name: 'Peter Denning',
+    designation: 'Distinguished Professor   at Naval Postgraduate School',
     image: '/image/Denning.png'
   },
   {
-    name: "Chris C. Kemp",
-    designation : "Founder of Nebula & OpenStack",
+    name: 'Chris C. Kemp',
+    designation: 'Founder of Nebula & OpenStack',
     image: '/image/kris.png'
   },
   {
-    name: "Sumit Dhawan",
-    designation : "VP and General  Manager, VMware",
+    name: 'Sumit Dhawan',
+    designation: 'VP and General  Manager, VMware',
     image: '/image/Kemp.png'
   },
   {
-    name: "Manoj Leelanivas",
-    designation : "CEO at Cyphort",
+    name: 'Manoj Leelanivas',
+    designation: 'CEO at Cyphort',
     image: '/image/Leelanivas.png'
   },
   {
-    name: "Ikhlaq Sidhu",
-    designation : "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
+    name: 'Ikhlaq Sidhu',
+    designation: "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
     image: '/image/Ikhlaq_Sidhu.png'
   },
   {
-    name: "Ian Ellison-Taylor",
-    designation : "Director of “Open Web Platform”, Google",
+    name: 'Ian Ellison-Taylor',
+    designation: 'Director of “Open Web Platform”, Google',
     image: '/image/IanEllisonTaylor.png'
-  },
-]
+  }
+];
 export const conference_slider_2 = [
   {
-    name: "Kris Sing",
-    designation : "SRII President",
+    name: 'Kris Sing',
+    designation: 'SRII President',
     image: '/image/Kris.png'
   },
   {
-    name: "Robert Morris ",
-    designation : "VP, Services & research, IBM",
+    name: 'Robert Morris ',
+    designation: 'VP, Services & research, IBM',
     image: '/image/Draper.png'
   },
   {
-    name: "Prith Banerjee",
-    designation : "Senior VP Research, HP",
+    name: 'Prith Banerjee',
+    designation: 'Senior VP Research, HP',
     image: '/image/Banerjee.png'
   },
   {
-    name: "Andy Bechtolsheim",
-    designation : "Founder, Arista Networks",
+    name: 'Andy Bechtolsheim',
+    designation: 'Founder, Arista Networks',
     image: '/image/Scott.png'
   },
   {
-    name: "Alex Zelinsky",
-    designation : "Group Executive, CSIRO,Australia",
+    name: 'Alex Zelinsky',
+    designation: 'Group Executive, CSIRO,Australia',
     image: '/image/Kemp.png'
   },
   {
-    name: "Alan Key",
-    designation : "President, Viewpoints Research Institute",
+    name: 'Alan Key',
+    designation: 'President, Viewpoints Research Institute',
     image: '/image/Duursma.png'
   },
   {
-    name: "Tim Draper",
-    designation : "VP, Services & research, IBM",
+    name: 'Tim Draper',
+    designation: 'VP, Services & research, IBM',
     image: '/image/Hazra.png'
   },
   {
-    name: "Bruno Di Leo",
-    designation : "Founder, DFJ",
+    name: 'Bruno Di Leo',
+    designation: 'Founder, DFJ',
     image: '/image/SeelyBrown.png'
   },
   {
-    name: "Kris Gopalakrishnan",
-    designation : "CEO, Infosys",
+    name: 'Kris Gopalakrishnan',
+    designation: 'CEO, Infosys',
     image: '/image/kirsch.png'
   },
   {
-    name: "Ann Winblad",
-    designation : "Co-Founder, Hummer Winblad Venturel",
+    name: 'Ann Winblad',
+    designation: 'Co-Founder, Hummer Winblad Venturel',
     image: '/image/Denning.png'
   },
   {
-    name: "Daniel Russel",
-    designation : "CEO at Cyphort",
+    name: 'Daniel Russel',
+    designation: 'CEO at Cyphort',
     image: '/image/Leelanivas.png'
   },
   {
-    name: "Kirk B. Skaugen",
-    designation : "VP & GM, Data Center Group, Intel",
+    name: 'Kirk B. Skaugen',
+    designation: 'VP & GM, Data Center Group, Intel',
     image: '/image/Ikhlaq_Sidhu.png'
-  },
-]
-
+  }
+];
 
 export const members = [
   {
@@ -640,12 +637,14 @@ export const executive_team = [
   },
   {
     name: 'Dr. Yan Chow',
-    designation: 'Director of Kaiser Permanente (KP) Information Technology’s Innovation & Advanced Technology <br> SRII leader for IT Innovation for Heath Care Services ',
+    designation:
+      'Director of Kaiser Permanente (KP) Information Technology’s Innovation & Advanced Technology <br> SRII leader for IT Innovation for Heath Care Services ',
     image: '/image/executive_members/Yan.png'
   },
   {
     name: 'Prof. Freimut Bodendorf',
-    designation: 'Head of the Department of Information Systems, University of Erlangen-Nuremberg <br> Germany SRII Academic Strategy',
+    designation:
+      'Head of the Department of Information Systems, University of Erlangen-Nuremberg <br> Germany SRII Academic Strategy',
     image: '/image/executive_members/Freimut.png'
   },
   {
@@ -680,7 +679,8 @@ export const executive_team = [
   },
   {
     name: 'Grace Lin',
-    designation: 'Vice President and Director General, Advance Research Institute at Institute for Information Industry (III), Taiwan <br> SRII Strategic Advisor for Asia & Emerging Markets',
+    designation:
+      'Vice President and Director General, Advance Research Institute at Institute for Information Industry (III), Taiwan <br> SRII Strategic Advisor for Asia & Emerging Markets',
     image: '/image/executive_members/Grace.png'
   },
   {
@@ -690,16 +690,16 @@ export const executive_team = [
   },
   {
     name: 'Jeffrey Welser',
-    designation: 'Director of Services Research at IBM Alamden Research Center <br> SRII leader for IT Service Management—Models/ Methods/Tools/Standards',
+    designation:
+      'Director of Services Research at IBM Alamden Research Center <br> SRII leader for IT Service Management—Models/ Methods/Tools/Standards',
     image: '/image/executive_members/Jeffrey.png'
   },
   {
     name: 'Ryan Windham',
     designation: 'Head of Corporate Strategy, F5 Networks',
     image: '/image/executive_members/Ryan.png'
-  },
+  }
 ];
-
 
 export const global_leadership_team = [
   {
@@ -841,5 +841,83 @@ export const global_leadership_team = [
     name: 'Thomas Zurek',
     designation: 'SAP Vice President of R&D for HANA Business Warehouse',
     image: '/image/global_members/thomas.png'
+  }
+];
+
+export const companyData = [
+  {
+    image: '/image/google.png'
   },
+  {
+    image: '/image/intel.jpeg'
+  },
+  {
+    image: '/image/vmware.jpeg'
+  },
+  {
+    image: '/image/ibm.jpeg'
+  },
+  {
+    image: '/image/sap.jpeg'
+  },
+  {
+    image: '/image/xerox.jpeg'
+  },
+  {
+    image: '/image/qualcomm.jpeg'
+  },
+  {
+    image: '/image/brocode.jpeg'
+  },
+  {
+    image: '/image/mcafee.jpeg'
+  },
+  {
+    image: '/image/netapp.jpeg'
+  },
+  {
+    image: '/image/ge.jpeg'
+  },
+  {
+    image: '/image/paypal.jpeg'
+  },
+  {
+    image: '/image/verifone.jpeg'
+  },
+  {
+    image: '/image/tata.jpeg'
+  },
+  {
+    image: '/image/nebula.jpeg'
+  },
+  {
+    image: '/image/cyphort.png'
+  },
+  {
+    image: '/image/oneid.jpeg'
+  },
+  {
+    image: '/image/lumiata.jpeg'
+  },
+  {
+    image: '/image/intrahouse.jpeg'
+  },
+  {
+    image: '/image/exasol.jpeg'
+  },
+  {
+    image: '/image/safeway.jpeg'
+  },
+  {
+    image: '/image/openmedicine.jpeg'
+  },
+  {
+    image: '/image/dac.jpeg'
+  },
+  {
+    image: '/image/draper.jpeg'
+  },
+  {
+    image: '/image/zetta.jpeg'
+  }
 ];
