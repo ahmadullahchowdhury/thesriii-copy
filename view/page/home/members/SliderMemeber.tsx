@@ -43,8 +43,8 @@ function SliderMember() {
               <div className='flex-col justify-start items-start gap-3 inline-flex'>
                 <Image
                   alt='members'
-                  width={100}
-                  height={100}
+                  width={400}
+                  height={400}
                   className='w-[277px] h-[277px] rounded-[5px]'
                   src={item.image}
                 />

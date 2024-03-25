@@ -15,8 +15,9 @@ const Hero = () => {
   // console.log(companyData);
 
   return (
-    <div className='mx-10 md:mx-20 lg:mx-10 relative'>
-      <div style={{ background: "linear-gradient(104deg, #4B6585 0.02%, #6E86A3 68.05%)" }} className='container-sm mt-16 md:mt-20 lg:mt-20 mb-5 md:mb-8 lg:mb-10 rounded-[10px] '>
+    <div className='bg-white'>
+    <div className='mx-10 md:mx-20 lg:mx-10  pt-16 md:pt-20 lg:pt-20relative'>
+      <div style={{ background: "linear-gradient(104deg, #4B6585 0.02%, #6E86A3 68.05%)" }} className='container-sm  mb-5 md:mb-8 lg:mb-10 rounded-[10px] '>
         <div className='px-10 md:px-20 lg:px-24 py-8 md:py-12 lg:py-14 grid gap-x-5 gap-y-10 grid-cols-1  lg:grid-cols-5 '>
           <div className='lg:col-span-3 '>
             <h1 className=' lg:leading-[55px] text-white text-3xl font-semibold md:text-5xl lg:text-5xl  capitalize tracking-[4.50px]  '>
@@ -39,9 +40,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='-z-10 max-w-[1280px] mx-auto border-b-2  mb-10 relative '>
+      <div className=' max-w-[1280px] mx-auto border-b-2  mb-10 relative '>
         <p className='text-slate-500 text-2xl pb-2'>SRII Sponsors & Partner Organizations</p>
-        <div className='z-10 absolute left-[0px]  -bottom-[4.5px] h-2 w-2 bg-slate-500 rounded-full'></div>
+        <div className='z-10 absolute left-[0px]  -bottom-[4.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
       </div>
       <div className=' max-w-[1280px] mx-auto pb-20 md:pb-28 lg:pb-56'>
         <Marquee style={{ flexDirection: 'row' }} className=''>
@@ -50,6 +51,8 @@ const Hero = () => {
           ))}
         </Marquee>
       </div>
+    </div>
+
     </div>
   );
 };

@@ -626,7 +626,7 @@ export const members = [
   {
     name: 'Ray Harishankar',
     designation: 'IBM Fellow & CTO of Global Solutions, Global Business Services, IBM',
-    image: '/image/mem_rajeeb.png'
+    image: '/image/mem_ray.png'
   }
 ];
 export const executive_team = [
@@ -919,5 +919,32 @@ export const companyData = [
   },
   {
     image: '/image/zetta.jpeg'
+  }
+];
+
+export const pricingData = [
+  {
+    title: 'Individual membership',
+    price: '99',
+    icon: '//',
+    desc: `Membership is open to individuals who are currently involved in the services research, service innovation, and/or the service science field of interest either through their career and/or education.`
+  },
+  {
+    title: 'Individual Partner membership',
+    price: '49',
+    icon: '//',
+    desc: `Membership is open to individuals already belonging to SRII partner organizations like INFORMS, AMA, IEEE.`
+  },
+  {
+    title: 'Student membership',
+    price: '49',
+    icon: '//',
+    desc: `Membership is open to individuals who are currently involved in the services research, service innovation, and/or the service science field of interest either through their career and/or education.`
+  },
+  {
+    title: 'Institute membership',
+    price: '49',
+    icon: '//',
+    desc: `This membership is open to institutes from around the world who would like to help foster future collaboration between government, industry, institutes and universities around service research, service innovation and service science.`
   }
 ];

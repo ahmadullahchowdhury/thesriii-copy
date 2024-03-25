@@ -2,6 +2,7 @@ import { footerData } from '@json-db';
 import Image from 'next/image';
 // import ScrollTop from "../scrollTop";
 import Link from 'next/link';
+import ScrollTop from '../scrollTop';
 
 const usefulLink = [
   {
@@ -113,17 +114,17 @@ const Footer = () => {
           <p className='text-white text-center text-2xl  md:text-2xl lg:text-xl xl:text-2xl   mb-2 whitespace-nowrap '>
             Subscribe to the <span className='font-bold'> SRII </span>
           </p>
-          <p className='text-white text-center text-2xl  md:text-2xl lg:text-xl xl:text-2xl   mb-5 whitespace-nowrap '>
+          <p className='text-white text-center text-2xl  md:text-2xl lg:text-xl xl:text-2xl   mb-14 whitespace-nowrap '>
             Newsletter
           </p>
           <nav className='list-none flex justify-center'>
-            <div className='relative  md:w-full bg-[#09132E] rounded py-2 mb-4 px-3 leading-8 flex justify-between'>
+            <div className='relative  md:w-full bg-[#3E4650] rounded py-2 mb-4 px-3 leading-8 flex justify-between'>
               <input
                 placeholder='Enter your email'
-                className='bg-[#09132E] focus:outline-none border-0 py-1 pl-1 text-white'
+                className='bg-[#3E4650] focus:outline-none border-0 py-1 pl-1 text-white'
                 type='email'
               />
-              <button className='bg-[#6E8BEB]  text-white border-0 focus:outline-none hover:shadow-custom-red rounded p-2.5 text-base'>
+              <button className='bg-[#6E8BEB]  text-white border-0 focus:outline-none hover:shadow-custom-red rounded  p-2.5 text-base'>
                 Subscribe
               </button>
             </div>
@@ -149,7 +150,7 @@ const Footer = () => {
                </p>
             </div>
          </div> */}
-      {/* <ScrollTop /> */}
+      <ScrollTop />
     </footer>
   );
 };

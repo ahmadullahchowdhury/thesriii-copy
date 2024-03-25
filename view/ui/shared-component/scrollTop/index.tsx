@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
+import { IoIosArrowDropupCircle ,IoIosArrowUp  } from "react-icons/io";
 
 const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,8 +30,8 @@ const ScrollTop = () => {
   return (
     isVisible && (
       <div className='fixed z-50 bottom-5 right-8 sm:bottom-8 sm:right-10 md:bottom-12 md:right-12 lg:bottom-20 lg:right-20 xl:bottom-20 xl:right-20'>
-        <button className='' onClick={scrollToTop}>
-          <Image src={'/icon/scroll_to_top.png'} className='w-14' alt="scroll" height={50} width={50} />
+        <button className='bg-black rounded-full p-1' onClick={scrollToTop}>
+          <IoIosArrowUp color='white' size={50} />
         </button>
       </div>
     )

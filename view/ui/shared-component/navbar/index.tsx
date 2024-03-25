@@ -25,7 +25,7 @@ const Navbar = () => {
                 
                   <Image
                     src={'/logo/logo.png'}
-                    className='w-full h-14 object-cover object-center'
+                    className='w-full h-16 object-cover object-center'
                     alt='bus'
                     width={400}
                     height={400}

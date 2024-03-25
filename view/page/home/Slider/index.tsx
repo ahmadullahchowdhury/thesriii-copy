@@ -1,37 +1,80 @@
+'use client';
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-// import './styles.css';
-
-// import required modules
-import { Keyboard, Pagination, Navigation } from 'swiper/modules';
-import { conference_slider_1, conference_slider_2, conference_slider_3 } from '@json-db';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 import Image from 'next/image';
 
-export default function Slider() {
+import { conference_slider_1, conference_slider_2, conference_slider_3 } from '@json-db';
+import { BiSolidRightArrow ,BiSolidLeftArrow  } from "react-icons/bi";
+
+
+export default function KeynoteSlider() {
+  const [sliderIndex, setSliderIndex] = useState(0);
+
+  const PrevButton = (props: any) => (
+    <button {...props} 
+    style={{ opacity: sliderIndex === 0 ? '0.5' : '1' }} 
+    className='custom-prev-button'>
+      <BiSolidLeftArrow size={20} />
+    </button>
+  );
+
+  const NextButton = (props: any) => (
+    <button
+      {...props}
+      style={{ opacity: sliderIndex === 2 ? '0.5' : '1' }}
+      className='custom-next-button'
+    >
+      <BiSolidRightArrow size={20} />
+    </button>
+  );
+
+  var settings = {
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    speed: 600,
+    autoplaySpeed: 4000,
+    cssEase: 'linear',
+    pauseOnHover: false,
+    arrows: true,
+    fade: true,
+    prevArrow: <PrevButton />,
+    nextArrow: <NextButton />,
+    afterChange: (index: number) => setSliderIndex(index),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  };
+
+
   return (
     <div className=' '>
       <div className=''>
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
-          keyboard={{
-            enabled: true
-          }}
-          pagination={{
-            clickable: true
-          }}
-          navigation={true}
-          modules={[Keyboard, Pagination, Navigation]}
-          className='mySwiper'
-        >
-          <SwiperSlide>
+        <Slider {...settings}>
+          
             <div className=' '>
               {' '}
               <div className='px-0 md:px-9 py-[50px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
@@ -68,8 +111,8 @@ export default function Slider() {
 
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
+          
+        
             <div className=' '>
               {' '}
               <div className='px-0 md:px-9 py-[50px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
@@ -85,8 +128,8 @@ export default function Slider() {
                         <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                           <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
                             <Image
-                              width={300}
-                              height={300}
+                              width={500}
+                              height={500}
                               alt='conf'
                               className='w-[117px] h-[156px] rounded-xl'
                               src={item.image}
@@ -106,8 +149,8 @@ export default function Slider() {
 
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
+          
+         
             <div className=' '>
               {' '}
               <div className='px-0 md:px-9 py-[50px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
@@ -144,8 +187,8 @@ export default function Slider() {
 
               </div>
             </div>
-          </SwiperSlide>
-        </Swiper>
+          
+        </Slider>
       </div>
     </div>
   );
