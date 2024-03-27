@@ -141,14 +141,11 @@ body {
   width: 65px !important;
   text-indent: -9999px;
   overflow: visible;
-  
-  
 }
-
 
 .custom-prev-button,
 .custom-next-button {
-  background-color: #6E8BEB;
+  background-color: #6e8beb;
   color: white;
   border: none;
   border-radius: 5px;
@@ -163,10 +160,46 @@ body {
 }
 
 .custom-prev-button {
-  left: 5%; 
-  
+  left: 5%;
 }
 
 .custom-next-button {
-  right: 5%; 
+  right: 5%;
 }
+
+.summit-prev-button,
+.summit-next-button {
+  /* background-color: #6e8beb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 30px 30px; */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: all 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summit-prev-button {
+  left: -5% !important;
+}
+
+.summit-next-button {
+  right: -5% !important;
+}
+
+/* .slick-slide{
+  padding-right:20px;
+} */
+
+/* .slick-list [data-index="1"] {
+   padding-right: 0;
+ } */
+/* .slick-list [data-index="2"] {
+   padding-right: 0;
+ } */
+
+

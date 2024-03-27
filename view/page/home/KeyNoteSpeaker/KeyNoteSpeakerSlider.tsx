@@ -11,7 +11,7 @@ import { conference_slider_1, conference_slider_2, conference_slider_3 } from '@
 import { BiSolidRightArrow ,BiSolidLeftArrow  } from "react-icons/bi";
 
 
-export default function KeynoteSlider() {
+export default function KeyNoteSpeakerSlider() {
   const [sliderIndex, setSliderIndex] = useState(0);
 
   const PrevButton = (props: any) => (

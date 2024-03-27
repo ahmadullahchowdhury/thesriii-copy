@@ -1,9 +1,11 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Slider from '../Slider';
+import KeyNoteSpeakerSlider from './KeyNoteSpeakerSlider';
 
-const Conference = () => {
+
+
+const KeyNoteSpeaker = () => {
 
 
   return (
@@ -53,11 +55,12 @@ const Conference = () => {
           </div>
         </div> */}
 
-        <Slider/>
+        {/* <Slider/> */}
+        <KeyNoteSpeakerSlider />
       </div>
     </div>
     </div>
   );
 };
 
-export default Conference;
+export default KeyNoteSpeaker;
