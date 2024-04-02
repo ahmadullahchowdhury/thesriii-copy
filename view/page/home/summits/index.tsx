@@ -80,7 +80,16 @@ const Summits = () => {
     // ]
   };
   return (
-    <div className='bg-[#29323D]'>
+    <div className='bg-[#29323D] relative z-10'>
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/bg-5.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover  top-0 left-0 -z-10'
+      />
       <div className=''>
         <p className='pt-24 pb-[90px]  container-sm text-center text-white text-[50px] font-medium  capitalize'>
           Summits & Conferences organized by srii

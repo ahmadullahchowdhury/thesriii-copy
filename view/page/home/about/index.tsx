@@ -3,7 +3,16 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const About = () => {
   return (
-    <div className='bg-[#F4F4F4] pt-26 md:pt-20 lg:pt-[100px] pb-12 md:pb-16 lg:pb-20  px-10 md:px-20 lg:px-10'>
+    <div className='bg-[#F4F4F4] pt-26 md:pt-20 lg:pt-[100px] pb-12 md:pb-16 lg:pb-20  px-10 md:px-20 lg:px-10 z-10 relative'>
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/bg-2.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
+      />
       <div style={{ boxShadow: '3px 4px 18.6px 0px rgba(0, 0, 0, 0.25)' }} className='container-sm bg-[#F1F5FF] p-8'>
         <h2 className='text-3xl pb-5 lg:text-5xl font-bold text-slate-500  text-center'>About Us</h2>
         <div className='  mx-auto border-b-2 border-[#A9A9A9]/50  mb-6 relative '>
@@ -61,7 +70,10 @@ const About = () => {
           </span>
         </div>
         <div className='pt-8 md:pt-10 lg:pt-14  pb-2 md:pb-2 lg:pb-2.5 flex justify-center items-center'>
-          <div style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}} className=' relative px-[25px] py-3 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'>
+          <div
+            style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
+            className=' relative px-[25px] py-3 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
+          >
             <div className='p-[5px] justify-center items-center gap-2.5 flex'>
               <div className='text-center text-slate-500 text-base  lg:text-2xl font-medium  capitalize'>
                 Learn more about our mission

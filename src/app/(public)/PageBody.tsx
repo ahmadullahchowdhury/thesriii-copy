@@ -1,5 +1,6 @@
 'use client';
 import { Fragment } from 'react';
+import ContactUs from 'view/page/Contact';
 
 import KeyNoteSpeaker from 'view/page/home/KeyNoteSpeaker';
 
@@ -14,13 +15,10 @@ const PageBody = () => {
     <Fragment>
       <Hero />
       <About />
-      {/* <Conference /> */}
       <KeyNoteSpeaker />
       <Summits />
       <Members />
-
-      {/* <MyResume /> 
-            <ContactSection /> */}
+      <ContactUs bg_color={'#F5F5F5'}/>
     </Fragment>
   );
 };

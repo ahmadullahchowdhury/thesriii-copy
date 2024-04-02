@@ -15,16 +15,16 @@ const Hero = () => {
   // console.log(companyData);
 // bg-no-repeat bg-center bg-cover bg-[url(/image/bg-1.png)]
   return (
-    <div className='bg-white z-10 bg-no-repeat bg-center bg-cover  bg-[url(/image/bg-1.png)]  '>
-      {/* <Image 
+    <div className='bg-white z-10 relative  '>
+      <Image 
         width={0}
         height={0}
         sizes="100vw"
         objectFit='contain'
         src='/image/bg-1.png'
         alt='hero-bg'
-        className='absolute w-full h-full bg-cover top-0 left-0 -z-10'
-      /> */}
+        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
+      />
       <div className='mx-10 md:mx-20 lg:mx-10  pt-16 md:pt-20 lg:pt-20 relative'>
         <div
           style={{ background: 'linear-gradient(104deg, #4B6585 0.02%, #6E86A3 68.05%)' }}

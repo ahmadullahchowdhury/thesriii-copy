@@ -1,27 +1,33 @@
-
 import Image from 'next/image';
 import React from 'react';
 import KeyNoteSpeakerSlider from './KeyNoteSpeakerSlider';
 
-
-
 const KeyNoteSpeaker = () => {
-
-
   return (
-    <div className='bg-[#FBFBFB]'>
+    <div className='bg-[#FBFBFB] relative z-10'>
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/bg-1.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover opacity-50 top-0 left-0 -z-10'
+      />
 
-    <div className=' mx-10 md:mx-20 lg:mx-10'>
-      <div className='container-sm py-8 md:py-16 lg:py-20'>
-        <div className='text-center text-slate-500 text-4xl  md:text-[50px] font-medium  capitalize'>Keynote/Speaker panel</div>
+      <div className=' mx-10 md:mx-20 lg:mx-10'>
+        <div className='container-sm py-8 md:py-16 lg:py-20'>
+          <div className='text-center text-slate-500 text-4xl  md:text-[50px] font-medium  capitalize'>
+            Keynote/Speaker panel
+          </div>
 
-        <div className='px-5 py-5  lg:px-64 text-center text-slate-500 text-base font-normal  leading-normal'>
-          Lorem ipsum dolor sit amet consectetur. Donec adipiscing ac condimentum tristique suspendisse malesuada. Sem
-          adipiscing praesent vitae dolor dolor at augue viverra aenean. Diam eu accumsan nulla odio risus nunc amet
-          praesent urna. Consequat egestas aliquet urna leo cursus suscipit.
-        </div>
+          <div className='px-5 py-5  lg:px-64 text-center text-slate-500 text-base font-normal  leading-normal'>
+            Lorem ipsum dolor sit amet consectetur. Donec adipiscing ac condimentum tristique suspendisse malesuada. Sem
+            adipiscing praesent vitae dolor dolor at augue viverra aenean. Diam eu accumsan nulla odio risus nunc amet
+            praesent urna. Consequat egestas aliquet urna leo cursus suscipit.
+          </div>
 
-        {/* <div className='px-0 md:px-9 py-[37px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
+          {/* <div className='px-0 md:px-9 py-[37px] rounded-[10px] flex-col justify-center items-center gap-[30px] inline-flex'>
           <div className='flex-col justify-start items-center gap-[53px] flex'>
             <div className='justify-center items-center gap-[100px] inline-flex'>
 
@@ -55,10 +61,10 @@ const KeyNoteSpeaker = () => {
           </div>
         </div> */}
 
-        {/* <Slider/> */}
-        <KeyNoteSpeakerSlider />
+          {/* <Slider/> */}
+          <KeyNoteSpeakerSlider />
+        </div>
       </div>
-    </div>
     </div>
   );
 };

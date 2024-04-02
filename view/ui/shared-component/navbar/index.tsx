@@ -11,7 +11,7 @@ const Navbar = () => {
   // const pathname = usePathname();
 
   return (
-    <div className='z-10 bg-primary sticky top-0'>
+    <div className='z-50 bg-primary sticky top-0'>
       <div className='w-full '>
         <div className='   mx-auto w-full overflow-hidden '>
           <div className=' container-sm w-full py-4 mx-auto  duration-700  ease-in-out px-5 md:px-8 '>
