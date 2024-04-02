@@ -18,7 +18,7 @@ const PageBody = () => {
       <KeyNoteSpeaker />
       <Summits />
       <Members />
-      <ContactUs bg_color={'#F5F5F5'}/>
+      <ContactUs bg_color={'#F5F5F5'} />
     </Fragment>
   );
 };
