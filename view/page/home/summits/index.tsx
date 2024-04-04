@@ -127,13 +127,13 @@ const Summits = () => {
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
-            {Array.from({ length: 3 }).map((_, index) => (
+            {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
                 <div className='child max-w-[740px] h-[481px] mx-auto '>
                   <Image
                     width={700}
                     height={700}
-                    src={`/image/summits/1-${index + 1}.png`}
+                    src={`/image/summits/2-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
                   />
@@ -157,7 +157,7 @@ const Summits = () => {
                   <Image
                     width={700}
                     height={700}
-                    src={`/image/summits/1-${index + 1}.png`}
+                    src={`/image/summits/3-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
                   />
@@ -175,13 +175,13 @@ const Summits = () => {
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
-            {Array.from({ length: 3 }).map((_, index) => (
+            {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
                 <div className='child max-w-[740px] h-[481px] mx-auto '>
                   <Image
                     width={700}
                     height={700}
-                    src={`/image/summits/1-${index + 1}.png`}
+                    src={`/image/summits/4-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
                   />
