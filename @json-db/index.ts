@@ -55,8 +55,18 @@ export const navbarData = {
   },
   navbarList: [
     {
-      title: 'About Us',
-      link: '/about'
+      title: 'about',
+      link: '/about',
+      subMenu: [
+        {
+          title: 'Sri Mission',
+          link: '/about/sri-mission'
+        },
+        {
+          title: 'Global Team',
+          link: '/home-2'
+        }
+      ]
     },
     {
       title: 'Conferences',
