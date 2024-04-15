@@ -59,12 +59,20 @@ export const navbarData = {
       link: '/about',
       subMenu: [
         {
-          title: 'Sri Mission',
+          title: 'Sri Mission, Strategy & Partnerships',
           link: '/about/sri-mission'
         },
         {
+          title: 'Advisory Council',
+          link: '/about/advisory-council'
+        },
+        {
           title: 'Global Team',
-          link: '/home-2'
+          link: '/about/global-team'
+        },
+        {
+          title: 'Management Team',
+          link: '/about/management-team'
         }
       ]
     },

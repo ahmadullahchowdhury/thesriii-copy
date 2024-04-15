@@ -8,16 +8,6 @@
   background-size: cover; */
 }
 
-ul {
-  list-style: none;
-}
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -202,4 +192,35 @@ body {
    padding-right: 0;
  } */
 
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
 
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 95%;
+  height: 1px;
+  background-color: #e4e4e4;
+  top: 12px;
+  left: 0;
+  z-index: -1;
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .timeline::after {
+    width: 1px;
+    height: 152%;
+    top: -246px;
+    left: 28px;
+  }
+}
+
+@media (max-width: 599px) {
+  .timeline::after {
+    width: 1px;
+    height: 145%;
+    top: -210px;
+    left: 28px;
+  }
+}

@@ -13,13 +13,13 @@ const Hero = () => {
   };
 
   // console.log(companyData);
-// bg-no-repeat bg-center bg-cover bg-[url(/image/bg-1.png)]
+  // bg-no-repeat bg-center bg-cover bg-[url(/image/bg-1.png)]
   return (
-    <div className='bg-white z-10 relative  '>
-      <Image 
+    <div className='bg-white z-10 relative pt-16 md:pt-20 lg:pt-20 '>
+      <Image
         width={0}
         height={0}
-        sizes="100vw"
+        sizes='100vw'
         objectFit='contain'
         src='/image/bg-1.png'
         alt='hero-bg'
