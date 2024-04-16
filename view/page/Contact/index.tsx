@@ -3,8 +3,8 @@ import React from 'react';
 
 const ContactUs = ({ bg_color }: { bg_color?: string }) => {
   return (
-    <div className={`bg-[${bg_color}]`}>
-      <div className={`container-sm pt-8 md:pt-12 lg:pt-16  pb-8 md:pb-32 lg:pb-48 `}>
+    <div className={`bg-[${bg_color}] dark:bg-[${bg_color}]`}>
+      <div className={`container-sm pt-8 md:mt-12 lg:mt-[85px]  pb-8 md:pb-32 lg:pb-48 `}>
         <div className=' text-center text-slate-500 text-[50px] font-semibold capitalize'>Contact us</div>
         <div className='pt-1 md:pt-2 lg:pt-3.5 px-10 lg:px-96 md:px-44 text-center text-slate-500 text-base font-normal  leading-normal'>
           For any concerns please contact us via the details mentioned below. Join SRII & promote digital economoy

@@ -18,7 +18,9 @@ const PageBody = () => {
       <KeyNoteSpeaker />
       <Summits />
       <Members />
-      <ContactUs bg_color={'#F5F5F5'} />
+      <div className='bg-[#F5F5FD]'>
+        <ContactUs />;
+      </div>
     </Fragment>
   );
 };

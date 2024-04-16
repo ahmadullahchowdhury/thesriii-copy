@@ -97,18 +97,18 @@ const Summits = () => {
 
         {/* SRII China Summit on March 4-6, 2015 in Shanghai */}
 
-        <div className='max-w-[1713px] mx-auto px-24 pb-10'>
-          <p className='ps-5 pb-12 text-white text-[28px] font-medium capitalize'>
+        <div className='max-w-[1713px]  mx-auto xl:px-32 2xl:px-24 pb-10'>
+          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
             SRII China Summit on March 4-6, 2015 in Shanghai
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
             {Array.from({ length: 3 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child max-w-[740px] h-[481px] mx-auto '>
+                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px] mx-auto '>
                   <Image
-                    width={700}
-                    height={700}
+                    width={740}
+                    height={481}
                     src={`/image/summits/1-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
@@ -121,18 +121,18 @@ const Summits = () => {
             <p className=' text-end text-white underline'> View Summit Details</p>
           </div>
         </div>
-        <div className='max-w-[1713px] mx-auto px-24 pb-10'>
-          <p className='ps-5 pb-12 text-white text-[28px] font-medium capitalize'>
+        <div className='max-w-[1713px] mx-auto xl:px-32 2xl:px-24 pb-10'>
+          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
             SRII China Summit on "Innovating Digital Manufacturing" on Nov. 19 - 21, 2015 in Tianjin, China
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
             {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child max-w-[740px] h-[481px] mx-auto '>
+                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
-                    width={700}
-                    height={700}
+                    width={740}
+                    height={481}
                     src={`/image/summits/2-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
@@ -145,18 +145,18 @@ const Summits = () => {
             <p className=' text-end text-white underline'> View Summit Details</p>
           </div>
         </div>
-        <div className='max-w-[1713px] mx-auto px-24 pb-10'>
-          <p className='ps-5 pb-12 text-white text-[28px] font-medium capitalize'>
+        <div className='max-w-[1713px] mx-auto xl:px-32 2xl:px-24 pb-10'>
+          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
             SRII Global Conference 2015 on June 07-10, 2015 in San Jose, CA
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
             {Array.from({ length: 3 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child max-w-[740px] h-[481px] mx-auto '>
+                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
-                    width={700}
-                    height={700}
+                    width={740}
+                    height={481}
                     src={`/image/summits/3-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'
@@ -169,18 +169,18 @@ const Summits = () => {
             <p className=' text-end text-white underline'> View Details</p>
           </div>
         </div>
-        <div className='max-w-[1713px] mx-auto px-24 pb-10'>
-          <p className='ps-5 pb-12 text-white text-[28px] font-medium capitalize'>
+        <div className='max-w-[1713px] mx-auto xl:px-32 2xl:px-24 pb-10'>
+          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
             SRII Japan Summit on March 1-2, 2015 in Tokyo
           </p>
           <Slider {...settings} className='slick-slider  mx-auto pb-9'>
             {' '}
             {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child max-w-[740px] h-[481px] mx-auto '>
+                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
-                    width={700}
-                    height={700}
+                    width={740}
+                    height={481}
                     src={`/image/summits/4-${index + 1}.png`}
                     className=' rounded-[12px] w-full h-full bg-cover'
                     alt='summits'

@@ -1,4 +1,4 @@
-import SriMission from 'view/page/SriMission';
+import SriMission from 'view/page/About/SriMission';
 
 const page = () => {
   return <SriMission />;

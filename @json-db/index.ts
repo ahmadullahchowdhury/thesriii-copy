@@ -55,8 +55,8 @@ export const navbarData = {
   },
   navbarList: [
     {
-      title: 'about',
-      link: '/about',
+      title: 'About Us',
+      link: 'about',
       subMenu: [
         {
           title: 'Sri Mission, Strategy & Partnerships',
@@ -719,6 +719,71 @@ export const executive_team = [
   }
 ];
 
+export const advisory_team = [
+  {
+    name: 'Vint Cerf',
+    designation: 'Vice President and Chief Internet Evangelist for Google',
+    image: '/image/advisory_team/Vint_Cerf.png'
+  },
+  {
+    name: 'Alan Kay',
+    designation: 'Viewpoints Research Institute',
+    image: '/image/advisory_team/Alan_Kay.png'
+  },
+  {
+    name: 'Tim Draper',
+    designation: 'Founder at Draper Associates/DFJ/Draper University',
+    image: '/image/advisory_team/Tim_Draper.png'
+  },
+  {
+    name: 'John Seely Brown',
+    designation:
+      'Visiting scholar and advisor to the Provost at University of Southern California (USC) and the Co-Chairman of the Deloitte’s Center for the Edge',
+    image: '/image/advisory_team/John_Seely _Brown.png'
+  },
+  {
+    name: 'Peter Levine',
+    designation: 'Venture partner at Andreessen Horowitz',
+    image: '/image/advisory_team/Peter_Levine.png'
+  },
+  {
+    name: 'Sanjay Poonen',
+    designation: 'President of Technology & Innovation Products at SAP',
+    image: '/image/advisory_team/Sanjay_Poonen.png'
+  },
+  {
+    name: 'Prith Banerjee',
+    designation: 'Managing Director of Global Technology Research and Development at Accenture',
+    image: '/image/advisory_team/Prith_Banerjee.png'
+  },
+  {
+    name: 'Martin Duursma',
+    designation: 'CTO Office Chair & VP Citrix Labs, Citrix Systems, Silicon Valley, California',
+    image: '/image/advisory_team/Martin_Duursma.png'
+  },
+  {
+    name: 'Theresa Anna Maldonado',
+    designation:
+      'Ph.D., P.E., Division Director, Engineering Education & Centers Directorate for Engineering National Science Foundation',
+    image: '/image/advisory_team/Theresa_Anna_Maldonado.png'
+  },
+  {
+    name: 'Lenny T. Mendonca',
+    designation: 'Director, McKinsey & Company, Inc.',
+    image: '/image/advisory_team/Lenny_T_Mendonca.png'
+  },
+  {
+    name: 'Paul Kedrosky',
+    designation: 'Senior Fellow at Kauffman Foundation',
+    image: '/image/advisory_team/Paul_Kedrosky.png'
+  },
+  {
+    name: 'Rob Atkinson',
+    designation: 'President of Information Technology & Innovation Foundation',
+    image: '/image/advisory_team/Rob_Atkinson.png'
+  }
+];
+
 export const global_leadership_team = [
   {
     name: 'Anjul Bhambhri',
@@ -944,25 +1009,25 @@ export const pricingData = [
   {
     title: 'Individual membership',
     price: '99',
-    icon: '//',
+    icon: '/icon/icon-1.png',
     desc: `Membership is open to individuals who are currently involved in the services research, service innovation, and/or the service science field of interest either through their career and/or education.`
   },
   {
     title: 'Individual Partner membership',
     price: '49',
-    icon: '//',
+    icon: '/icon/icon-2.png',
     desc: `Membership is open to individuals already belonging to SRII partner organizations like INFORMS, AMA, IEEE.`
   },
   {
     title: 'Student membership',
     price: '49',
-    icon: '//',
+    icon: '/icon/icon-3.png',
     desc: `Membership is open to individuals who are currently involved in the services research, service innovation, and/or the service science field of interest either through their career and/or education.`
   },
   {
     title: 'Institute membership',
     price: '49',
-    icon: '//',
+    icon: '/icon/icon-4.png',
     desc: `This membership is open to institutes from around the world who would like to help foster future collaboration between government, industry, institutes and universities around service research, service innovation and service science.`
   }
 ];

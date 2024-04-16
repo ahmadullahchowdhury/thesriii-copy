@@ -166,7 +166,7 @@ body {
   padding: 30px 30px; */
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
   z-index: 1;
   transition: all 0.3s;

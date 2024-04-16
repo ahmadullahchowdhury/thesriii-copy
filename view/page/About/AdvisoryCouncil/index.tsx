@@ -1,11 +1,20 @@
-import { executive_team, global_leadership_team, members } from '@json-db';
+import { advisory_team, executive_team, global_leadership_team, members } from '@json-db';
 import Image from 'next/image';
 import Link from 'next/link';
 import { IoIosArrowForward } from 'react-icons/io';
 
 const AdvisoryCouncil = () => {
   return (
-    <div className='bg-white '>
+    <div className='bg-white z-10 relative '>
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/about-bg-1.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
+      />
       <div className=' container-sm pt-44'>
         <div className='flex gap-[16px] items-center'>
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>
@@ -22,12 +31,12 @@ const AdvisoryCouncil = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-20 pt-4 md:pt-8 lg:pt-12'>
-          {members.map(item => (
+          {advisory_team.map(item => (
             <div className='    '>
               <Image
                 alt='members'
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 className='w-[240px] h-[240px] rounded-[5px]'
                 src={item.image}
               />

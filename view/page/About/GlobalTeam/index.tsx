@@ -5,7 +5,16 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const GlobalTeam = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white z-10 relative '>
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/about-bg-2.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
+      />
       <div className=' container-sm pt-44'>
         <div className='flex gap-[16px] items-center'>
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>

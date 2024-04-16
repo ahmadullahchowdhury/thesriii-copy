@@ -1,7 +1,11 @@
 import ContactUs from 'view/page/Contact';
 
 const Contact = () => {
-  return <ContactUs bg_color={'#FAFAFA'} />;
+  return (
+    <div className='bg-[#FAFAFA]'>s
+      <ContactUs  />;
+    </div>
+  );
 };
 
 export default Contact;

@@ -1,6 +1,8 @@
 import { pricingData } from '@json-db';
 import React from 'react';
-import { IoIosArrowForward ,IoIosPeople } from 'react-icons/io';
+import { IoIosArrowForward, IoIosPeople } from 'react-icons/io';
+import { ArrowLeft } from 'lucide-react';
+import Image from 'next/image';
 
 const PricingPage = () => {
   return (
@@ -28,32 +30,29 @@ const PricingPage = () => {
         <div className='max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-4 pt-9 md:pt-10 lg:pt-12 gap-9 md:gap-10 lg:gap-20 px-16 md:px-24 lg:px-5 '>
           {pricingData.map((item, index) => (
             <div key={index} className='bg-white pt-20 md:pt-24 relative rounded-lg grid items-end  '>
-              <div className='absolute -top-14  transform shadow-md   -translate-y-1 translate-x-[60%]  bg-[#EDF0F4] rounded-full h-32 w-32 flex items-center justify-center'>
-                <IoIosPeople size={66} color='#6E8BEB' />
+              <div className='absolute -top-14  transform shadow-md   -translate-y-1 translate-x-[70%]  bg-[#EDF0F4] rounded-full h-[115px] w-[115px] flex items-center justify-center'>
+                <Image src={item.icon} alt='icon' width={115} height={115} />
               </div>
-              <div className=' text-gray-600 text-base font-semibold px-10 md:px-12 lg:px-14'>
-                {item.title}
-              </div>
+              <div className=' text-gray-600 text-base font-semibold px-10 md:px-12 lg:px-14'>{item.title}</div>
               <div className=' leading-[19px] text-gray-600 text-[12px] font-normal py-6 md:py-9 lg:py-9 px-10 md:px-12 lg:px-14 '>
                 {item.desc}
               </div>
               <div className='border-t-2 border-solid border-gray-100'>
-
-              <div className='   p-3'>
-                <div className='justify-center items-center gap-1.5 flex'>
-                  <div className='text-center'>
-                    <span className='text-gray-700 text-[25px] font-normal '>$</span>
-                    <span className='text-gray-700 text-[35px] font-normal f'>{item.price}</span>
+                <div className='   p-3'>
+                  <div className='justify-center items-center gap-1.5 flex'>
+                    <div className='text-center'>
+                      <span className='text-gray-700 text-[25px] font-normal '>$</span>
+                      <span className='text-gray-700 text-[35px] font-normal f'>{item.price}</span>
+                    </div>
+                    <div className=''>
+                      <div className='w-8 text-gray-700 text-opacity-75 text-[9px] font-normal '>per year</div>
+                    </div>
                   </div>
-                  <div className=''>
-                    <div className='w-8 text-gray-700 text-opacity-75 text-[9px] font-normal '>per year</div>
+                  <div className='pt-4 md:pt-5 lg:pt-6'></div>
+                  <div className='  px-7 py-[11px] bg-indigo-400 rounded-[5px] justify-center items-center gap-2.5 flex'>
+                    <div className='text-white text-base font-normal '>Details</div>
                   </div>
                 </div>
-                <div className='pt-4 md:pt-5 lg:pt-6'></div>
-                <div className='  px-7 py-[11px] bg-indigo-400 rounded-[5px] justify-center items-center gap-2.5 flex'>
-                  <div className='text-white text-base font-normal '>Details</div>
-                </div>
-              </div>
               </div>
             </div>
           ))}

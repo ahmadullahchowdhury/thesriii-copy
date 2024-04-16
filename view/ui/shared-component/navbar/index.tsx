@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const pathname = usePathname();
-  // console.log('pathname', pathname);
+  console.log('pathname', pathname);
   const [, result] = pathname.split('/');
   console.log('result', result);
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -31,9 +31,9 @@ const Navbar = () => {
                 <span
                   style={{
                     // fontWeight: result === item.title ? 700 : 400,
-                    backgroundColor: result === item.title ? '#6E8BEB' : '',
-                    padding: result === item.title ? '10px' : '',
-                    borderRadius: result === item.title ? '7px' : ''
+                    backgroundColor: result === item.link ? '#6E8BEB' : '',
+                    padding: result === item.link ? '10px' : '',
+                    borderRadius: result === item.link ? '7px' : ''
                   }}
                   className='text-white font-work flex items-center capitalize gap-1 bg-transparent px-0 py-3 text-base transition hover:text-white hover:duration-300'
                 >
@@ -55,7 +55,10 @@ const Navbar = () => {
                   href={item.link}
                   className='text-white font-work flex items-center gap-1 bg-transparent px-0 py-3 text-base transition hover:text-white hover:duration-300'
                   style={{
-                    fontWeight: pathname === item?.link ? 700 : 400
+                    // fontWeight: pathname === item?.link ? 700 : 400,
+                    backgroundColor: pathname === item?.link ? '#6E8BEB' : '',
+                    padding: pathname === item?.link ? '10px' : '',
+                    borderRadius: pathname === item?.link ? '7px' : ''
                   }}
                 >
                   {item.title}
@@ -99,7 +102,8 @@ const SubMenu = ({ subMenu }: any) => {
           {subItem.subMenu ? (
             <span
               style={{
-                fontWeight: pathname === subItem?.link ? 700 : 400
+                // fontWeight: pathname === subItem?.link ? 700 : 400
+                backgroundColor: pathname === subItem?.link ? '#6E8BEB' : ''
               }}
               className='text-white  flex items-center justify-between gap-1 whitespace-normal px-4 py-3 text-sm transition hover:bg-red-500  hover:text-red-500 hover:duration-300'
             >
@@ -119,7 +123,7 @@ const SubMenu = ({ subMenu }: any) => {
             <Link
               href={subItem.link}
               style={{
-                fontWeight: pathname === subItem?.link ? 700 : 400
+                backgroundColor: pathname === subItem?.link ? '#6E8BEB' : ''
               }}
               className='text-white block whitespace-normal px-4 py-3 text-sm transition hover:bg-[#6E8BEB]  hover:duration-300'
             >
