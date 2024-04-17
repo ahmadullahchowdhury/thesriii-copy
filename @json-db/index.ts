@@ -683,7 +683,7 @@ export const executive_team = [
   {
     name: 'Chris Kemp',
     designation: 'Professor at Univ. of Cincinnati Founding Director of NSF Industry/University Cooperative Research',
-    image: '/image/executive_members/Chris.png'
+    image: '/image/executive_members/Kemp.png'
   },
   {
     name: 'Jay Lee',
@@ -808,7 +808,7 @@ export const global_leadership_team = [
   {
     name: 'Rich Friedrich',
     designation: 'Director of Strategy & Innovation, HP Labs ',
-    image: '/image/global_members/ian.png'
+    image: '/image/global_members/rich.png'
   },
   {
     name: 'Wolfgang Gentzsch',
@@ -833,7 +833,7 @@ export const global_leadership_team = [
   {
     name: 'Manish Gupta',
     designation: 'Vice President at Xerox Corporation and Director of Xerox Research Center, India',
-    image: '/image/global_members/kannan.png'
+    image: '/image/global_members/manish.png'
   },
   {
     name: 'Paul Hofmann',

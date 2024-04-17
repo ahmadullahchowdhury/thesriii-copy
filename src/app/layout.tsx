@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-import "../../styles/globals.css";
-import ThemeProviders from "./theme-providers";
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+import '../../styles/globals.css';
+import ThemeProviders from './theme-providers';
 // import dynamic from "next/dynamic";
 
 // const  ThemeProviders = dynamic(() => import('./theme-providers'), { ssr: false })
@@ -9,27 +9,26 @@ import ThemeProviders from "./theme-providers";
 // const inter = Inter({ subsets: ["latin"] });
 
 const poppins = Poppins({
-  subsets: ["latin"],
-  style: ["normal"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-})
+  subsets: ['latin'],
+  style: ['normal'],
+  weight: ['300', '400', '500', '600', '700', '800']
+});
 
 export const metadata: Metadata = {
-  title: "Thesrii",
-  description: "Service Research & Innovation Institute",
+  title: 'Thesrii',
+  description: 'Service Research & Innovation Institute'
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
+      <head>{/* <link rel='icon' href='/favicon.ico' type='image/x-icon' sizes='48x48' /> */}</head>
       <body className={`${poppins.className}`}>
-        <ThemeProviders>
-          {children}
-        </ThemeProviders>
+        <ThemeProviders>{children}</ThemeProviders>
       </body>
     </html>
   );

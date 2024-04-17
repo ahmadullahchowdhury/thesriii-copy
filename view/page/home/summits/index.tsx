@@ -105,7 +105,7 @@ const Summits = () => {
             {' '}
             {Array.from({ length: 3 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px] mx-auto '>
+                <div className='child 2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px] mx-auto '>
                   <Image
                     width={740}
                     height={481}
@@ -129,7 +129,7 @@ const Summits = () => {
             {' '}
             {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
+                <div className='child 2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
                     width={740}
                     height={481}
@@ -153,7 +153,7 @@ const Summits = () => {
             {' '}
             {Array.from({ length: 3 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
+                <div className='child 2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
                     width={740}
                     height={481}
@@ -177,7 +177,7 @@ const Summits = () => {
             {' '}
             {Array.from({ length: 6 }).map((_, index) => (
               <div className='slick-slide' key={index}>
-                <div className='child 2xl:max-w-[740px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
+                <div className='child 2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px]  mx-auto '>
                   <Image
                     width={740}
                     height={481}
