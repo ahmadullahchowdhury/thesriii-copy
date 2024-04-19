@@ -33,7 +33,7 @@ const Conference2015 = () => {
       <br>sanjose`
     }
   ];
-  const paper_submission_guide = [
+  const paper_submission_guide_1_4 = [
     {
       title: 'Step 1',
       description: `To open the EasyChair Login Page for the SRII Global Conference 2015 in a separate window
@@ -50,6 +50,68 @@ const Conference2015 = () => {
     {
       title: 'Step 4',
       description: `You will then receive a confirmation e-mail. To continue, click the embedded link.`
+    }
+  ];
+  const paper_submission_guide_5_8 = [
+    {
+      title: 'Step 5',
+      description: `Complete the sign-up process by filling out your account information and clicking <span style="font-weight:bold">create my account</span>.
+      `
+    },
+    {
+      title: 'Step 6',
+      description: `You will then be shown a confirmation and be given a link returning you to the sign-in page (from step1). 
+      <p  style='padding-bottom: 10px;'></p>
+      <p  style='font-weight: 700;'>https://www.easychair.org/account/signin.cgi?key=8020161.ickD12EGq3pL8Yhb
+      </p>
+      <p  style='padding-bottom: 10px;'></p>
+      Sign in with the user name and password you provided in step 5.
+      `
+    },
+    {
+      title: 'Step 7',
+      description: `Click 'New Submission' to upload your abstract.
+      `
+    },
+    {
+      title: 'Step 4',
+      description: `You will then receive a confirmation e-mail. To continue, click the embedded link.
+      <p  style='padding-bottom: 10px;'></p>
+      <p  style='color: #EF8080;'>*Further down you can add keywords to make you paper easily searchable.</p>`
+    }
+  ];
+  const paper_submission_guide_9_12 = [
+    {
+      title: 'Step 9',
+      description: `Complete the sign-up process by filling out your account information and clicking create my account.
+      <p  style='padding-bottom: 10px;'></p>
+      <p  style='color: #EF8080;'>*If they have already signed up to the SRii EasyChair,then press (click here to add an associate) and select them from the list.
+      </p>`
+    },
+    {
+      title: 'Step 10',
+      description: `Upload your (full) submission by clicking Browse and finding the corresponding file.
+      <p  style='padding-bottom: 10px;'></p>
+      <p  style='color: #EF8080;'>**Please refrain from uploading your abstract using this attachment feature; there is a space provided for your abstract when filling   out your information.
+      <p  style='padding-bottom: 10px;'></p>
+       <p  style='padding-bottom: 10px;'></p>
+       Check Abstract Only if that is what you are submitting. Click Submit Paper to Finish.
+      </p>`
+    },
+    {
+      title: 'Step 11',
+      description: `Check Abstract Only if that is what you are submitting. Click Submit Paper to Finish.
+      <p  style='padding-bottom: 10px;'></p>
+      Here, you have the options to update or withdraw your submission.
+      `
+    },
+    {
+      title: 'Step 4',
+      description: `To submit your full paper, click Submit a New Version and attach your paper (PDF/Word).
+      <p  style='padding-bottom: 10px;'></p>
+      If you had attached your abstract earlier (by browsing for it as a file), then add the text from your abstract in the space provided by clicking Update Information.
+.
+      `
     }
   ];
 
@@ -115,13 +177,20 @@ const Conference2015 = () => {
 
         <p className='text-[#5C6898] pl-[30px] text-[18px] py-[23px]'>
           To learn more click here:{' '}
-          <span className='font-semibold text-[15px]'>https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf </span>{' '}
+          <Link target='_blank' href='https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf'>
+            <span className='font-semibold text-[15px]'>https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf </span>{' '}
+          </Link>
         </p>
         <p className='text-[#5C6898] pl-[30px] text-[18px] '>
           To register click here:
-          <span className='font-semibold text-[15px]'>
-            https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform
-          </span>{' '}
+          <Link
+            target='_blank'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform'
+          >
+            <span className='font-semibold text-[15px]'>
+              https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform
+            </span>{' '}
+          </Link>
         </p>
 
         <h2 className='text-slate-500 capitalize text-2xl md:text-4xl lg:text-[50px] font-semibold  pt-[84px]'>
@@ -204,13 +273,9 @@ const Conference2015 = () => {
         </h2>
         <div className='timeline'>
           <div className='mt-[28px] pb-[28px]  flex gap-[50px] pl-[50px]'>
-            {paper_submission_guide.map((item, index) => (
+            {paper_submission_guide_1_4.map((item, index) => (
               <div>
-                <div
-                // style={{
-                //   zIndex: 100
-                // }}
-                >
+                <div key={index}>
                   <Image
                     src='/icon/arrow.png'
                     className='relative z-50'
@@ -246,6 +311,112 @@ const Conference2015 = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className='timeline'>
+          <div className='mt-[28px] pb-[28px]  flex gap-[50px] pl-[50px]'>
+            {paper_submission_guide_5_8.map((item, index) => (
+              <div>
+                <div key={index}>
+                  <Image
+                    src='/icon/arrow.png'
+                    className='relative z-50'
+                    priority
+                    quality={90}
+                    width={24}
+                    height={24}
+                    alt='round'
+                  />
+                </div>
+                <div
+                  className={` ${(() => {
+                    switch (index) {
+                      case 0:
+                        return 'w-[323px]';
+                      case 1:
+                        return 'w-[214px]';
+                      case 2:
+                        return 'w-[300px]';
+                      case 3:
+                        return 'w-[214px]';
+                      default:
+                        return '';
+                    }
+                  })()}`}
+                >
+                  <p className='pt-[12px] text-[16px] font-semibold text-[#6E8BEB] capitalize'>{item.title}</p>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                    className='pt-[12px] text-[14px] text-[#7B7A7A] '
+                  ></p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className='timeline'>
+          <div className='mt-[28px] pb-[28px]  flex gap-[50px] pl-[50px]'>
+            {paper_submission_guide_9_12.map((item, index) => (
+              <div>
+                <div key={index}>
+                  <Image
+                    src='/icon/arrow.png'
+                    className='relative z-50'
+                    priority
+                    quality={90}
+                    width={24}
+                    height={24}
+                    alt='round'
+                  />
+                </div>
+                <div
+                  className={` ${(() => {
+                    switch (index) {
+                      case 0:
+                        return 'w-[323px]';
+                      case 1:
+                        return 'w-[214px]';
+                      case 2:
+                        return 'w-[300px]';
+                      case 3:
+                        return 'w-[214px]';
+                      default:
+                        return '';
+                    }
+                  })()}`}
+                >
+                  <p className='pt-[12px] text-[16px] font-semibold text-[#6E8BEB] capitalize'>{item.title}</p>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                    className='pt-[12px] text-[14px] text-[#7B7A7A] '
+                  ></p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className='p-[8px]'>
+          <p className='flex'>
+            <span className='pr-[10px] text-[18px] font-bold text-[#5C6898]'>
+              Instructions for Paper Formatting 2015:{' '}
+            </span>
+            <span>
+              {' '}
+              <Image alt='dd' src='/icon/doc.svg' width={100} height={100} className='size-[28px] ' />
+            </span>
+            <Link
+              target='_blank'
+              href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
+              className='underline pl-[10px] text-[18px] text-[#5C6898]'
+            >
+              Paper Template.doc
+            </Link>
+          </p>
+          <p className='pt-[70px] pb-[187px] text-[#5C6898] text-[18px]'>
+            For Additional Assistance, Please Contact:
+            <span className='font-bold text-[#5C6898]'>Ralph Badinelli (Program Chair), </span>
+            Email: <span className='font-bold text-[#5C6898]'>ralphb@vt.edu</span>{' '}
+          </p>
         </div>
       </div>
     </div>

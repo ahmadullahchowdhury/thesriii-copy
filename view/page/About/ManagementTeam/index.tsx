@@ -1,9 +1,16 @@
-import { executive_team, global_leadership_team, members } from '@json-db';
+'use client';
+import { executive_team, global_leadership_team, members, showBioDetails } from '@json-db';
 import Image from 'next/image';
 import Link from 'next/link';
+import { title } from 'process';
+import { useState } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+import ShowBioModal from 'view/ui/shared-component/component/showbioModal';
 
 const ManagementTeam = () => {
+  const [open, setOpen] = useState(false);
+  const [selectedBioDetails, setSelectedBioDetails] = useState<number>(0);
+
   return (
     <div className='bg-white z-10 relative '>
       <Image
@@ -21,7 +28,6 @@ const ManagementTeam = () => {
             Home
           </Link>
           <IoIosArrowForward />
-
           <p className='text-[#7E7E7E] text-[16px] font-medium'>About us</p>
           <IoIosArrowForward />
           <p className='text-[#1D1D1D] text-[16px] font-medium'>Management Team</p>
@@ -32,8 +38,8 @@ const ManagementTeam = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-20 pt-4 md:pt-8 lg:pt-12'>
-          {members.map(item => (
-            <div className='    '>
+          {members.map((item, index) => (
+            <div key={index} className='    '>
               <Image
                 alt='members'
                 width={300}
@@ -46,7 +52,15 @@ const ManagementTeam = () => {
                   <div className='text-zinc-800 text-2xl font-bold text-left'>{item.name}</div>
                   <div className='w-[275px] pt-2 text-zinc-500 text-base text-left font-light '>{item.designation}</div>
                 </div>
-                <div className='text-zinc-500 text-xl font-normal underline'>Show bio</div>
+                <div
+                  onClick={() => {
+                    setOpen(true);
+                    setSelectedBioDetails(index);
+                  }}
+                  className='cursor-pointer text-zinc-500 text-xl font-normal underline'
+                >
+                  Show bio
+                </div>
               </div>
             </div>
           ))}
@@ -56,8 +70,8 @@ const ManagementTeam = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-20 pt-4 md:pt-8 lg:pt-12'>
-          {executive_team.map(item => (
-            <div className='    '>
+          {executive_team.map((item, index) => (
+            <div key={index} className=''>
               <Image
                 alt='members'
                 width={300}
@@ -79,6 +93,7 @@ const ManagementTeam = () => {
           ))}
         </div>
       </div>
+      <ShowBioModal open={open} setOpen={setOpen} showBioDetails={showBioDetails[selectedBioDetails]} />
     </div>
   );
 };

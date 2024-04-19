@@ -1,3 +1,70 @@
+export const showBioDetails = [
+  {
+    title: 'Kris Singh',
+    subTitle: 'SRII President',
+    image: '/image/mem_kris.png',
+    desc: `Kris Singh has been a senior leader in the IT industry for more than 25 years. Kris has worked for major IT companies in the Silicon Valley like <span style="font-weight: bold;">IBM Research, AMD, Intel</span>  and <span style="font-weight:bold">National Semiconductor</span>. At IBM Almaden Research Kris has been the Strategic Programs Director for IT Services Research and where he created the global IT Service Research and Innovation Institute, SRII (www.thesrii.org). 
+    <p style='padding-bottom: 10px;'></p>  
+    SRII mission is to drive IT Innovation for major sectors of economy and build a better world. SRII members include senior leaders from industry, academia, research, government and key professional organizations at the global level. SRII organizations and initiatives are growing all around the world. Before IBM Research, he has been the Director at AMD CTO Office responsible for Product and Technology roadmap definition working closely with major customers and industry ecosystem partners.
+    <p style='padding-bottom: 10px;'></p>
+    Prior to AMD CTO Office, Kris worked for Intel as a Director of the Data Center technology/ product/solution roadmap planning team. At Intel he worked with CIO’s around the world to better understand the Data Center “Total Cost of Ownership (TCO)” model and help drive down the cost of IT Services/Solutions. Before Intel, Kris has been with National Semiconductor where he managed various groups like Product/ Technology development, Global Manufacturing & Suppliers Management, and major Customer programs.
+    <p style='padding-bottom: 10px;'></p>
+    While working in the IT industry Kris has also been connected with academia. Kris has been an Industry Fellow in the College of Engineering at UC Berkeley, and an adjunct professor in the Electrical Engineering & Computer Science department at Santa Clara University, CA. He is on the Advisory Board at several major universities helping drive “Innovation in Education system and building Entrepreneurship program”.
+    <p  style='padding-bottom: 10px;'></p>
+    Kris is also on the board/advisory member of several startup companies in Silicon Valley and he is a regular speaker at major forums/conferences around the world.
+    `
+  },
+  {
+    title: 'Mark Gorenberg',
+    subTitle: `Managing Director of Hummer <br>  Winblad  Venture Partners'`,
+    image: '/image/mem_Mark.png',
+    desc: `Mark Gorenberg is a Managing Director of Hummer Winblad Venture Partners. Prior to Hummer Winblad Venture Partners Mark was at Sun Microsystems where he managed emerging new media areas and was a member of theoriginal SparcStation team. Over the last 20 years Mark has served as a board member for numerous successful Hummer Winblad start-ups, including Omniture(IPO and acquired by Adobe), AdForce (IPO and acquired by CMGI), NetDynamics(acquired by Sun Microsystems) and Scopus Technologies (IPO and acquired bySiebel) and Crowdfactory (acquired by Marketo). Currently, he serves as aDirector of 6connect, Aria Systems, Cenzic, Domo, Signal Demand, OptiMine, and InsideSales
+    <p  style='padding-bottom: 10px;'></p>
+    In 2011, Mark was appointed by President Barack Obama to the President’s Council of Advisors on Science and Technology (PCAST), a21-person advisory group of the nation’s leading scientists and engineers(www.whitehouse.gov/ostp/pcast).
+    <p  style='padding-bottom: 10px;'></p>
+    Mark is a member of the Board of Trustees of the Massachusetts Instituteof Technology Corporation, a member of the Steering Committee of Deshpande Center for Technological Innovation at MIT, the Leadership Board of theMcGovern Institute for Brain Research at MIT, the Technology Advisory 
+    <p  style='padding-bottom: 10px;'></p>
+    Committee of the Federal Communications Commission (FCC), and the Board of the H. John Heinz III Center for Science, Economics, and theEnvironment. In 2012, Mark also became a Director of the National VentureCapital Association (NVCA).
+    <p  style='padding-bottom: 10px;'></p>
+    Mark received a B.S.E.E. from MIT, an M.S.E.E. fromthe University of Minnesota, and an M.S. in Engineering Management fromStanford University. Mark is helping SRII initiatives in the areas of Big Data and Advance Analytics.
+    `
+  },
+  {
+    title: 'Ajit Singh',
+    subTitle: `Partner at Artiman Venture & <br> Consulting Professor at Stanford <br> UniversityRII President`,
+    image: '/image/mem_ajit.png',
+    desc: `
+    Ajit is currently a partner at Artiman Ventures and focuses on early-stage Technology and Life Sciences/Med-Tech investments. On behalf of Artiman, he serves on the Board of Directors of CardioDx Inc., OncoStem Diagnostics Pvt Ltd, and Aditazz Inc. Ajit is also a Consulting Professor in the School of Medicine at Stanford University and is the Lead Director on Board of Directors of Max Healthcare based in New Delhi, India.
+    <p  style='padding-bottom: 10px;'></p>
+    Prior to joining Artiman, Ajit wasthe President and CEO of BioImagene, a Digital Pathology company specializing in Cancer Diagnostics, based in Sunnyvale,CA. BioImagene was acquired by Roche in September 2010. Before BioImagene, Ajit spent nearly twenty years at Siemens in various roles, most recently as the Chief Executive Officer of the Digital Radiology business of Siemens Healthcare,based in Germany. From 2001 to 2006, Ajit was the President and CEO of the Oncology Care SystemsGroup of Siemens, with global headquarters in Concord, California. Between 1996 and 2001, Ajit held the positions of Group Vice President of Siemense-Health, and Vice President of Siemens Health Services based in Princeton, NJ, where he led the company’s Healthcare IT business and Consulting Practice. Before transitioning to these business responsibilities, Ajit spent several years in R&D and academia. From 1989 to 1995, he was at Siemens Corporate Research in Princeton, responsible for research in the areas of artificial intelligence, robotics, computer vision, and image analysis. During this time, he concurrently served on the faculty at Princeton University.
+    <p  style='padding-bottom: 10px;'></p>
+    Ajit has a Ph.D. in Computer Science from Columbia University, a master’s degree in Computer Engineering from Syracuse University and a bachelor’s degree in Electrical Engineering from Banaras Hindu University, India. Ajit is an active speaker in the Life Sciences, Information Technology, and Entrepreneurship communities. He has published two books andnumerous refereed articles, and holds several patents.
+    `
+  },
+  {
+    title: 'Rajeeb Hazra',
+    subTitle: 'Vice President at Intel',
+    image: '/image/mem_rajeeb.png',
+    desc: `
+    Rajeeb Hazra is a Vice President in the Intel Architecture Group and serves as General Manager for the technical computing segment in the Data center and Connected Systems Group at Intel Corporation. He is responsible for driving the business of high-performance computing and workstations, and successfully ramping Intel's new Many Integrated Core (MIC) product line in technical computing and other segments.
+    <p  style='padding-bottom: 10px;'></p>
+    Before assuming his current position, Hazra was the director of Supercomputing Architecture, where he was responsible for strategic research and development engagements with Intel's supercomputing customers. Earlier in his Intel career, he served as the director of the Systems Technology Lab in Intel where he oversaw R&D inhardware and software-related systems technologies. Hazra also previously served as technical assistant to Intel's chief technology officer.
+    <p  style='padding-bottom: 10px;'></p>
+    Rajeeb earned his bachelor's degree in computer science and engineering from Jadavpur University, India. He also holds a master's degree in computer science and a Ph.D. in computer science, both from The College of William & Mary. He holds 16 patents in signal processing and has contributed numerous technical publications to refereed technical journals and conferences. He was honored with an Intel Achievement Award in 2000 for breakthroughs in multiple generations of industry-leading video-compression technologies.
+    `
+  },
+  {
+    title: 'Ray Harishankar',
+    subTitle: `IBM Fellow & CTO of <br> Global Solutions, Global <br> Business Services, IBM`,
+    image: '/image/mem_ray.png',
+    desc: `
+    Ray Harishankar is an IBM Fellow and the CTO of Global Solutions & Asset Management within Global Business Services. In that role, Ray defines & operationalizes strategies for GBS to have a strong portfolio of Business Solutions & Service Oriented Architecture based assets. Ray is currently focused on identifying strategies by which Global Business Services can leverage cloud computing technologies.
+    <p  style='padding-bottom: 10px;'></p>
+    Ray played a leadership role in establishing the Global Business Solutions Center (GBSC) in India & China, was responsible for establishing a development capability for high value SOA based assets within GBSC and continues to provide ongoing technical direction & guidance to that center. Ray was instrumental in establishing an architect profession in India and in growing & maintaining the vitality of that community.
+    `
+  }
+];
+
 export const footerData = [
   {
     title: 'Sitemap',

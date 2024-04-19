@@ -130,16 +130,14 @@ const PricingPage = () => {
                     </div>
                   </div>
                   <div className='pt-4 md:pt-5 lg:pt-6'></div>
-                  <div className='cursor-pointer  px-7 py-[11px] bg-indigo-400 rounded-[5px] justify-center items-center gap-2.5 flex'>
-                    <div
-                      onClick={() => {
-                        setOpen(true);
-                        setSelectedPricingDetails(index);
-                      }}
-                      className='text-white text-base font-normal '
-                    >
-                      Details
-                    </div>
+                  <div
+                    onClick={() => {
+                      setOpen(true);
+                      setSelectedPricingDetails(index);
+                    }}
+                    className='cursor-pointer  px-7 py-[11px] bg-indigo-400 rounded-[5px] justify-center items-center gap-2.5 flex'
+                  >
+                    <div className='text-white text-base font-normal '>Details</div>
                   </div>
                 </div>
               </div>
