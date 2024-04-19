@@ -31,7 +31,7 @@ const PricingPage = () => {
           {pricingData.map((item, index) => (
             <div key={index} className='bg-white pt-20 md:pt-24 relative rounded-lg grid items-end  '>
               <div className='absolute -top-14  transform shadow-md   -translate-y-1 translate-x-[70%]  bg-[#EDF0F4] rounded-full h-[115px] w-[115px] flex items-center justify-center'>
-                <Image src={item.icon} alt='icon' width={115} height={115} />
+                <Image src={item.icon} alt='icon' width={130} height={130} />
               </div>
               <div className=' text-gray-600 text-base font-semibold px-10 md:px-12 lg:px-14'>{item.title}</div>
               <div className=' leading-[19px] text-gray-600 text-[12px] font-normal py-6 md:py-9 lg:py-9 px-10 md:px-12 lg:px-14 '>
@@ -41,7 +41,13 @@ const PricingPage = () => {
                 <div className='   p-3'>
                   <div className='justify-center items-center gap-1.5 flex'>
                     <div className='text-center'>
-                      <span className='text-gray-700 text-[25px] font-normal '>$</span>
+                      <span
+                        className={` text-gray-700 text-[25px] font-normal 
+                          
+                        `}
+                      >
+                        $
+                      </span>
                       <span className='text-gray-700 text-[35px] font-normal f'>{item.price}</span>
                     </div>
                     <div className=''>

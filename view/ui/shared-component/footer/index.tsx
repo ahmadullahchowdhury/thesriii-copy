@@ -11,27 +11,23 @@ const usefulLink = [
     links: [
       {
         name: 'Facebook',
-        to: 'https://www.komen.org/'
+        to: 'https://www.facebook.com/thesrii'
       },
       {
         name: 'Linkedin',
-        to: 'https://www.cancer.org/'
+        to: 'https://www.linkedin.com/groups/Service-Research-Innovation-Institute-2357564/'
       },
       {
         name: 'Flickr',
-        to: 'https://www.breastcancerhub.org/'
-      },
-      {
-        name: 'Twitter',
-        to: 'https://www.breastcancerhub.org/'
+        to: 'https://www.flickr.com/photos/128066616@N06/albums/'
       },
       {
         name: 'Vimeo',
-        to: 'https://www.breastcancerhub.org/'
+        to: 'https://vimeo.com/srii'
       },
       {
         name: 'Youtube',
-        to: 'https://www.breastcancerhub.org/'
+        to: 'https://www.youtube.com/user/SRIIVids'
       }
     ]
   }
@@ -56,14 +52,23 @@ const Footer = () => {
                </p> */}
           {/* <p className="text-text_color  duration-700 hover:text-gray-700 rounded mt-3 font-bold">Phone: + 919980007455</p> */}
           {/* <p className="text-text_color  duration-700 hover:text-gray-700 rounded mt-3 font-bold">Email: srakesh99@yahoo.com</p> */}
-        <div className="flex gap-4">
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/facebook.svg'} />
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/twitter.svg'} />
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/linkedin.svg'} />
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/youtube.svg'} />
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/vimeo.svg'} />
-        <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/flickr.svg'} />
-        </div>
+          <div className='flex gap-4'>
+            <Link href='https://www.facebook.com/thesrii' target='_blank'>
+              <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/facebook.svg'} />
+            </Link>
+            <Link href='https://www.linkedin.com/groups/Service-Research-Innovation-Institute-2357564/' target='_blank'>
+              <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/linkedin.svg'} />
+            </Link>
+            <Link href='https://www.flickr.com/photos/128066616@N06/albums/' target='_blank'>
+              <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/flickr.svg'} />
+            </Link>
+            <Link href='https://vimeo.com/srii' target='_blank'>
+              <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/vimeo.svg'} />
+            </Link>
+            <Link href='https://www.youtube.com/user/SRIIVids' target='_blank'>
+              <Image width={40} height={40} quality={100} className='' alt='logo' src={'/icon/youtube.svg'} />
+            </Link>
+          </div>
         </div>
         {/* </div> */}
         {footerData?.map((dt, i) => (
