@@ -233,7 +233,7 @@ export const advisory_showBioDetails = [
   },
   {
     title: 'Tim Draper',
-    subTitle: 'Founder at Draper Associates/DFJ/Draper University ',
+    subTitle: 'Founder at Draper Associates/DFJ/<br>Draper University ',
     image: '/image/advisory_team/Tim_Draper.png',
     desc: `Tim Draper is founding partner of leading venture capital firmsDraper Associates and DFJ. Tim's original suggestion to use viral marketing in web-based email to geometrically spread an Internet product to its market was instrumental to the successes of Hotmail, YahooMail, and Gmail and has been adopted as a standard marketing technique by thousands of businesses.</br>
     Tim’s venture successes include Skype, Overture, Baidu, Tesla, Theranos, Parametric Technology, Hotmail, Digidesign, Twitch.tv, and hundreds of others. Tim launched the DFJ Global Network, an international network of early-stage venture capital funds with offices in over 30 cities around the globe. He founded or co-founded DFJ ePlanet (global), Draper Fisher Jurvetson Gotham (NYC), Zone Ventures (LA), Epic Ventures (Salt Lake City), Draper Atlantic (Reston), Draper Triangle (Pittsburg), Timberline Ventures (Portland), Polaris Fund (Anchorage), DFJ Frontier (Sacramento and Santa Barbara), DFJ Vina Capital (Vietnam), Draper Nexus (Tokyo), and DFJ DragonFund (Shanghai).
@@ -245,7 +245,8 @@ export const advisory_showBioDetails = [
   },
   {
     title: 'John Seely Brown',
-    subTitle: 'Visiting scholar and advisor to the </br>Provost at University of Southern </br>California (USC) and the Co</br>-Chairman of the Deloitte’s Center for</br> the Edge ',
+    subTitle:
+      'Visiting scholar and advisor to the </br>Provost at University of Southern </br>California (USC) and the Co</br>-Chairman of the Deloitte’s Center for</br> the Edge ',
     image: '/image/advisory_team/John_Seely _Brown.png',
     desc: `John Seely Brown (often called JSB) is a visiting scholar and advisor to the Provost at University of Southern California (USC) and the Co-Chairman of the Deloitte’s Center for the Edge. Prior to that he was the Chief Scientist of Xerox Corporation and the director of its Palo Alto Research Center (PARC)—a position he held for nearly two decades. John serves on several boards of directors of major public companies like Amazon, Corning, and Varian Medical Systems as well as on numerous private boards of directors.
     <p  style='padding-bottom: 10px;'></p>
@@ -302,7 +303,8 @@ export const advisory_showBioDetails = [
   },
   {
     title: 'Theresa Anna Maldonado',
-    subTitle: 'Ph.D., P.E., Division Director,</br>  Engineering Education & Centers</br>  Directorate for Engineering National</br>  Science Foundation ',
+    subTitle:
+      'Ph.D., P.E., Division Director,</br>  Engineering Education & Centers</br>  Directorate for Engineering National</br>  Science Foundation ',
     image: '/image/advisory_team/Theresa_Anna_Maldonado.png',
     desc: `Dr. Theresa Maldonado is the Division Director of Engineering Education and Centers (EEC) in the Directorate for Engineering at the National Science Foundation (NSF). The EEC Division integrates basic research from multiple disciplines into strategic frameworks critical to addressing societal grand challenges and to promoting innovation. The research portfolio supported by EEC spans both the physical and the life sciences and engineering, from nano structured materials to new device concepts, subsystems, and systems. Applications range across a wide spectrum, including energy, medicine, telecommunications, nano electronics, manufacturing, civil infrastructure, the environment, computer networks, cyber security, and others. Also included are formal scholarly studies in engineering education and on how people learn.
     <p  style='padding-bottom: 10px;'></p>
@@ -336,6 +338,298 @@ export const advisory_showBioDetails = [
     desc: `Dr. Robert D. Atkinson is one of the country’s foremost thinkers on innovation economics. With has an extensive background in technology policy, he has conducted ground-breaking research projects on technology and innovation, is a valued adviser to state and national policy makers, and a popular speaker on innovation policy nationally and internationally. He is the author of The Race for Global Innovation Advantage and Why the U.S. is Falling Behind (Yale,forthcoming) and The Past and Future of America’s Economy: Long Waves of Innovation That Power Cycles of Growth (Edward Elgar, 2005).
     <p  style='padding-bottom: 10px;'></p>
     Before coming to ITIF, Atkinson was Vice President of the Progressive Policy Institute and Director of PPI’s Technology & New Economy Project. Ars Technica listed Atkinson as one of 2009’s Tech Policy People to Watch. He has testified before a number of committees in Congress and has appeared in various media outlets including CNN, Fox News, MSNBC, NPR, and NBC Nightly News. He received his Ph.D. in City and Regional Planning from the University of North Carolina at Chapel Hill in 1989.
+    `
+  }
+];
+
+export const global_relationships_showioData = [
+  {
+    title: 'Anjul Bhambhri',
+    subTitle: 'VP of Big Data at IBM ',
+    image: '/image/global_members/anjul.png',
+    desc: `Anjul Bhambhri is the Vice President of Big Data Products at IBM. She was previously the Director of IBM Optim application and data life cycle management tools. She is a seasoned professional with over twenty-two years in the database industry. Over this time, Anjul has held various engineering and management positions at IBM, Informix and Sybase. Prior to her assignment in tools, Anjul spearheaded the development of XML capabilities in IBM’s DB2 database server. She is a recipient of the YWCA of Silicon Valley’s 'Tribute to Women in Technology' award for 2009. Anjul holds a degree in Electrical Engineering.
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Joel Cherkis',
+    subTitle: 'GM & CTO, Worldwide</br> Public Sector division,</br> Microsoft ',
+    image: '/image/global_members/joel.png',
+    desc: `Joel leads a team of business development, and technology professionals that support global policy decisions and deliver technology relevance and scalable solutions into Public Sector markets around the world. In his previous role, Joel was the General Manager of the Government Solutions team and supported industry solutions focused on Health & Human Services, Justice & Public Safety, Homeland Security, DOD initiatives, e-Government, and emerging technologies. Prior to joining Microsoft, Joel spent 9 years with Oracle Corporation where he developed businesses focused on collaboration, application services and database driven technologies for Public Sector and commercial customers.
+    <p style='padding-bottom: 10px;'></p>  
+    Joel has over 20 years of IT and development experience and has spent the past 10 years helping customers and partners better utilize collaborative solutions and the processes of infrastructure consolidation.
+    `
+  },
+  {
+    title: 'Rhea Yaw Ching',
+    subTitle: 'Executive Director, Covela </br> Foundation ',
+    image: '/image/global_members/rhea.png',
+    desc: `
+    Rhea Yaw Ching is the Founder and Executive Director of Covela Foundation, a technology non-profit dedicated to the creation of solutions to pressing common social and economic needs in the Caribbean and Latin America (CALA). Through her consulting company, Covela Consulting, she also invests in and leads select high potential social innovation startups, providing them with an ecosystem of technical, business and mentorship support.
+    <p style='padding-bottom: 10px;'></p>  
+    Rhea is a seasoned business and technology leader having spent more than 20 years in the CALA region in a variety of industries such as: telecommunications, ICT, manufacturing and distribution with several multinational corporations such as Coca-Cola, Kraft and 3M. Prior to launching Covela, she spent 10 years at Columbus International, one of the largest telecommunications companies in CALA, where as Corporate Vice President, Sales and Marketing, she stewarded the residential, business and wholesale divisions of the company through market expansion efforts, technology deployments and social commitment strategies.
+    <p style='padding-bottom: 10px;'></p>  
+    She is a member of the The Open Data Institute and International Association of Innovation Professionals and she is a strong proponent of the use of open data and innovation, human-centered design and collaborative business models in the solution building.
+    <p style='padding-bottom: 10px;'></p>  
+    She holds a Bsc Management Studies from the University of the West Indies, an MBA from Warwick Business School and Executive Certification in Social Entrepreneurship from Stanford University.
+    <p style='padding-bottom: 10px;'></p>  
+    Rhea is part of the SRII Global Leadership Team as Lead for the Caribbean and Latin America. Her role will be to work with major development stakeholders in the region to identify and drive common strategies for driving the local digital economy as well provide a platform for sustainable capacity building initiatives in critical areas of development.
+    `
+  },
+  {
+    title: 'Ian Ellison-Taylor',
+    subTitle: 'Director for Open Web Platform </br>(OWP) at Google',
+    image: '/image/IanEllisonTaylor.png',
+    desc: `At Goolge, Ian Ellison Taylor is responsible for product and technology management for the Open Web Platform.
+    <p style='padding-bottom: 10px;'></p>  
+    Before Google, Ian spent 20 years at Microsoft in various platform development roles and ultimately was General Manager for the "Client Platforms and Tools" organization.
+    <p style='padding-bottom: 10px;'></p>  
+    Ian will lead the SRII focus group on "Innovating Open Web Platform".
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Rich Friedrich',
+    subTitle: 'Director of Strategy & Innovation, HP </br>Labs ',
+    image: '/image/global_members/rich.png',
+    desc: `Rich Friedrich is the Director of the Strategy and Innovation Office in HP Labs and reports directly to the Senior Vice President of Research. Leading a global team, he is responsible for the strategy and portfolio management of HP’s central research organization, applying Open Innovation to amplify and accelerate research results, and technology transfer to effectively monetize these technologies.
+    <p style='padding-bottom: 10px;'></p>  
+    Rich is an active participant in government-industry-university partnerships through such groups as the US National Academies Government-University-Industry Research Roundtable. He his on the board of advisors for four major universities including the University of Illinois and the University of California, San Diego, and is a co- inventor on fifteen patents.
+    <p style='padding-bottom: 10px;'></p>  
+    Rich Friedrich is a graduate of Northwestern University. 
+    `
+  },
+  {
+    title: 'Wolfgang Gentzsch',
+    subTitle: 'Strategic Consultant, HPC, Grid',
+    image: '/image/global_members/wolfgang.png',
+    desc: `Dr. Wolfgang Gentzsch is a senior consultant for HPC, Grid and Cloud Computing and the General Chairman of the ISC Cloud Conference Series.Previously, he was an Advisor to the EU funded project DEISA, the Distributed European Initiative for Supercomputing Applications, and he directed the 3-year German Government funded $150 Mio D-Grid Initiative for developing a sustainable Grid infrastructure for research and industry in Germany. He was a member of the Board of Directors of the OGF Open Grid & Cloud Forum standards organization, and a member of the US President's Council of Advisors for Science and Technology, PCAST. He Founded the e-School Project which aimed at building and operating a professional interactive Web 2.0 computer simulation laboratory for K-20science and engineering education and edutainment.
+    <p style='padding-bottom: 10px;'></p>  
+    Before, Wolfgang was a professor of computer science and mathematics at several universities in the US and in Germany, and held leading positions at the MCNC Grid and Data Center, Sun Microsystems, Gridware, Genias, the DLR German Aerospace Research Center, and the Max-Planck-Institute for Plasma Physics. Wolfgang studied mathematics and physics at the Technical Universities in Aachen and in Darmstadt, and got his PhD in numerical methods for partial differential equations.
+    `
+  },
+  {
+    title: 'Subu Goparaju',
+    subTitle: 'Ex-Senior Vice President and Head,<br/> Infosys Labs, Infosys ',
+    image: '/image/global_members/subu.png',
+    desc: `Subu Goparaju is Senior Vice President and Head - Infosys Labs, the Technology Research and Innovation arm of Infosys. Subu also heads Infosys's new Product R&D unit and the company's Intellectual Property Cell (IP Cell). Subu is member of GITA (Global Innovation and Technology Alliance) an initiative between Govt. Of India and the Confederation of Indian Industry. He is a member of Fraunhofer India's advisory council, and is also on the advisory boards of Global Innovation Center at Marshall School of Business at University of Southern California and Monash University - IIT Bombay Research Academy. Subu regularly speaks at industry conferences on Innovation Management, Emerging technologies, Service Innovation and Software Engineering. Subu is an Electrical and Electronics Engineer from National Institute of Technology, Suratkal, India.
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Sandeep Gopisetty',
+    subTitle: 'IBM Research Engineer ',
+    image: '/image/global_members/sandeep.png',
+    desc: `Sandeep Gopisetty is an IBM ResearchDistinguished Engineer and a Senior Manager of Storage Services Innovation Labat IBM Almaden Research Center. Sandeep is currently leading research efforts in the areas of IT Service Management, Storage standards, Cloud and Clean sheet compute cloud architectures and implementations.
+    <p style='padding-bottom: 10px;'></p>  
+    Sandeep is an industry recognized leader for driving innovation in storage management and services, such as new analytics and planning capabilities for complex storage management tasks and innovative approaches to managing storage for new IT paradigms, such as cloud computing.
+    `
+  },
+  {
+    title: 'Kannan Govindarajan',
+    subTitle: 'Director, Enterprise Services Strategy &<br/> Planning, HP ',
+    image: '/image/global_members/kannan.png',
+    desc: `Kannan's 16 year career in software and services has spanned multiple functions and businesses. In the first 10+ years of his career in R&D aside from shipping products for Oracle and HP focused on Java and web services middleware technologies. He was one of the architects of the team that created one of the earliest web services implementations, and represented HP in standards bodies such as UDDI. He was also instrumental in establishing a new research program in HP Labs for creating technology for automating business processes for services businesses. Subsequently, he was Chief Technologist of HP's IT Outsourcing services and implemented some of the ideas from his research. He was also one of the original members of SRII representing HP.
+      <p style='padding-bottom: 10px;'></p>  
+      Kannan has spent the last 6+ years in Product Management/marketing/strategy roles where he ran the Application Operations Service Line in HP Outsourcing Services, and ran product marketing for HP’s data warehousing product. Most recently, as Director Strategy, he drove thought leadership for HP through the mega-trends project, business planning for Cloud applications and infrastructure services and helped shape the go-to-market model for cloud offerings in HP Enterprise services.
+      <p style='padding-bottom: 10px;'></p>  
+      Kannan has a B.Tech. in Computer Science and Engineering from IIT Madras, a PhD in Computer Science from the State University of New York at Buffalo, and a Masters in Management of Technology from MIT Sloan School of Management.
+    `
+  },
+  {
+    title: 'Manish Gupta',
+    subTitle: 'Vice President at Xerox Corporation<br/> and Director of Xerox Research<br/> Center, India',
+    image: '/image/global_members/manish.png',
+    desc: `
+    Manish has served as Managing Director, Technology Division at Goldman Sachs in India, and has held various leadership positions with IBM, including that of Director, IBM Research - India and Chief Technologist, IBM India/South Asia. From 2001 to 2006, he served as a Senior Manager at the IBM T.J. Watson Research Center in Yorktown Heights, New York, where he led the team developing system software for the Blue Gene/L supercomputer. IBM was awarded a National Medal of Technology and Innovation for the invention of Blue Gene by US President Barack Obama in 2009.
+    <p style='padding-bottom: 10px;'></p>  
+    Manish earned a B.Tech. in Computer Science from IIT Delhi in 1987 and a Ph.D. from the University of Illinois at Urbana Champaign in 1992. He has co-authored over 75 papers, with more than 5,000 citations in Google Scholar, in the areas of high-performance computing, compilers, and virtual machine optimizations, and has been granted more than 15 US patents.
+    <p style='padding-bottom: 10px;'></p>  
+    While at IBM, Manish received an Outstanding Innovation Award, two Outstanding Technical Achievement Awards and the Lou Gerstner Team Award for Client Excellence. He is an ACM Fellow. Manish will be playing a leadership role in driving SRII initiatives for emerging markets including a leadership for SRII India.
+    `
+  },
+  {
+    title: 'Paul Hofmann',
+    subTitle: 'Chief Strategy Officer, Saffrontech  ',
+    image: '/image/global_members/paul.png',
+    desc: `Paul Hofmann is the Vice President, Office of the Chief Scientist, SAP Labs at Palo Alto. Before joining SAP Research Paul worked for the SAP Corporate Venturing Group. Paul joined SAP 2001 as the Director of the Global Strategic Supply Chain Management Initiative EMEA. His pre-sales team designed and rolled out the SCM Value Based Selling Approach for EMEA and supported many crucial Supply Chain sales for SAP in EMEA.
+    <p style='padding-bottom: 10px;'></p>  
+    Paul was Researcher and Assistant Professor at top German and US Universities, like Northwestern University and at Technical University in Munich, Germany. Paul studied Chemistry and Physics at the University of Vienna, Austria. He received a Bachelor in biotechnology and a master's degree in Chemistry from the University of Vienna. Paul received his Ph.D.in Physics from the Darmstadt University of Technology, Germany. He is the author of numerous publications and books.
+    `
+  },
+  {
+    title: 'Himanshu kansara',
+    subTitle: 'Founder & Managing Director of <br/> Wincere ',
+    image: '/image/global_members/himanshu.png',
+    desc: `Himanshu Kansara is the Founder and Managing Director of Wincere, a Healthcare and Life Sciences research and consulting company with offices across U.S., Europe and India. Wincere provides clinical trial services to large pharmaceutical and biotechnology companies as well as emerging biotechnology companies. Himanshu is responsible for driving the Wincere’s mission and vision and has over 20 years of extensive experience in field of Health Sciences industries such as Biotech, Medical Devices, Pharma, Biometrics and Regulatory agencies. His technical expertise and business acumen have earned him the distinction of trusted advisor and consultant to his major customers and wide variety of global enterprises.
+    <p style='padding-bottom: 10px;'></p>  
+    Himanshu and Wincere will play a key leadership role in the SRII Healthcare Services Innovation global initiatives in India, Europe, Asia and in Silicon Valley.
+    `
+  },
+  {
+    title: 'Uday S. Karmarkar',
+    subTitle: 'Distinguished Professor and LA Times <br/>Chair of Technology and Strategy ',
+    image: '/image/global_members/uday.png',
+    desc: `
+    Uday S. Karmarkar is Distinguished Professor and LA Times Chair of Technology and Strategy, Director and founder of the UCLA Business and Information Technologies (BIT) global research project at the UCLA Anderson School of Management. His research interests include the information economy, operations strategy, and technology management in manufacturing, service and information industries. Professor Karmarkar has published over 95 research papers, book chapters and articles and has co-edited six research volumes. He has been the founding editor for two academic journals and has served on several editorial boards.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr. Karmarkar previously taught at the University of Chicago and the University of Rochester, where he held the Xerox Chair in Operations and was founder and Director of the Center for Manufacturing and Operations Management. He holds a B.Tech. from I.I.T. Bombay and a Ph.D. in Management Science from M.I.T. He was recognized as a Distinguished Alumnus of IIT-B in 1997 and received their Distinguished Service Award in 2003. He was elected an Honorary Fellow of IITB in 2008. He received the MSOM (Informs) Distinguished Service Award in 2003 and was elected a fellow of MSOM in 2014. He received an IBM Faculty Research award in 2004. He is on the Advisory Board of the IITB Heritage Foundation, and was on the Council for the Digital Strategy of Chile for the Ministry of the Economy, Chile. Professor Karmarkar has undertaken projects in business development, digital strategy, technology management, industrial marketing, organizational design, manufacturing and supply chain management with over 50 firms and public sector organizations in the US, Europe and Asia. He has been an advisor to or director of several companies in high tech and traditional sectors
+    `
+  },
+  {
+    title: 'Andy Kogelnik',
+    subTitle: 'MD, Ph.D Founder and Director of<br/> Open Medicine Institute (OMI), Silicon<br/> Valley, California',
+    image: '/image/global_members/andreas.png',
+    desc: `Andy Kogelnik, MD, PhD is founder and Director of OMI and a practicing physician. Prior to OMI, Dr. Kogelnik founded two companies and a non-profit organization. Having received his MD from Emory University, a PhD in Bioengineering from Georgia Tech, and completing his medical residency and fellowship at Stanford, he has been centrally involved in the information and genomic revolutions in medicine. He has served as an advisor/consultant to many Silicon Valley biotech and IT organizations including Epocrates, Counsyl, the Fogarty Institute for Innovation, and the El Camino Hospital Genomic Medicine Institute.
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Ajay Nigam',
+    subTitle: 'Vice President of Services Product<br/>Management at Symantec ',
+    image: '/image/global_members/ajay.png',
+    desc: `Ajay's team is responsible for the development and management of services IP life cycle, Cloud based security intelligence, and Managed Security Services products.
+    <br/>
+    Before joining Symantec, Ajay led product management for new products at VeriSign, which included the successful launch of managed services and consulting solutions for mobile security and mobile payments. He was also the founding co-chair of an industry-wide open authentication initiative called OATH, and provided product management leadership for a variety of authentication solutions at VeriSign. Before VeriSign, he was the Vice President and GM of Hughes Software Systems, a division of Hughes Network Systems, where he successfully started a global consulting services business to deliver system integration solutions.
+    <p style='padding-bottom: 10px;'></p>  
+    Ajay has been an evangelist and a frequently featured speaker on Security, Privacy, and Mobile Commerce/ Payments in leading global conferences.
+    `
+  },
+  {
+    title: 'Christos Nikolaou',
+    subTitle: 'Professor at the Department of Computer Science, University of Crete in Heraklion, Crete, Greece ',
+    image: '/image/global_members/christos.png',
+    desc: `Christos Nikolaou is a seasoned and proven leader of innovative or research projects and organizations:
+    <p style='padding-bottom: 10px;'></p>  
+    - Led research group in IBM T.J. Watson Research Center (NY, USA), to introduce multiprocessor technology and load balancing in commercial transaction processing systems (CICS, MVS, IMS, DB2); cooperated with other research and development groups. Performance and availability were dramatically increased for flagship IBM systems ('80s and '90s). IBM market leadership position maintained, revenues increased significantly, profit margins remained stable. Was awarded IBM Outstanding Innovation Award (1993).
+    <p style='padding-bottom: 10px;'></p>  
+    - As Rector (President) of the leading Research University in Greece (U. of Crete) ('99-'04), he opened the University to international cooperation (and was awarded the “Chevalier de l’Ordre de Palmes Academiques” by the French Republic, 2006), spearheaded a major campus construction effort, designed and led the effort for a federated academic digital library system for Greek Universities. The U. of Crete is now ranked 50th, in the top 100 under 50 (years old) Universities of the world (Times Higher Education, 2012). Was appointed by the Greek Parliament, Chairman of the National Education Council (2004-’05), and invited as University Evaluator, at the Institutional Evaluator Program (IEP) of the European University Association (EUA) (2006-present).
+    <p style='padding-bottom: 10px;'></p>  
+    - Founded the Transformation Services Laboratory (2006-present) that provides technological and managerial guidance to clients around the world. Pioneered method that accurately estimates the value of a service system (value network) and can guide to the deployment of optimal strategies for a consortium of service providers. Leads german-greek research cooperation effort for online management of healthcare for chronic COPD patients. Best paper awards in large international conferences (1st Int. Conf. on Advanced Service Computing, 2009; 6th Int. Conf. on Internet and Web Applications and Services (ICIW 2011). 
+    `
+  },
+  {
+    title: 'Jena Owens',
+    subTitle: 'General Manager at Google ',
+    image: '/image/global_members/jenna.png',
+    desc: `
+    Jena Owens is General Manager and Head for Google's initiatives in the areas of E-Commerce and Shopping Express.
+    <p style='padding-bottom: 10px;'></p>  
+    Jenna has built her career on the cutting edge of e-commerce services -- from shipping record volume and launching same day delivery in Amazon’s distribution network, to restructuring legacy global supply chains for Fortune 500s at McKinsey, to redefining the face of e-commerce retail at Google. Jenna's expertise includes multi-channel distribution, logistics and customer support.
+    `
+  },
+  {
+    title: 'Rashik Parmar',
+    subTitle: 'President of IBM’s Academy of<br/> Technology ',
+    image: '/image/global_members/rashik.png',
+    desc: `Rashik is the President of IBM’s Academy of Technology and also a Distinguished Engineer. During his 29 years of practical experience at IBM, he has worked for financial, retail and manufacturing clients on IT projects of all sizes. Overall, he specialises in ensuring the technical success of complex IT projects. He currently leading projects related to IBM's Smarter Cities program and development of techniques to drive industry level innovation.
+    <p style='padding-bottom: 10px;'></p>  
+    Rashik is also IBM’s Partnership Executive for Imperial College – London. He is also an Adjunct Professor for Department of Innovation and Entrepreneurship at the Imperial College Business School and Visiting Professor to the Intelligent Systems and Networks Group at the Department of Electrical & Electronic Engineering.
+    <p style='padding-bottom: 10px;'></p>  
+    Rashik is playing a key leadership role in building SRII Europe initiatives and inviting key leaders in Europe to participate on the SRII Europe leadership team.
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Clara Pezuela',
+    subTitle: 'Head of IT Sector Research and <br/>Innovation at Atos ',
+    image: '/image/global_members/clara.png',
+    desc: `Clara has joined the SRII Europe Leadership team. She is the Head of IT Sector Research and Innovation at Atos, a global leader in providing IT Services around the world.
+    <br/>
+    Her major research focus is on developing methods and tools for driving migration of legacy applications to the Cloud and commercialization of research projects in Atos business units. She has strong background in open business models and innovation processes, collaborative development environment, service and software engineering. She is also a member of the Steering Board of PLANETIC (formerly INES) the Spanish technology platform for adoption and dissemination of Information Technologies in Spain with special focus on Software and Services. Clara will play a strong leadership role in defining and driving SRII major initiatives for Europe.
+    <p style='padding-bottom: 10px;'></p>  
+    In this capacity Clara will also be part of the SRII Global Management team and be actively involved in SRII Global initiatives around the world.
+    `
+  },
+  {
+    title: 'Dr. Jonathan Reichental',
+    subTitle: '',
+    image: '/image/global_members/jonathan.png',
+    desc: `Dr. Reichental is a multiple award-winning technology leader whose has worked both in the private and the public sectors. In 2013 he was recognized as one of the 25 doers, dreamers and drivers in government in America. He also won the best CIO in Silicon Valley award and a national IT leadership prize. His innovative work in government has been recognized by the White House. He is a popular writer and public speaker on a wide range of technology and business related topics.
+    <p style='padding-bottom: 10px;'></p>  
+    Jonathan will be a key adviser to the SRII initiatives on "Smart City & Smart Nation" and will actively participate during the SRII Global Annual Conference in Silicon Valley.
+    `
+  },
+  {
+    title: 'Arijit Sengupta',
+    subTitle: 'Innovation Partner CEO, Beyondcore ',
+    image: '/image/global_members/arijit.png',
+    desc: `
+    Arijit Sengupta is the CEO of BeyondCore, the Chair of the Cloud Computing Chapter of the International Association of Outsourcing Professionals (IAOP), the IAOP Ambassador for India, and a member of the Indian Cyber Security Advisory Group. BeyondCore won the Overall Most Innovative Cloud Provider award at the Up 2010 Cloud conference ahead of more than 150 firms. BeyondCore's SplitSecure Cloud Privacy solution was among the top three Cloud Infrastructure solutions at the GigaOm Structure 2011 conference.
+    <p style='padding-bottom: 10px;'></p>  
+    Arijit has guest lectured at Stanford and other universities on globalization and outsourcing; spoken at conferences in a dozen countries; and has been written about in The World Is Flat release 3.0, the New York Times, San Jose Mercury News, and other leading publications. Arijit held leadership positions at several eBusiness initiatives and previously worked at Oracle, Microsoft, and Yankee Group. He has received eight patents in the domains of Business Process as a Service, business process improvement, privacy and information security. Arijit holds an MBA with Distinction from the Harvard Business School and Bachelor degrees with Distinction in Computer Science and Economics from Stanford University.
+    `
+  },
+  {
+    title: 'Ikhlaq Sidhu',
+    subTitle: 'Adjunct Professor, Industrial<br/> Engineering and Operations<br/> Research ',
+    image: '/image/global_members/ikhlaq.png',
+    desc: `Ikhlaq Sidhu is the Founding Director and Chief Scientist of UC Berkeley's Center for Entrepreneurship & Technology. He teaches and advises projects in graduate, undergraduate, and professional programs. In 2009, he received the IEOR Emerging Area Professor Award. Prof. Sidhu also created and founded the Fung Institute for Engineering Leadership, the Engineering Leadership Professional Program, the Master of Engineering Program (M Eng) and T-shaped Curriculum Model, UC Berkeley's Venture Lab, the A Richard Newton Distinguished Innovator Lecture Series, Engineering Leadership Technical Brief Series, Berkeley-Tsinghua Global Technology Entrepreneurship program, and the Global Venture Lab Network with 25 prestigious international universities. Within industry he was awarded 3Com's "Inventor of the Year" award in 1999, and has been granted over 60 US Patents in networking technology, IP telephony, and PDA functionality. Technology and intellectual property from his work has been cross-licensed to Palm Computing, 3Com, and UT Starcom. Sidhu also designed hardware for the first generation of laser printers at Hewlett Packard. He is also a Senior Fellow of the Applied Innovation Institute and an advisor at Onset Ventures, a $1B Silicon Valley investment firm.<p style='padding-bottom: 10px;'></p>  
+    Areas of Expertise: Systems level design, algorithms for business problems, technology business models, entrepreneurship, engineering leadership, network planning, modeling, reliability analysis, electric vehicle infrastructure; IP Telephony/video communications, industry analysis.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr. Sidhu received his bachelor's degree in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign, and his masters' degree and doctorate in Electrical Engineering from Northwestern University.`
+  },
+  {
+    title: 'Dr. Chris Stout',
+    subTitle: 'Founding Director of the Center for <br/>Global Initiatives ',
+    image: '/image/global_members/chris.png',
+    desc: `
+    Dr. Chris Stout is the Founding Director of the Center for Global Initiatives, a Top Ranked Healthcare Nonprofit. He also is a Clinical Full Professor in the College of Medicine at the University of Illinois and Advisory Board Member to their Center for Global Health. He served as a NGO Special Representative to the United Nations. He was appointed by the Secretary of the US Department of Commerce to the Board of Examiners for the Baldrige National Quality Award. He is on the Advisory Board of the American Board of Independent Medical Examiners, and numerous other organizations. He was one of the World Economic Forum’s Global Leaders of Tomorrow, and he was an Invited Faculty at the Annual Meeting in Davos. He was invited by the Club de Madrid and Safe-Democracy to serve on the Madrid-11 Countering Terrorism Task Force. He is the founder of GordianKnot, LLC, an executive leadership consultancy and he currently runs the Department of Research and Data Analytics for a national sports and rehabilitation medicine organization with $500M in annual revenues.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr. Stout authored the highly praised and award–winning three volume set, The New Humanitarians, and is an Amazon.com Best Selling Author. Additionally, he has published or presented over 300 papers and 35 books. His works have been translated into 8 languages and has lectured world-wide.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr. Stout was educated at Purdue, The University of Chicago, Forest Institute, and was a post-doc fellow at Harvard Medical School. He has won 5 Humanitarian Awards and received four additional doctorates (honoris causa). He is listed in Fast Co.’s Global Fast 50 nominees and in TED Conferences Founder Richard Saul Wurman’s “Who’s Really Who, 1000: The Most Creative Individuals in America.” He endowed a scholarship in perpetuity at Purdue University‘s School of Engineering and Technology, and is an active Angel Investor and Advisor to numerous start-ups.
+    <p style='padding-bottom: 10px;'></p>  
+    Chris will be playing a key leadership role in SRII Global conference in Silicon Valley and connecting SRII global initiatives with various organizations/initiatives he is currently driving around the world.
+    `
+  },
+  {
+    title: 'Babis Theodoulidis',
+    subTitle: 'Director of the Centre for Service <br/>Research at the University of<br/> Manchester ',
+    image: '/image/global_members/babis.png',
+    desc: `Babis Theodoulidis is Director of the Centre for Service Research at the University of Manchester and holds the position of Associate Professor at Manchester Business School. He received a PhD degree in Computation from UMIST, an MSc in Computer Science from University of Glasgow and a Diploma in Computer Engineering and Informatics from University of Patras, Greece. His teaching responsibilities are in the areas of information management and systems at the undergraduate, MSc and MBA levels. He has also taught executive-development seminars and carried out consultancy work on the subjects of information management, business and IT strategy, business process improvement and business intelligence.
+    <p style='padding-bottom: 10px;'></p> 
+    Dr Theodoulidis held visiting positions at the School of Engineering, University of Surrey and Athens University of Economics and Business. He has published over 150 refereed journal and conference articles and his research work (as Principal or Co-Investigator) has been supported extensively from UK and European funding bodies since the early days of ESPRIT in 1990 and also directly from industry. 
+    `
+  },
+  {
+    title: 'Vijayaraghavan Varadharajan',
+    subTitle: 'Senior Research Scientist at Infosys ',
+    image: '/image/global_members/vijayaraghavan.png',
+    desc: `
+    Dr.Vijayaraghavan Varadharajan is a Senior Research Scientist at Infosys Limited doing research in the field of Cloud security, OTP, Searchable encryption, Security assessment, Authentication and Privacy protection. He has 14+ years of experience in the fields of research, industry and academia. He is leading security track in Sensor based Engagement for Improved Health (SENSeI) project in COMMIT, a public-private research organization from Netherlands. Prior to that he served as an Assistant Professor and guided many post graduate professional students.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr.Vijay has filed many US and Indian patents in key technology areas and also an US patent has been granted in copyright protection area. He has published many research papers in International journals and conferences and also served as a Technical Reviewer, Program Committee member and Chair for many conferences around the globe. He has mentored many International students from reputed universities across the world.
+    <p style='padding-bottom: 10px;'></p>  
+    Dr.Vijay has received extra mailer award from Infosys and accomplished many awards continuously for innovation and mentoring from year 2010 - 2014. He received the honour of featuring in the esteemed title “Who’s Who in the world 2015”, 32nd edition.
+    <p style='padding-bottom: 10px;'></p>  
+    `
+  },
+  {
+    title: 'Jinesh Varia',
+    subTitle: 'Technology Evangelist at Amazon.com ',
+    image: '/image/global_members/jinesh.png',
+    desc: `
+    Jinesh has over 15years of experience in XML and Web services and has worked with standards-based working groups in XBRL. Prior to joining Amazon as Technology Evangelist, he held several positions in UB matrix including Solutions Architect, Enterprise Teamlead and Software developer working on various IT services projects.
+    <p style='padding-bottom: 10px;'></p>  
+    Jinesh major focus at Amazon has been helping businesses take advantage of disruptive technologies like Cloud Computing, Big Data, Distributed systems and Webs Services that are changing the way businesses compete in the new web world. Jinesh’s work has been published in ACM and IEEE.
+    `
+  },
+  {
+    title: 'Katsutoshi Yada',
+    subTitle: 'Professor of Management<br/> Information Systems in the Faculty of <br/>Commerce, Kansai University ',
+    image: '/image/global_members/katsutoshi.png',
+    desc: `Katsutoshi Yada is Professor of Management Information Systems in the Faculty of Commerce, Kansai University, Osaka, Japan. He received his M.A. and Ph.D. in Business Administration from Kobe University of Commerce, Hyogo, Japan, in 1994 and 2002, respectively. He was a visiting scholar of School of business at Columbia University from 2006 to 2007. He is currently chair of Program on "Data Mining and Service Science for Innovation",and the director of Data Mining Laboratory at Kansai University supported by MEXT.
+<p style='padding-bottom: 10px;'></p>  
+His present research interests include data mining for service, and information strategy concerning data mining. His papers have appeared in several international journals, including Data Mining and Knowledge Discovery, Soft Computing, Decision Support Systems and others. He had been a guest editor of special issues in Information Science. He received Distinguished Professor Award from Kansai University and many international and domestic awards from academic societies and conferences. He has been chairman and member of various program committee in many international data mining conferences and workshops, including TC chair of IEEE SMC, ICDM and others. He is a member of IEEE, AMA and AMS.
+    `
+  },
+  {
+    title: 'Thomas Zurek',
+    subTitle: 'SAP Vice President of R&D for HANA <br/>Business Warehouse ',
+    image: '/image/global_members/thomas.png',
+    desc: `
+    Thomas holds a PhD in Computer Science from Edinburg University and has over 20 years of experience in the fields of data mining and analytics. He joined the SRII Europe leadership team and will also be part of the SRII Global team on Big Data/Advance Analytics.
     `
   }
 ];

@@ -1,9 +1,14 @@
-import { advisory_team, executive_team, global_leadership_team, members } from '@json-db';
+'use client';
+import { advisory_showBioDetails, advisory_team, executive_team, global_leadership_team, members } from '@json-db';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+import ShowBioModal from 'view/ui/shared-component/component/showbioModal';
 
 const AdvisoryCouncil = () => {
+  const [open, setOpen] = useState(false);
+  const [selectedBioDetails, setSelectedBioDetails] = useState<number>(0);
   return (
     <div className='bg-white z-10 relative '>
       <Image
@@ -31,9 +36,10 @@ const AdvisoryCouncil = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-20 pt-4 md:pt-8 lg:pt-12'>
-          {advisory_team.map(item => (
+          {advisory_team.map((item, index) => (
             <div className='    '>
               <Image
+                key={index}
                 alt='members'
                 width={500}
                 height={500}
@@ -45,11 +51,20 @@ const AdvisoryCouncil = () => {
                   <div className='text-zinc-800 text-2xl font-bold text-left'>{item.name}</div>
                   <div className='w-[275px] pt-2 text-zinc-500 text-base text-left font-light '>{item.designation}</div>
                 </div>
-                <div className='text-zinc-500 text-xl font-normal underline'>Show bio</div>
+                <div
+                  onClick={() => {
+                    setOpen(true);
+                    setSelectedBioDetails(index);
+                  }}
+                  className='cursor-pointer text-zinc-500 text-xl font-normal underline'
+                >
+                  Show bio
+                </div>
               </div>
             </div>
           ))}
         </div>
+        <ShowBioModal open={open} setOpen={setOpen} showBioDetails={advisory_showBioDetails[selectedBioDetails]} />
       </div>
     </div>
   );
