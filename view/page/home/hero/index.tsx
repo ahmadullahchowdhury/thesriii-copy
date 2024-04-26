@@ -30,7 +30,7 @@ const Hero = () => {
           style={{ background: 'linear-gradient(104deg, #4B6585 0.02%, #6E86A3 68.05%)' }}
           className='container-sm  mb-5 md:mb-8 lg:mb-10 rounded-[10px] '
         >
-          <div className='px-10 md:px-20 lg:px-24 py-8 md:py-12 lg:py-14 grid gap-x-5 gap-y-10 grid-cols-1  lg:grid-cols-5 '>
+          <div className='px-10 md:px-20 xl:px-16 2xl:px-24 py-8 md:py-12 lg:py-14 grid gap-x-5 gap-y-10 grid-cols-1  lg:grid-cols-5 '>
             <div className='lg:col-span-3 '>
               <h1 className=' lg:leading-[55px] text-white text-3xl font-semibold md:text-5xl lg:text-5xl  capitalize tracking-[4.50px]  '>
                 Empowering Global Innovation for a Sustainable Tomorrow
@@ -52,11 +52,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className=' max-w-[1280px] mx-auto border-b-2 bg-white mb-10 relative '>
+        <div className=' xl:max-w-[1200px] 2xl:max-w-[1280px] mx-auto border-b-2 bg-white mb-10 relative '>
           <p className='text-slate-500 text-2xl pb-2'>SRII Sponsors & Partner Organizations</p>
           <div className='z-10 absolute left-[0px]  -bottom-[4.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
         </div>
-        <div className=' max-w-[1280px] mx-auto pb-20 md:pb-28 lg:pb-44'>
+        <div className=' xl:max-w-[1200px] 2xl:max-w-[1280px] mx-auto pb-20 md:pb-28 lg:pb-44'>
           <Marquee style={{ flexDirection: 'row' }} className='bg-white'>
             {companyData.map((company, index) => (
               <Image key={index} src={company.image} className='mr-10' alt='hero' width={200} height={200} />

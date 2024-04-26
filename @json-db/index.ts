@@ -1,4 +1,4 @@
-export const showBioDetails = [
+export const board_member_showBioDetails = [
   {
     title: 'Kris Singh',
     subTitle: 'SRII President',
@@ -61,6 +61,32 @@ export const showBioDetails = [
     Ray Harishankar is an IBM Fellow and the CTO of Global Solutions & Asset Management within Global Business Services. In that role, Ray defines & operationalizes strategies for GBS to have a strong portfolio of Business Solutions & Service Oriented Architecture based assets. Ray is currently focused on identifying strategies by which Global Business Services can leverage cloud computing technologies.
     <p  style='padding-bottom: 10px;'></p>
     Ray played a leadership role in establishing the Global Business Solutions Center (GBSC) in India & China, was responsible for establishing a development capability for high value SOA based assets within GBSC and continues to provide ongoing technical direction & guidance to that center. Ray was instrumental in establishing an architect profession in India and in growing & maintaining the vitality of that community.
+    `
+  }
+];
+export const executive_team_showBioDetails = [
+  {
+    title: 'Kris Singh',
+    subTitle: 'SRII President',
+    image: '/image/mem_kris.png',
+    desc: `Kris Singh has been a senior leader in the IT industry for more than 25 years. Kris has worked for major IT companies in the Silicon Valley like <span style="font-weight: bold;">IBM Research, AMD, Intel</span>  and <span style="font-weight:bold">National Semiconductor</span>. At IBM Almaden Research Kris has been the Strategic Programs Director for IT Services Research and where he created the global IT Service Research and Innovation Institute, SRII (www.thesrii.org). 
+    <p style='padding-bottom: 10px;'></p>  
+    SRII mission is to drive IT Innovation for major sectors of economy and build a better world. SRII members include senior leaders from industry, academia, research, government and key professional organizations at the global level. SRII organizations and initiatives are growing all around the world. Before IBM Research, he has been the Director at AMD CTO Office responsible for Product and Technology roadmap definition working closely with major customers and industry ecosystem partners.
+    <p style='padding-bottom: 10px;'></p>
+    Prior to AMD CTO Office, Kris worked for Intel as a Director of the Data Center technology/ product/solution roadmap planning team. At Intel he worked with CIO’s around the world to better understand the Data Center “Total Cost of Ownership (TCO)” model and help drive down the cost of IT Services/Solutions. Before Intel, Kris has been with National Semiconductor where he managed various groups like Product/ Technology development, Global Manufacturing & Suppliers Management, and major Customer programs.
+    <p style='padding-bottom: 10px;'></p>
+    While working in the IT industry Kris has also been connected with academia. Kris has been an Industry Fellow in the College of Engineering at UC Berkeley, and an adjunct professor in the Electrical Engineering & Computer Science department at Santa Clara University, CA. He is on the Advisory Board at several major universities helping drive “Innovation in Education system and building Entrepreneurship program”.
+    <p  style='padding-bottom: 10px;'></p>
+    Kris is also on the board/advisory member of several startup companies in Silicon Valley and he is a regular speaker at major forums/conferences around the world.
+    `
+  },
+  {
+    title: 'Dr. Yan Chow',
+    subTitle: `Director of Kaiser Permanente (KP) <br> Information Technology’s Innovation <br> & Advanced Technology <br> SRII leader for IT Innovation for <br> Heath Care Services`,
+    image: '/image/executive_members/Yan.png',
+    desc: `Dr. Yan Chow is the Director of Kaiser Permanente (KP) Information Technology’s Innovation & Advanced Technology Group (IAT). IAT identifies, assesses, and makes internal recommendations on new and emerging clinical information technologies that will impact health care in the next 2 to 5 years. IAT is affiliated with KP’s Sidney R. Garfield Center for Health Care Innovation, an advanced 37,000-sf laboratory for care delivery simulation. Dr. Chow has had a successful clinical practice at KP for 26 years. For 10 of those years, he was also involved in regional IT management.
+    <p  style='padding-bottom: 10px;'></p>
+    Dr. Chow has founded and advised a number of start ups in the Internet, health care technology, storage, and database spaces. In 2004 he was awarded 3 U.S. patents for co-inventing a network storage architecture 2 orders of magnitude faster than competitive designs. He also developed commercial database software that accelerated very large database (VLB) processing 240-fold. He has been an author and invited speaker at industry conferences. Dr. Chow earned his A.B. with honors from Harvard University and his M.D. from the University of California at San Diego. In 2005 he received his MBA from the University of California at Berkeley’s Haas School of Business, where he graduated as valedictorian.
     `
   }
 ];

@@ -1,5 +1,5 @@
 'use client';
-import { executive_team, global_leadership_team, members, showBioDetails } from '@json-db';
+import { executive_team, members, executive_team_showBioDetails, board_member_showBioDetails } from '@json-db';
 import Image from 'next/image';
 import Link from 'next/link';
 import { title } from 'process';
@@ -9,7 +9,16 @@ import ShowBioModal from 'view/ui/shared-component/component/showbioModal';
 
 const ManagementTeam = () => {
   const [open, setOpen] = useState(false);
-  const [selectedBioDetails, setSelectedBioDetails] = useState<number>(0);
+  // const [selectedBioDetails, setSelectedBioDetails] = useState<number>(0);
+  const [selectedData, setSelectedData] = useState<any>(null);
+
+  const setSelectedDataByTeam = (teamType: string, index: number) => {
+    if (teamType === 'executive') {
+      setSelectedData(executive_team_showBioDetails[index]);
+    } else {
+      setSelectedData(board_member_showBioDetails[index]);
+    }
+  };
 
   return (
     <div className='bg-white z-10 relative '>
@@ -55,7 +64,8 @@ const ManagementTeam = () => {
                 <div
                   onClick={() => {
                     setOpen(true);
-                    setSelectedBioDetails(index);
+                    // setSelectedBioDetails(index);
+                    setSelectedDataByTeam('board', index);
                   }}
                   className='cursor-pointer text-zinc-500 text-xl font-normal underline'
                 >
@@ -87,13 +97,22 @@ const ManagementTeam = () => {
                     className='w-[275px] pt-2 text-zinc-500 text-base text-left font-light '
                   ></div>
                 </div>
-                <div className='text-zinc-500 text-xl font-normal underline'>Show bio</div>
+                <div
+                  onClick={() => {
+                    setOpen(true);
+                    // setSelectedBioDetails(index);
+                    setSelectedDataByTeam('executive', index);
+                  }}
+                  className='cursor-pointer text-zinc-500 text-xl font-normal underline'
+                >
+                  Show bio
+                </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <ShowBioModal open={open} setOpen={setOpen} showBioDetails={showBioDetails[selectedBioDetails]} />
+      <ShowBioModal open={open} setOpen={setOpen} showBioDetails={selectedData} />
     </div>
   );
 };

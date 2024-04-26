@@ -44,7 +44,7 @@ export default function ProjectModal({
           leaveFrom='opacity-100'
           leaveTo='opacity-0'
         >
-          <div className='fixed inset-0 bg-transparent bg-opacity-50  ' />
+          <div className='fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity  ' />
         </Transition.Child>
 
         <div className='fixed inset-0 z-10 w-screen overflow-y-auto'>
@@ -90,14 +90,15 @@ export default function ProjectModal({
                   >
                     Benefits include
                   </p>
-
-                  <ul className='mx-[70px] p-[8px] list-disc text-[#5C6898] '>
-                    {pricingDetails?.benefits.map((benefit, index) => (
-                      <li key={index} className='text-[#5C6898] text-[14px] '>
-                        {benefit}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className='custom-scroll h-[150px]  overflow-y-scroll mr-8 my-2'>
+                    <ul className='  mx-[70px] p-[8px] list-disc text-[#5C6898] '>
+                      {pricingDetails?.benefits.map((benefit, index) => (
+                        <li key={index} className='text-[#5C6898] text-[14px] '>
+                          {benefit}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
 
                   <p
                     style={{
