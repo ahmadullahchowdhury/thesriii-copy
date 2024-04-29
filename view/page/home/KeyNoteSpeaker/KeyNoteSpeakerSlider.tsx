@@ -110,7 +110,7 @@ export default function KeyNoteSpeakerSlider() {
                   </div>
                 </div>
                 <div className='flex-col justify-start items-start gap-8 flex'>
-                  <div className='px-1 md:px-32 justify-center items-center gap-y-12 md:gap-y-0 gap-x-2.5 md:gap-x-1 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
+                  <div className='px-1 md:px-32 justify-center items-center gap-y-12 md:gap-y-0 gap-x-2.5 md:gap-x-1 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7'>
                     {conference_slider_2.map(item => (
                       <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                         <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>
@@ -144,7 +144,7 @@ export default function KeyNoteSpeakerSlider() {
                   </div>
                 </div>
                 <div className='flex-col justify-start items-start gap-8 flex'>
-                  <div className='px-1 md:px-5 justify-center items-center gap-y-12 md:gap-y-0 gap-x-2.5 md:gap-x-4 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8'>
+                  <div className='px-1 md:px-40 justify-center items-center gap-y-12 md:gap-y-0 gap-x-2.5 md:gap-x-4 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
                     {conference_slider_3.map(item => (
                       <div className='h-[236px] flex-col justify-start items-center gap-[9px] inline-flex'>
                         <div className=' bg-white rounded-[10px] flex-col justify-center items-center flex'>

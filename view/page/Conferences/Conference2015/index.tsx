@@ -37,7 +37,7 @@ const Conference2015 = () => {
     {
       title: 'Step 1',
       description: `To open the EasyChair Login Page for the SRII Global Conference 2015 in a separate window
-      <p style='font-weight: bold;'>click this link: https://easychair.org/<br>conferences/?conf=srii2015</p>`
+      <p style='font-weight: bold;'>click this link: <span> <a href='https://easychair.org/conferences/?conf=srii2015'>https://easychair.org/<br>conferences/?conf=srii2015 </Link> </p> </span> `
     },
     {
       title: 'Step 2',
@@ -62,8 +62,8 @@ const Conference2015 = () => {
       title: 'Step 6',
       description: `You will then be shown a confirmation and be given a link returning you to the sign-in page (from step1). 
       <p  style='padding-bottom: 10px;'></p>
-      <p  style='font-weight: 700;'>https://www.easychair.org/account/signin.cgi?key=8020161.ickD12EGq3pL8Yhb
-      </p>
+      <a href='https://www.easychair.org/account/signin.cgi?key=8020161.ickD12EGq3pL8Yhb'><p style='font-weight: 700;'>https://www.easychair.org/account/signin.cgi?key=8020161.ickD12EGq3pL8Yhb
+      </p></a>
       <p  style='padding-bottom: 10px;'></p>
       Sign in with the user name and password you provided in step 5.
       `
@@ -144,7 +144,10 @@ const Conference2015 = () => {
             Event Capacity: <span className='font-semibold'>Unlimited</span>
           </p>
 
-          <Link href={'/'} className='text-white px-[63px] rounded-[3px] bg-[#6E8BEB] text-[20px]'>
+          <Link
+            href='https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform'
+            className='text-white px-[63px] rounded-[3px] bg-[#6E8BEB] text-[20px]'
+          >
             Register
           </Link>
         </div>
@@ -158,30 +161,53 @@ const Conference2015 = () => {
         <p className='text-[#5C6898] p-[8px] text-[18px] mt-[23px]'>Features of the 2015 Conference include:</p>
 
         <ul className='list-disc pl-[30px] text-[#5C6898]'>
-          <li>An increase in Invited Papers around specific topics and themes</li>
-          <li>Parallel tracks of Research Paper presentations</li>
-          <li>Participation by University Students</li>
-          <li>Participation by Industry Leaders and Start-up IT Companies</li>
-          <li>A Hackathon</li>
-          <li>A final Gala Event for networking and socializing </li>
-          <li>Panel Sessions addressing salient topics in IT-enabled service.</li>
           <li>
-            Keynote Speakers from leading Silicon-Valley companies, international government agencies and leading
-            researchers.
+            An increase in <span className='font-bold'>Invited Papers</span> around specific topics and themes
           </li>
           <li>
-            Innovation Showcase to display the cutting-edge products and services of leading IT companies and startups.
+            Parallel tracks of <span className='font-bold'>Research Paper</span> presentations
           </li>
-          <li>Special Event at UC Berkeley -- Building Entrepreneurship Program/Curriculum.</li>
+          <li>
+            Participation by <span className='font-bold'>University Students</span>
+          </li>
+          <li>
+            Participation by <span className='font-bold'>Industry Leaders</span> and{' '}
+            <span className='font-bold'>Start-up IT Companies</span>
+          </li>
+          <li>
+            A <span className='font-bold'>Hackathon</span>
+          </li>
+          <li>
+            A final <span className='font-bold'>Gala Event</span> for networking and socializing{' '}
+          </li>
+          <li>
+            <span className='font-bold'>Panel Sessions</span> addressing salient topics in IT-enabled service.
+          </li>
+          <li>
+            <span className='font-bold'>Keynote Speakers</span> from leading Silicon-Valley companies, international
+            government agencies and leading researchers.
+          </li>
+          <li>
+            <span className='font-bold'>Innovation Showcase </span> to display the cutting-edge products and services of
+            leading IT companies and startups.
+          </li>
+
+          <li>
+            {' '}
+            <span className='font-bold'>Special Event at UC Berkeley</span> -- Building Entrepreneurship
+            Program/Curriculum.
+          </li>
         </ul>
 
         <p className='text-[#5C6898] pl-[30px] text-[18px] py-[23px]'>
           To learn more click here:{' '}
           <Link target='_blank' href='https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf'>
-            <span className='font-semibold text-[15px]'>https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf </span>{' '}
+            <span className='underline hover:font-semibold text-[15px]'>
+              https://thesrii.org/images/Pdfs/SRII2015Flyer.pdf{' '}
+            </span>{' '}
           </Link>
         </p>
-        <p className='text-[#5C6898] pl-[30px] text-[18px] '>
+        {/* <p className='text-[#5C6898] pl-[30px] text-[18px] '>
           To register click here:
           <Link
             target='_blank'
@@ -191,7 +217,7 @@ const Conference2015 = () => {
               https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform
             </span>{' '}
           </Link>
-        </p>
+        </p> */}
 
         <h2 className='text-slate-500 capitalize text-2xl md:text-4xl lg:text-[50px] font-semibold  pt-[84px]'>
           Venue
@@ -257,15 +283,31 @@ const Conference2015 = () => {
         </h2>
         <ul className='list-disc pl-[30px] pt-[30px] text-[#5C6898] text-[18px] leading-[208.605%]'>
           <li>
-            <span className='font-semibold'>Conference agenda: </span>https://thesrii.org/images/Pdfs/Agenda2015.pdf
+            <span className='font-semibold'>Conference agenda: </span>{' '}
+            <span className='underline hover:font-semibold'>
+              {' '}
+              <Link href='https://thesrii.org/images/Pdfs/Agenda2015.pdf'>
+                https://thesrii.org/images/Pdfs/Agenda2015.pdf
+              </Link>{' '}
+            </span>
           </li>
           <li>
             <span className='font-semibold'>Startup Showcase: </span>
-            https://thesrii.org/images/Pdfs/2015_Startup_Innovation_Showcase.pdf
+            <span className='underline hover:font-semibold'>
+              {' '}
+              <Link href='https://thesrii.org/images/Pdfs/2015_Startup_Innovation_Showcase.pdf'>
+                https://thesrii.org/images/Pdfs/2015_Startup_Innovation_Showcase.pdf
+              </Link>
+            </span>
           </li>
           <li>
             <span className='font-semibold'>SRII data challenge: </span>
-            https://thesrii.org/images/Pdfs/SRII_Data_Challenge_2015.pdf
+            <span className='underline hover:font-semibold'>
+              {' '}
+              <Link href='https://thesrii.org/images/Pdfs/SRII_Data_Challenge_2015.pdf'>
+                https://thesrii.org/images/Pdfs/SRII_Data_Challenge_2015.pdf
+              </Link>
+            </span>
           </li>
         </ul>
         <h2 className='text-slate-500 capitalize text-2xl md:text-4xl lg:text-[50px] font-semibold  pt-[84px]'>
@@ -278,7 +320,7 @@ const Conference2015 = () => {
                 <div key={index}>
                   <Image
                     src='/icon/arrow.png'
-                    className='relative z-50'
+                    className='relative z-10'
                     priority
                     quality={90}
                     width={24}
@@ -319,7 +361,7 @@ const Conference2015 = () => {
                 <div key={index}>
                   <Image
                     src='/icon/arrow.png'
-                    className='relative z-50'
+                    className='relative z-10'
                     priority
                     quality={90}
                     width={24}
@@ -360,7 +402,7 @@ const Conference2015 = () => {
                 <div key={index}>
                   <Image
                     src='/icon/arrow.png'
-                    className='relative z-50'
+                    className='relative z-10'
                     priority
                     quality={90}
                     width={24}
@@ -415,7 +457,10 @@ const Conference2015 = () => {
           <p className='pt-[70px] pb-[187px] text-[#5C6898] text-[18px]'>
             For Additional Assistance, Please Contact:
             <span className='font-bold text-[#5C6898]'>Ralph Badinelli (Program Chair), </span>
-            Email: <span className='font-bold text-[#5C6898]'>ralphb@vt.edu</span>{' '}
+            Email:{' '}
+            <a href='mailto:ralphb@vt.edu' className='font-bold text-[#5C6898]'>
+              ralphb@vt.edu
+            </a>{' '}
           </p>
         </div>
       </div>

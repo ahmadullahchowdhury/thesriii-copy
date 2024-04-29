@@ -5,6 +5,7 @@ import { IoIosArrowForward, IoIosPeople } from 'react-icons/io';
 import { ArrowLeft } from 'lucide-react';
 import Image from 'next/image';
 import ProjectModal from 'view/ui/shared-component/component/pricingModal';
+import Summits from '../home/summits';
 
 const PricingPage = () => {
   const [open, setOpen] = useState(false);
@@ -145,6 +146,8 @@ const PricingPage = () => {
           ))}
         </div>
       </div>
+
+      {/* <Summits /> */}
 
       <ProjectModal open={open} setOpen={setOpen} pricingDetails={pricingDetails[selectedPricingDetails]} />
     </div>

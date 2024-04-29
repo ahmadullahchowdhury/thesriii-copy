@@ -827,88 +827,6 @@ export const conference_slider_1 = [
     image: '/image/IanEllisonTaylor.png'
   }
 ];
-export const conference_slider_3 = [
-  {
-    name: 'Kris Sing',
-    designation: 'SRII President',
-    image: '/image/Kris.png'
-  },
-  {
-    name: 'Tim Draper',
-    designation: 'VP, Services & research, IBM',
-    image: '/image/Draper.png'
-  },
-  {
-    name: 'Prith Banerjee',
-    designation: 'Senior VP Research, HP',
-    image: '/image/Banerjee.png'
-  },
-  {
-    name: 'Tony Scott',
-    designation: 'CTO Corporate Networks, Google',
-    image: '/image/Scott.png'
-  },
-  {
-    name: 'Geng Lin',
-    designation: 'CTO Corporate Networks, Google',
-    image: '/image/Lin.png'
-  },
-  {
-    name: 'Martin Duursma',
-    designation: 'CTO Office Chair & VP, Citrix Labs',
-    image: '/image/Duursma.png'
-  },
-  {
-    name: 'Jeff Welser',
-    designation: 'VP & Lab Director, IBM Almaden',
-    image: '/image/Welser.png'
-  },
-  {
-    name: 'Rajeeb Hazra',
-    designation: 'VP, Intel Architecture Group & GM Technical Computing',
-    image: '/image/Hazra.png'
-  },
-  {
-    name: 'John Seely Brown',
-    designation: 'Board of directors at Amazon',
-    image: '/image/SeelyBrown.png'
-  },
-  {
-    name: 'Steve Kirsch',
-    designation: 'CEO at OneID and  Cointrust',
-    image: '/image/kirsch.png'
-  },
-  {
-    name: 'Peter Denning',
-    designation: 'Distinguished Professor   at Naval Postgraduate School',
-    image: '/image/Denning.png'
-  },
-  {
-    name: 'Chris C. Kemp',
-    designation: 'Founder of Nebula & OpenStack',
-    image: '/image/kris.png'
-  },
-  {
-    name: 'Sumit Dhawan',
-    designation: 'VP and General  Manager, VMware',
-    image: '/image/Kemp.png'
-  },
-  {
-    name: 'Manoj Leelanivas',
-    designation: 'CEO at Cyphort',
-    image: '/image/Leelanivas.png'
-  },
-  {
-    name: 'Ikhlaq Sidhu',
-    designation: "Founding Director of UC Berkeley's Center for Entrepreneurship & Technology",
-    image: '/image/Ikhlaq_Sidhu.png'
-  },
-  {
-    name: 'Ian Ellison-Taylor',
-    designation: 'Director of “Open Web Platform”, Google',
-    image: '/image/IanEllisonTaylor.png'
-  }
-];
 export const conference_slider_2 = [
   {
     name: 'Kris Sing',
@@ -916,9 +834,93 @@ export const conference_slider_2 = [
     image: '/image/Kris.png'
   },
   {
-    name: 'Robert Morris ',
-    designation: 'VP, Services & research, IBM',
-    image: '/image/Draper.png'
+    name: 'Vint Cerf',
+    designation: 'VP & Chief Internet Evangelist, Google',
+    image: '/image/advisory_team/Vint_Cerf.png'
+  },
+  {
+    name: `David Tennenhouse`,
+    designation: `New Venture Partner`,
+    image: '/image/David.png'
+  },
+  {
+    name: `Theresa Anna Maldonado
+    `,
+    designation: `Division Director, NSF
+    `,
+    image: '/image/advisory_team/Theresa_Anna_Maldonado.png'
+  },
+  {
+    name: `Lenny T. Mendonca
+    `,
+    designation: `Director, McKinsey and Co.`,
+    image: '/image/Lenny.png'
+  },
+  {
+    name: `Rob Atkinson
+    `,
+    designation: `President of Information Technology & Innovation Foundation
+    `,
+    image: '/image/advisory_team/Rob_Atkinson.png'
+  },
+  {
+    name: `Paul Kedrosky
+    `,
+    designation: `Senior Fellow, Kauffman Foundation`,
+    image: '/image/Paul.png'
+  },
+  {
+    name: `Dr. Yan Chow
+    `,
+    designation: `Director, Kaiser Permanente
+    `,
+    image: '/image/executive_members/Yan.png'
+  },
+  {
+    name: `Ray Harishankar
+    `,
+    designation: `CTO, Gl. Business Services, IBM
+    `,
+    image: '/image/mem_ray.png'
+  },
+  {
+    name: `Sumit Dhawan `,
+    designation: `Group VP & GM, Citrix Systems`,
+    image: '/image/Sumit.png'
+  },
+  {
+    name: `Klaus Oestermann
+    `,
+    designation: `Group VP & GM, Cloud Gr., Citrix Systems`,
+    image: '/image/Klaus.png'
+  },
+  {
+    name: `Peter Levine`,
+    designation: `General Partner at Andreessen Horowitz`,
+    image: '/image/advisory_team/Peter_Levine.png'
+  },
+  {
+    name: `Ajit Singh
+    `,
+    designation: `Health Care IT Innovation`,
+    image: '/image/mem_ajit.png'
+  },
+  {
+    name: `Rajeeb Hazra`,
+    designation: `VP Intel, GM Techical Computing`,
+    image: '/image/mem_rajeeb.png'
+  }
+];
+export const conference_slider_3 = [
+  {
+    name: 'Kris Sing',
+    designation: 'SRII President',
+    image: '/image/Kris.png'
+  },
+  {
+    name: 'Vint Cerf',
+    designation: 'VP & Chief Internet Evangelist, Google',
+    image: '/image/advisory_team/Vint_Cerf.png'
   },
   {
     name: 'Prith Banerjee',
@@ -927,38 +929,38 @@ export const conference_slider_2 = [
   },
   {
     name: 'Andy Bechtolsheim',
-    designation: 'Founder, Arista Networks',
-    image: '/image/Scott.png'
+    designation: '  Founder, Arista Networks',
+    image: '/image/Andy.png'
   },
   {
     name: 'Alex Zelinsky',
     designation: 'Group Executive, CSIRO,Australia',
-    image: '/image/Kemp.png'
+    image: '/image/Alex.png'
   },
   {
-    name: 'Alan Key',
+    name: 'Alan Kay',
     designation: 'President, Viewpoints Research Institute',
-    image: '/image/Duursma.png'
+    image: '/image/advisory_team/Alan_Kay.png'
   },
   {
     name: 'Tim Draper',
     designation: 'VP, Services & research, IBM',
-    image: '/image/Hazra.png'
+    image: '/image/Draper.png'
   },
   {
     name: 'Bruno Di Leo',
     designation: 'Founder, DFJ',
-    image: '/image/SeelyBrown.png'
+    image: '/image/Bruno.png'
   },
   {
     name: 'Kris Gopalakrishnan',
     designation: 'CEO, Infosys',
-    image: '/image/kirsch.png'
+    image: '/image/Gopalakrishnan.png'
   },
   {
     name: 'Ann Winblad',
     designation: 'Co-Founder, Hummer Winblad Venturel',
-    image: '/image/Denning.png'
+    image: '/image/Ann.png'
   },
   {
     name: 'Daniel Russel',
@@ -968,7 +970,7 @@ export const conference_slider_2 = [
   {
     name: 'Kirk B. Skaugen',
     designation: 'VP & GM, Data Center Group, Intel',
-    image: '/image/Ikhlaq_Sidhu.png'
+    image: '/image/Kirk.png'
   }
 ];
 
@@ -1381,5 +1383,47 @@ export const pricingData = [
     price: '-',
     icon: '/icon/icon-4.png',
     desc: `This membership is open to institutes from around the world who would like to help foster future collaboration between government, industry, institutes and universities around service research, service innovation and service science.`
+  }
+];
+
+const summit = [
+  {
+    title: `SRII China Summit on March 4-6, 2015 in Shanghai`,
+    images: [
+      'image/summits_page/slider_1_1.png',
+      'image/summits_page/slider_1_2.png',
+      'image/summits_page/slider_1_3.png',
+      'image/summits_page/slider_1_4.png'
+    ]
+  },
+  {
+    title: `SRII Japan Summit on March 1-2, 2015 in Tokyo`,
+    images: [
+      'image/summits_page/slider_2_1.png',
+      'image/summits_page/slider_2_2.png',
+      'image/summits_page/slider_2_3.png',
+      'image/summits_page/slider_2_4.png',
+      'image/summits_page/slider_2_5.png',
+      'image/summits_page/slider_2_6.png'
+    ]
+  },
+  {
+    title: `The 1st SRII Asia Summit, 2013 in Bangkok,Thailand`,
+    images: [
+      'image/summits_page/slider_3_1.png',
+      'image/summits_page/slider_3_2.png',
+      'image/summits_page/slider_3_3.png',
+      'image/summits_page/slider_3_4.png'
+    ]
+  },
+  {
+    title: `SRII Europe Leadership Summit,
+    June 27 – 28, 2013 - Erlangen-Nuremberg, Germany`,
+    images: [
+      'image/summits_page/slider_4_1.png',
+      'image/summits_page/slider_4_2.png',
+      'image/summits_page/slider_4_3.png',
+      'image/summits_page/slider_4_4.png'
+    ]
   }
 ];
