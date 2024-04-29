@@ -1386,44 +1386,44 @@ export const pricingData = [
   }
 ];
 
-const summit = [
+export const summit = [
   {
     title: `SRII China Summit on March 4-6, 2015 in Shanghai`,
     images: [
-      'image/summits_page/slider_1_1.png',
-      'image/summits_page/slider_1_2.png',
-      'image/summits_page/slider_1_3.png',
-      'image/summits_page/slider_1_4.png'
+      '/image/summits_page/slider_1_1.png',
+      '/image/summits_page/slider_1_2.png',
+      '/image/summits_page/slider_1_3.png',
+      '/image/summits_page/slider_1_4.png'
     ]
   },
   {
     title: `SRII Japan Summit on March 1-2, 2015 in Tokyo`,
     images: [
-      'image/summits_page/slider_2_1.png',
-      'image/summits_page/slider_2_2.png',
-      'image/summits_page/slider_2_3.png',
-      'image/summits_page/slider_2_4.png',
-      'image/summits_page/slider_2_5.png',
-      'image/summits_page/slider_2_6.png'
+      '/image/summits_page/slider_2_1.png',
+      '/image/summits_page/slider_2_2.png',
+      '/image/summits_page/slider_2_3.png',
+      '/image/summits_page/slider_2_4.png',
+      '/image/summits_page/slider_2_5.png',
+      '/image/summits_page/slider_2_6.png'
     ]
   },
   {
     title: `The 1st SRII Asia Summit, 2013 in Bangkok,Thailand`,
     images: [
-      'image/summits_page/slider_3_1.png',
-      'image/summits_page/slider_3_2.png',
-      'image/summits_page/slider_3_3.png',
-      'image/summits_page/slider_3_4.png'
+      '/image/summits_page/slider_3_1.png',
+      '/image/summits_page/slider_3_2.png',
+      '/image/summits_page/slider_3_3.png',
+      '/image/summits_page/slider_3_4.png'
     ]
   },
   {
     title: `SRII Europe Leadership Summit,
     June 27 – 28, 2013 - Erlangen-Nuremberg, Germany`,
     images: [
-      'image/summits_page/slider_4_1.png',
-      'image/summits_page/slider_4_2.png',
-      'image/summits_page/slider_4_3.png',
-      'image/summits_page/slider_4_4.png'
+      '/image/summits_page/slider_4_1.png',
+      '/image/summits_page/slider_4_2.png',
+      '/image/summits_page/slider_4_3.png',
+      '/image/summits_page/slider_4_4.png'
     ]
   }
 ];

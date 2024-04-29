@@ -1,9 +1,10 @@
 import Image from 'next/image';
-import React, { useState } from 'react';
-import { BiSolidLeftArrow, BiSolidRightArrow } from 'react-icons/bi';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import { useState } from 'react';
 
-const SummitsSlider = () => {
+const SummitsSlider = ({ data }: { data: any }) => {
   const [sliderIndex, setSliderIndex] = useState(0);
 
   const PrevButton = (props: any) => (
@@ -32,7 +33,7 @@ const SummitsSlider = () => {
         width={100}
         height={100}
         src={`/image/summits/icon-right.svg`}
-        className='  w-full h-full bg-cover'
+        className='w-full h-full bg-cover'
         alt='icon'
       />
     </button>
@@ -50,59 +51,73 @@ const SummitsSlider = () => {
     // adaptiveHeight: true,
     // pauseOnHover: false,
     arrows: true,
-    // fade: true,
+    // className: 'center',
     // centerMode: true,
-    // rows : 2,
-    // centerPadding: '0',
+    // infinite: true,
+    // centerPadding: '0px',
+    // fade: false,
     prevArrow: <PrevButton />,
     nextArrow: <NextButton />,
-    // widthVariable: true,
-    afterChange: (index: number) => setSliderIndex(index)
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 2
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1
-    //     }
-    //   }
-    // ]
+
+    afterChange: (index: number) => setSliderIndex(index),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   };
+
   return (
     <div className='bg-[#29323D] relative z-10'>
-      <div className='  mx-auto xl:px-32 2xl:px-24 pb-10'>
-        <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
-          SRII China Summit on March 4-6, 2015 in Shanghai
-        </p>
-        <Slider {...settings} className='slick-slider  mx-auto pb-9'>
-          {' '}
-          {Array.from({ length: 3 }).map((_, index) => (
-            <div className='slick-slide' key={index}>
-              <div className=' 2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px] mx-auto '>
-                <Image
-                  width={740}
-                  height={481}
-                  src={`/image/summits/1-${index + 1}.png`}
-                  className=' rounded-[12px] w-full h-full bg-cover'
-                  alt='summits'
-                />
+      <Image
+        width={0}
+        height={0}
+        sizes='100vw'
+        objectFit='contain'
+        src='/image/bg-1.png'
+        alt='hero-bg'
+        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
+      />
+      <div className='max-w-[1713px]  mx-auto xl:px-32 2xl:px-24 pb-10'>
+        <div className='  mx-auto xl:px-32 2xl:px-24 pb-10'>
+          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
+            {data?.title}
+          </p>
+        </div>
+        <div className='mx-auto pb-9'>
+          <Slider {...settings}>
+            {data?.images?.map((item: string, index: number) => (
+              <div key={index}>
+                <div className='2xl:max-w-[720px] 2xl:h-[450px] xl:max-w-[555px] xl:h-[338px] mx-auto '>
+                  <Image
+                    width={740}
+                    height={481}
+                    src={item}
+                    className='rounded-[12px] w-full h-full bg-cover'
+                    alt={item}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
-        <div className='mr-5'>
-          <p className=' text-end text-white underline'> View Summit Details</p>
+            ))}
+          </Slider>
+          <div className='mr-5'>
+            <p className=' text-end text-white underline'> View Summit Details</p>
+          </div>
         </div>
       </div>
     </div>
