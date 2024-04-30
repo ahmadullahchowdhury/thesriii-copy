@@ -37,16 +37,14 @@ const MobileNavbar = ({ isMenuOpen, setIsMenuOpen, navbarData }: SidebarLayoutPr
                 className='inline-flex items-center'
                 onClick={() => setIsMenuOpen(false)}
               >
-               
-                  <Image
-                    src={'/logo/logo.png'}
-                    className='w-full h-14 object-cover object-center'
-                    alt='bus'
-                    width={400}
-                    height={400}
-                    priority
-                  />
-     
+                <Image
+                  src={'/logo/logo.png'}
+                  className='w-full h-14 object-cover object-center'
+                  alt='bus'
+                  width={400}
+                  height={400}
+                  priority
+                />
               </Link>
               <button
                 aria-label='Close Menu'

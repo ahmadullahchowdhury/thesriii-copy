@@ -691,8 +691,8 @@ export const navbarData = {
   },
   navbarList: [
     {
-      title: 'About Us',
-      link: 'about',
+      title: 'About',
+      link: 'null',
       subMenu: [
         {
           title: 'Sri Mission, Strategy & Partnerships',
@@ -714,7 +714,7 @@ export const navbarData = {
     },
     {
       title: 'Conferences',
-      link: '/#a',
+      link: 'null',
       subMenu: [
         {
           title: 'Global Conference 2015',
@@ -724,7 +724,29 @@ export const navbarData = {
     },
     {
       title: 'Summits',
-      link: '/#'
+      link: '/summits',
+      subMenu: [
+        {
+          title: 'Summits(China) ',
+          link: '/summits/summits-china'
+        },
+        {
+          title: 'Summits(Japan) ',
+          link: '/summits/summits-japan'
+        },
+        {
+          title: 'Summits(India)    ',
+          link: '/summits/summits-india'
+        },
+        {
+          title: 'Summits(Europe)   ',
+          link: '/summits/summits-europe'
+        },
+        {
+          title: 'Summits(Asia)   ',
+          link: '/summits/summits-asia'
+        }
+      ]
     },
     {
       title: 'Digital Content',
@@ -1424,6 +1446,23 @@ export const summit = [
       '/image/summits_page/slider_4_2.png',
       '/image/summits_page/slider_4_3.png',
       '/image/summits_page/slider_4_4.png'
+    ]
+  },
+  {
+    title: `SRII-India ICSEM 2012
+    (3rd International Conference
+    on Services
+    in Emerging Markets)
+    
+    (Dec 12-15, 2012
+    ), Infosys Campus, Mysore,
+    Karnataka, India.
+    `,
+    images: [
+      '/image/summits_page/slider_5_1.png',
+      '/image/summits_page/slider_5_2.png',
+      '/image/summits_page/slider_5_3.png',
+      '/image/summits_page/slider_5_4.png'
     ]
   }
 ];

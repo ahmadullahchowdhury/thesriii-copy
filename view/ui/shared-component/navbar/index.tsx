@@ -3,18 +3,20 @@ import Link from 'next/link';
 import { useState } from 'react';
 import MobileNavbar from './mobile-navbar';
 import { navbarData } from '@json-db';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import Image from 'next/image';
 
 const Navbar = () => {
   const pathname = usePathname();
-  console.log('pathname', pathname);
+
   const [, result] = pathname.split('/');
   console.log('result', result);
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
+  const router = useRouter();
+
   return (
-    <div className={`fixed bg-[#29323D] top-0 z-50 w-full  duration-700 ease-in-out`}>
+    <div className={`fixed custom-shadow-header bg-[#29323D] top-0 z-50 w-full  duration-700 ease-in-out`}>
       <div className='custom-nav mx-auto flex max-w-[1308px] flex-row justify-around gap-20 px-4 py-[11px] md:justify-between '>
         <Link
           href={navbarData?.companyName?.link}
@@ -31,13 +33,19 @@ const Navbar = () => {
                 <span
                   style={{
                     // fontWeight: result === item.title ? 700 : 400,
-                    backgroundColor: result === item.link ? '#6E8BEB' : '',
-                    padding: result === item.link ? '10px' : '',
-                    borderRadius: result === item.link ? '7px' : ''
+                    backgroundColor: result === item.title.toLowerCase() ? '#6E8BEB' : '',
+                    padding: result === item.title.toLowerCase() ? '10px' : '',
+                    borderRadius: result === item.title.toLowerCase() ? '7px' : ''
                   }}
                   className='text-white font-work flex items-center capitalize gap-1 bg-transparent px-0 py-3 text-base transition hover:text-white hover:duration-300'
                 >
-                  {item.title}
+                  {item?.link !== 'null' ? (
+                    <Link className='text-white' href={item?.link}>
+                      {item.title}
+                    </Link>
+                  ) : (
+                    <span>{item.title}</span>
+                  )}
                   {item.subMenu && (
                     <svg
                       className='fill-current'
@@ -96,7 +104,7 @@ export default Navbar;
 const SubMenu = ({ subMenu }: any) => {
   const pathname = usePathname();
   return (
-    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute  top-10  z-30 w-full min-w-[140px]   max-w-[230px]  p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
+    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute  top-10  z-30 w-fit min-w-[140px]     p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
       {subMenu.map((subItem: any, index: number) => (
         <li key={index} className={'main-subSubMenu relative block'}>
           {subItem.subMenu ? (

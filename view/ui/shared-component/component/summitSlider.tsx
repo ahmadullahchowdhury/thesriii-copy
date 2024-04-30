@@ -83,21 +83,18 @@ const SummitsSlider = ({ data }: { data: any }) => {
   };
 
   return (
-    <div className='bg-[#29323D] relative z-10'>
-      <Image
+    <div className='bg-transparent relative z-10'>
+      {/* <Image
         width={0}
         height={0}
         sizes='100vw'
-        objectFit='contain'
-        src='/image/bg-1.png'
+        src='/image/bg-5.png'
         alt='hero-bg'
-        className='absolute w-full h-full object-cover top-0 left-0 -z-10'
-      />
+        className='absolute w-full h-full object-cover  top-0 left-0 -z-10'
+      /> */}
       <div className='max-w-[1713px]  mx-auto xl:px-32 2xl:px-24 pb-10'>
-        <div className='  mx-auto xl:px-32 2xl:px-24 pb-10'>
-          <p className='ps-5 pb-[44px] text-white text-[28px] font-medium capitalize'>
-            {data?.title}
-          </p>
+        <div className='  px-3 pb-5'>
+          <p className='pb-[44px] text-white text-[28px] font-medium capitalize'>{data?.title}</p>
         </div>
         <div className='mx-auto pb-9'>
           <Slider {...settings}>

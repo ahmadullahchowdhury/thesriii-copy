@@ -5,7 +5,7 @@ import KeyNoteSpeakerSlider from './KeyNoteSpeakerSlider';
 const KeyNoteSpeaker = () => {
   return (
     <div className='bg-[#FBFBFB] relative z-10'>
-      {/* <Image
+      <Image
         width={0}
         height={0}
         sizes='100vw'
@@ -13,7 +13,7 @@ const KeyNoteSpeaker = () => {
         src='/image/bg-1.png'
         alt='hero-bg'
         className='absolute w-full h-full object-cover opacity-50 top-0 left-0 -z-10'
-      /> */}
+      />
 
       <div className=' mx-10 md:mx-20 lg:mx-10'>
         <div className='container-sm py-8 md:py-16 lg:py-20'>

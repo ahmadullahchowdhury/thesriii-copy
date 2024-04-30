@@ -69,14 +69,10 @@ const SriMission = () => {
           <div className='mt-[28px] pb-[28px]  flex gap-[50px] pl-[50px]'>
             {sri_strategy.map((item, index) => (
               <div>
-                <div
-                // style={{
-                //   zIndex: 100
-                // }}
-                >
+                <div>
                   <Image
                     src='/icon/round.svg'
-                    className='relative z-50'
+                    className='relative z-10'
                     priority
                     quality={90}
                     width={24}
