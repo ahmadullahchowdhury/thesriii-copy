@@ -7,7 +7,7 @@ import SummitsSlider from 'view/ui/shared-component/component/summitSlider';
 const Hero = () => {
   return (
     <div>
-      <div className='max-w-[1505px] mx-auto pt-[100px] pb-[100px]'>
+      <div className='max-w-[1514px] mx-auto pt-[100px] pb-[100px]'>
         <div className='flex gap-[16px] pt-[60px] items-center'>
           <Link href='/' className='text-[#BBB] text-[16px] font-medium'>
             <span>Home</span>
@@ -37,17 +37,18 @@ const Hero = () => {
           <div className='self-stretch flex-col justify-start items-start gap-4 flex'>
             <div className='justify-center items-center gap-2.5 inline-flex'>
               <p className='text-center text-white text-4xl font-medium  capitalize'>
-                Silicon Valley Virtual Global Summit 2022
+               1. Silicon Valley Virtual Global Summit 2022
               </p>
             </div>
-            <div className='max-w-[337px] text-center text-white text-[27px] font-medium underline capitalize'>
-              Summit overview :{' '}
+            <div className='pl-[40px] text-left text-white text-[27px] font-medium '>
+            <p> Summit Overview : <span className="underline" ><Link href='https://thesrii.org/images/sas.jpeg' >https://thesrii.org/images/sas.jpeg</Link> </span> </p>
+             
             </div>
-            <div className='max-w-[325px] justify-center items-center gap-2.5 inline-flex'>
-              <p className='text-center text-white text-[27px] font-medium underline capitalize'>
-                Registration link :{' '}
-              </p>
+            <div className='pl-[40px] text-left text-white text-[27px] font-medium '>
+            <p>Registration link : <span className="underline text-[19px]" ><Link href='https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform' >https://docs.google.com/forms/d/e/1FAIpQLSdIHDKU9vYkaeWFOnYQGN_3XlX8iohg-2CsQGVDqgTuAYblSw/viewform</Link> </span> </p>
+             
             </div>
+
           </div>
         </div>
       </div>

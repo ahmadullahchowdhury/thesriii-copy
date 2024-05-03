@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import KeyNoteSpeakerSlider from './KeyNoteSpeakerSlider';
+import { keyNoteSpeakerSlider } from '@json-db';
 
 const KeyNoteSpeaker = () => {
   return (
@@ -27,7 +28,7 @@ const KeyNoteSpeaker = () => {
             propelling Srii's overarching goals to new heights of accomplishment and impact.
           </div>
 
-          <KeyNoteSpeakerSlider />
+          <KeyNoteSpeakerSlider data={keyNoteSpeakerSlider} />
         </div>
       </div>
     </div>

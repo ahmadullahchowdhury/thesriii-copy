@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const pathname = usePathname();
-
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [, result] = pathname.split('/');
   console.log('result', result);
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -26,18 +26,23 @@ const Navbar = () => {
         >
           <Image src={'/logo/logo.png'} className='w-full h-16' alt='bus' width={400} height={400} priority />
         </Link>
-        <ul className='hidden items-center space-x-8 lg:flex'>
+        <ul className='hidden items-center space-x-5 lg:flex'>
           {navbarData.navbarList.map((item: any, index: number) => (
-            <li key={index} className={'group relative block'}>
+            <li
+              key={index}
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              className={'group relative block'}
+            >
               {item.subMenu ? (
                 <span
                   style={{
                     // fontWeight: result === item.title ? 700 : 400,
-                    backgroundColor: result === item.title.toLowerCase() ? '#6E8BEB' : '',
-                    padding: result === item.title.toLowerCase() ? '10px' : '',
-                    borderRadius: result === item.title.toLowerCase() ? '7px' : ''
+                    backgroundColor: result === item.title.toLowerCase() || hoveredIndex === index ? '#6E8BEB' : '',
+                    padding: result === item.title.toLowerCase() || hoveredIndex === index ? '10px' : '',
+                    borderRadius: result === item.title.toLowerCase() || hoveredIndex === index ? '7px' : ''
                   }}
-                  className='text-white font-work flex items-center capitalize gap-1 bg-transparent px-0 py-3 text-base transition hover:text-white hover:duration-300'
+                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px] hover:rounded-[7px] font-work flex items-center capitalize gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
                 >
                   {item?.link !== 'null' ? (
                     <Link className='text-white' href={item?.link}>
@@ -61,7 +66,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   href={item.link}
-                  className='text-white font-work flex items-center gap-1 bg-transparent px-0 py-3 text-base transition hover:text-white hover:duration-300'
+                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px] hover:rounded-[7px] font-work flex items-center gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
                   style={{
                     // fontWeight: pathname === item?.link ? 700 : 400,
                     backgroundColor: pathname === item?.link ? '#6E8BEB' : '',
@@ -104,7 +109,7 @@ export default Navbar;
 const SubMenu = ({ subMenu }: any) => {
   const pathname = usePathname();
   return (
-    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute  top-10  z-30 w-fit min-w-[140px]     p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
+    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute  rounded-[7px]  z-30 w-fit min-w-[140px]     p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
       {subMenu.map((subItem: any, index: number) => (
         <li key={index} className={'main-subSubMenu relative block'}>
           {subItem.subMenu ? (
@@ -113,7 +118,7 @@ const SubMenu = ({ subMenu }: any) => {
                 // fontWeight: pathname === subItem?.link ? 700 : 400
                 backgroundColor: pathname === subItem?.link ? '#6E8BEB' : ''
               }}
-              className='text-white  flex items-center justify-between gap-1 whitespace-normal px-4 py-3 text-sm transition hover:bg-red-500  hover:text-red-500 hover:duration-300'
+              className='text-white  flex items-center justify-between gap-1 whitespace-normal px-4 py-3 text-sm transition   hover:duration-300'
             >
               {subItem.title}
 
@@ -131,9 +136,10 @@ const SubMenu = ({ subMenu }: any) => {
             <Link
               href={subItem.link}
               style={{
-                backgroundColor: pathname === subItem?.link ? '#6E8BEB' : ''
+                backgroundColor: pathname === subItem?.link ? '#6E8BEB' : '',
+                borderRadius: pathname === subItem?.link ? '7px' : ''
               }}
-              className='text-white block whitespace-normal px-4 py-3 text-sm transition hover:bg-[#6E8BEB]  hover:duration-300'
+              className='text-white block whitespace-normal  py-3 px-[12px] text-sm transition hover:bg-[#6E8BEB]  hover:rounded-[7px] hover:duration-300'
             >
               {subItem.title}
             </Link>

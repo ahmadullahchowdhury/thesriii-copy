@@ -106,7 +106,7 @@ const PricingPage = () => {
         <div className='max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-4 pt-9 md:pt-10 lg:pt-12 gap-9 md:gap-10 lg:gap-20 px-16 md:px-24 lg:px-5 '>
           {pricingData.map((item, index) => (
             <div key={index} className='bg-white pt-20 md:pt-24 relative rounded-lg grid items-end  '>
-              <div className='absolute -top-14  transform shadow-md   -translate-y-1 translate-x-[70%]  bg-[#EDF0F4] rounded-full h-[115px] w-[115px] flex items-center justify-center'>
+              <div className={`${index === 1 ?  'size-[120px]' :  'size-[115px]'  } absolute -top-1.5   left-1/2 transform -translate-x-1/2 -translate-y-1/2   rounded-full  flex items-center justify-center`}>
                 <Image src={item.icon} alt='icon' width={130} height={130} />
               </div>
               <div className=' text-gray-600 text-base font-semibold px-10 md:px-12 lg:px-14'>{item.title}</div>

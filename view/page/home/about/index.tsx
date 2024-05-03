@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { IoIosArrowForward } from 'react-icons/io';
 
 const About = () => {
@@ -69,7 +70,7 @@ const About = () => {
             current and future generations."
           </span>
         </div>
-        <div className='pt-8 md:pt-10 lg:pt-14  pb-2 md:pb-2 lg:pb-2.5 flex justify-center items-center'>
+        <Link href='/about/sri-mission' className='pt-8 md:pt-10 lg:pt-14  pb-2 md:pb-2 lg:pb-2.5 flex justify-center items-center'>
           <div
             style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
             className=' relative px-[25px] py-3 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
@@ -83,7 +84,7 @@ const About = () => {
               <IoIosArrowForward className='' color='white' size={44} />
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
