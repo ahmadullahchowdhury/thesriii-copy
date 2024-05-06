@@ -67,7 +67,7 @@ export default function ShowBioModal({
                         src={showBioDetails?.image || '/default-icon.png'}
                       />
                     </div>
-                    <div className='pt-[54px]'>
+                    <div className=''>
                       <p className='text-[#5C6898] text-[22px] md:text-[32px]  lg:text-[50px] font-bold  text-wrap'>
                         {showBioDetails?.title}
                       </p>

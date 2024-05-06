@@ -40,9 +40,9 @@ const Navbar = () => {
                     // fontWeight: result === item.title ? 700 : 400,
                     backgroundColor: result === item.title.toLowerCase() || hoveredIndex === index ? '#6E8BEB' : '',
                     padding: result === item.title.toLowerCase() || hoveredIndex === index ? '10px' : '',
-                    borderRadius: result === item.title.toLowerCase() || hoveredIndex === index ? '7px' : ''
+                    // borderRadius: result === item.title.toLowerCase() || hoveredIndex === index ? '7px' : ''
                   }}
-                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px] hover:rounded-[7px] font-work flex items-center capitalize gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
+                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px]  font-work flex items-center capitalize gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
                 >
                   {item?.link !== 'null' ? (
                     <Link className='text-white' href={item?.link}>
@@ -66,12 +66,12 @@ const Navbar = () => {
               ) : (
                 <Link
                   href={item.link}
-                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px] hover:rounded-[7px] font-work flex items-center gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
+                  className='text-white hover:bg-[#6E8BEB] px-[10px] hover:px-[10px]  font-work flex items-center gap-1 bg-transparent  py-3 text-base transition hover:text-white hover:duration-300'
                   style={{
                     // fontWeight: pathname === item?.link ? 700 : 400,
                     backgroundColor: pathname === item?.link ? '#6E8BEB' : '',
                     padding: pathname === item?.link ? '10px' : '',
-                    borderRadius: pathname === item?.link ? '7px' : ''
+                    // borderRadius: pathname === item?.link ? '7px' : ''
                   }}
                 >
                   {item.title}
@@ -109,7 +109,7 @@ export default Navbar;
 const SubMenu = ({ subMenu }: any) => {
   const pathname = usePathname();
   return (
-    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute  rounded-[7px]  z-30 w-fit min-w-[140px]     p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
+    <ul className='navbar-bg-color bg-base-100 font-work bg-[#3E4650] font-work invisible absolute    z-30 w-fit min-w-[140px]     p-0 opacity-0 shadow-md group-hover:visible group-hover:opacity-100'>
       {subMenu.map((subItem: any, index: number) => (
         <li key={index} className={'main-subSubMenu relative block'}>
           {subItem.subMenu ? (
@@ -137,9 +137,9 @@ const SubMenu = ({ subMenu }: any) => {
               href={subItem.link}
               style={{
                 backgroundColor: pathname === subItem?.link ? '#6E8BEB' : '',
-                borderRadius: pathname === subItem?.link ? '7px' : ''
+                // borderRadius: pathname === subItem?.link ? '7px' : ''
               }}
-              className='text-white block whitespace-normal  py-3 px-[12px] text-sm transition hover:bg-[#6E8BEB]  hover:rounded-[7px] hover:duration-300'
+              className='text-white block whitespace-normal  py-3 px-[12px] text-sm transition hover:bg-[#6E8BEB]   hover:duration-300'
             >
               {subItem.title}
             </Link>

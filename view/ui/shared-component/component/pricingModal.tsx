@@ -124,7 +124,7 @@ export default function ProjectModal({
                   <div className='flex justify-end mt-[16px] mb-[67px] max-w-[643px] mx-auto '>
                     <button
                       type='button'
-                      className='flex justify-end w-full  rounded-md bg-[#6E8BEB] px-[28px] py-[11px] text-base font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto'
+                      className='flex justify-end w-full  rounded-md bg-[#6E8BEB] px-[28px] py-[11px] text-base font-semibold text-white shadow-sm  sm:ml-3 sm:w-auto'
                       // onClick={() => setOpen(false)}
                     >
                       Join

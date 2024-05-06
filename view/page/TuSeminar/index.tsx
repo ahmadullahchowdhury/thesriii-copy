@@ -84,7 +84,7 @@ const TuSeminar = () => {
         <div className='pt-[20px]'>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Truls Berg - "Innovating Digital Economy for the Nordic Region"
               </span>
               <span>
@@ -94,7 +94,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 Video
               </Link>
@@ -102,7 +102,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Dr. Yan Chow - "Innovating Healthcare Services"
               </span>
               <span>
@@ -112,7 +112,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 PDF
               </Link>
@@ -123,7 +123,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 Video
               </Link>
@@ -131,7 +131,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>Ash Damle Lumiata</span>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>Ash Damle Lumiata</span>
               <span>
                 {' '}
                 <Image alt='dd' src='/icon/video_icon.png' width={100} height={100} className='size-[32px] ' />
@@ -139,7 +139,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 Video
               </Link>
@@ -147,7 +147,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Paul Iske - "Innovations in the Financial World"
               </span>
               <span>
@@ -157,7 +157,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 Video
               </Link>
@@ -165,7 +165,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Krijn Poppe - "Data-Driven Business Models"
               </span>
               <span>
@@ -175,7 +175,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 PDF
               </Link>
@@ -183,7 +183,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Jonathan Reichental - "Making City Smarter"
               </span>
               <span>
@@ -193,7 +193,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 Video
               </Link>
@@ -201,7 +201,7 @@ const TuSeminar = () => {
           </div>
           <div className='p-[5px]'>
             <p className='flex items-center'>
-              <span className='pr-[10px] text-[30px] font-[500] text-[#5C6898]'>
+              <span className='pr-[10px] text-[22px] font-[500] text-[#5C6898]'>
                 Amy Wang - “The Blueprint and Path of Made In China 2025”
               </span>
               <span>
@@ -211,7 +211,7 @@ const TuSeminar = () => {
               <Link
                 target='_blank'
                 href='https://thesrii.org/component/docman/?task=doc_download&gid=61&Itemid=134'
-                className='underline font-[500] pl-[4px] text-[30px] text-[#5C6898]'
+                className='underline font-[500] pl-[4px] text-[22px] text-[#5C6898]'
               >
                 PDF
               </Link>

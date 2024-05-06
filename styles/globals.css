@@ -140,6 +140,7 @@ body {
   border: none;
   border-radius: 5px;
   padding: 15px 33px;
+  /* margin:20px; */
   cursor: pointer;
   position: absolute;
   top: 10%;
@@ -164,6 +165,9 @@ body {
   border: none;
   border-radius: 50%;
   padding: 30px 30px; */
+  /* background-color: red;
+  padding
+  width: 200px; */
   cursor: pointer;
   position: absolute;
   top: 47%;

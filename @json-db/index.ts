@@ -146,7 +146,7 @@ export const executive_team_showBioDetails = [
   {
     title: 'Jay Lee',
     subTitle: `Professor at Univ. of Cincinnati </br>Founding Director of NSF Industry</br>/University Cooperative Research`,
-    image: '/image/executive_members/Hazra.png',
+    image: '/image/jay_lee.png',
     desc: `Dr. Jay Lee is Ohio Eminent Scholar, L.W. Scott Alter Chair Professor, and Distinguished Univ. Professor at the Univ. of Cincinnati and is founding director of National Science Foundation (NSF) Industry/University Cooperative Research Center (I/UCRC) on Intelligent Maintenance Systems (IMS www.imscenter.net) which is a multi-campus NSF Industry/University Cooperative Research Center. Since its inception in 2001, the Center has been supported by over 80 global companies in 15 countries. He has also been Program Directors for a number of programs at NSF during 1991-1998.
     <p  style='padding-bottom: 10px;'></p>
     His current research focuses on intelligent machinery prognostics and intelligent maintenance systems as well as dominant innovation for product service innovation design. He serves as honorary professor and visiting professor for a number of institutions including Shanghai Jiao Tong Univ., City Univ. of Hong Kong, Cranfield Univ. in UK, Lulea Univ. of Technology in Sweden, Hong Kong PolyU., Xian Jiao Tong Univ. and Harbin Institute of Technology (HIT) in China. In addition, he also serves as advisor to a number of global organizations, including a member of the Manufacturing Executive Leadership Board of U.S., Member of International Scientific Committee for Alstom, Scientific Committee Member of Singapore SIMTech, Scientific Advisory Board of Flanders' MECHATRONICS Technology Centre (FMTC) in Leuven, Belgium, etc. He also served as an advisory member for a number of institutions including, Johns Hopkins Univ., Cambridge Univ., etc.
@@ -154,22 +154,26 @@ export const executive_team_showBioDetails = [
     In addition, he serves as editors and associate editor for a number of journals including IEEE Transaction on Industrial Informatics, Int. Journal on Prognostics & Health Management (IJPHM), Int. Journal on Service Operations and Informatics, etc, He is a Fellow of ASME, SME, as well as a founding fellow of International Society of Engineering Asset Management (ISEAM) and has received a number of awards including NSF Alex Schwarzkopf Technologcal Innovation Prize in Jan. 2014 and Prognostics Innovation Award at NI Week by National Instruments in 2012. He mentored his students and developed a spin-off company Predictronics through NSF ICorps Award in 2012. . He is a frequently invited speaker and has delivered over 180 invited keynote and plenary speeches at major international conferences.
     `
   },
-  {
-    title: 'Dr. Geng Lin',
-    subTitle: `CTO of Corporate Networks at Google </br> SRII Cloud Services Innovation </br>Initiatives`,
-    image: '/image/executive_members/Geng.png',
-    desc: `Dr. Geng Lin is the CTO of Corporate Networks at Google. In this role, he leads the transformation of enterprise networking architecture to support the cloud-based IT service model both within Google and with Google cloud customers. Previously, he was CTO of Networking Business at Dell where he had the overall responsibility for technology strategy, system architecture, product innovation, and partnership and acquisition of key technologies, for Dell's networking business. He was appointed Dell Fellow in January 2013. Prior to Dell, he was CTO of IBM Alliance at Cisco Systems where he was responsible for technology direction, strategy, and solution development of the joint Cisco-IBM solution portfolio world wide.
-    <p  style='padding-bottom: 10px;'></p>
-    In his 20+ years in the networking industry, he has also served as Vice President of Software Engineering at Netopia (acquired by Motorola), Director of Engineering at Cisco Systems, and Director of Product Strategy at Nortel Networks.
-    <p  style='padding-bottom: 10px;'></p>
-    Dr. Lin is widely recognized as a leading expert in cloud networking and system architectures. He is a co-inventor of NVGRE network virtualization framework and an expert in Software Defined Networking. He is a contributing author of 2 books and over 60 papers and conference speeches.
-    `
-  },
+  // {
+  //   title: 'Dr. Geng Lin',
+  //   subTitle: `CTO of Corporate Networks at Google </br> SRII Cloud Services Innovation </br>Initiatives`,
+  //   image: '/image/executive_members/Geng.png',
+  //   desc: `Dr. Geng Lin is the CTO of Corporate Networks at Google. In this role, he leads the transformation of enterprise networking architecture to support the cloud-based IT service model both within Google and with Google cloud customers. Previously, he was CTO of Networking Business at Dell where he had the overall responsibility for technology strategy, system architecture, product innovation, and partnership and acquisition of key technologies, for Dell's networking business. He was appointed Dell Fellow in January 2013. Prior to Dell, he was CTO of IBM Alliance at Cisco Systems where he was responsible for technology direction, strategy, and solution development of the joint Cisco-IBM solution portfolio world wide.
+  //   <p  style='padding-bottom: 10px;'></p>
+  //   In his 20+ years in the networking industry, he has also served as Vice President of Software Engineering at Netopia (acquired by Motorola), Director of Engineering at Cisco Systems, and Director of Product Strategy at Nortel Networks.
+  //   <p  style='padding-bottom: 10px;'></p>
+  //   Dr. Lin is widely recognized as a leading expert in cloud networking and system architectures. He is a co-inventor of NVGRE network virtualization framework and an expert in Software Defined Networking. He is a contributing author of 2 books and over 60 papers and conference speeches.
+  //   `
+  // },
   {
     title: 'Grace Lin',
     subTitle: `Vice President and Director </br> General, Advance Research</br> Institute at Institute for Information </br>Industry (III), Taiwan <br> SRII Strategic Advisor for Asia &</br> Emerging Markets`,
     image: '/image/executive_members/Grace.png',
-    desc: ``
+    desc: `Dr. Geng Lin is the CTO of Corporate Networks at Google. In this role, he leads the transformation of enterprise networking architecture to support the cloud-based IT service model both within Google and with Google cloud customers. Previously, he was CTO of Networking Business at Dell where he had the overall responsibility for technology strategy, system architecture, product innovation, and partnership and acquisition of key technologies, for Dell's networking business. He was appointed Dell Fellow in January 2013. Prior to Dell, he was CTO of IBM Alliance at Cisco Systems where he was responsible for technology direction, strategy, and solution development of the joint Cisco-IBM solution portfolio world wide.
+    <p  style='padding-bottom: 10px;'></p>
+    In his 20+ years in the networking industry, he has also served as Vice President of Software Engineering at Netopia (acquired by Motorola), Director of Engineering at Cisco Systems, and Director of Product Strategy at Nortel Networks.
+    <p  style='padding-bottom: 10px;'></p>
+    `
   },
   {
     title: 'Dr. Sanjoy Paul',
@@ -186,7 +190,7 @@ export const executive_team_showBioDetails = [
   },
   {
     title: 'Jeffrey Welser',
-    subTitle: `Director of Services Research at IBM </br>Alamden Research Center </br>SRII leader for IT Service </br>Management—Models/Methods/Tools/Standards`,
+    subTitle: `Director of Services Research at IBM </br>Alamden Research Center </br>SRII leader for IT Service </br>Management—Models/Methods/</br>Tools/Standards`,
     image: '/image/executive_members/Jeffrey.png',
     desc: `Dr. Jeffrey Welser is currently the Director of Almaden Services Research, managing a portfolio of research into improved business processes, software, and technology to enable IBM's Global Business and Technology services divisions. Dr. Welser received his PhD in Electrical Engineering from Stanford University in 1995, and joined IBM's Research Division at the T.J. Watson Research Center. Since joining IBM, he has worked on a variety of novel devices, including nano-crystal and quantum-dot memories, vertical-FET DRAM, and Si-based opticaldetectors, and eventually took over managing the Novel Silicon Device group at Watson.
     <p  style='padding-bottom: 10px;'></p>
@@ -196,14 +200,15 @@ export const executive_team_showBioDetails = [
     `
   },
   {
-    title: 'Dr. Geng Lin',
+    title: 'Ryan Windham',
     subTitle: `Head of Corporate Strategy, F5 </br> Networks`,
-    image: '/image/executive_members/Geng.png',
+    image: '/image/Ryan.png',
     desc: `Ryan Windham is Head of Corporate Strategy at F5 Networks, where he’s responsible for developing, communicating, and driving F5’s strategy. In this role, Ryan is leading F5’s transformation from load balancing point-product to Application Delivery Networking platform. Previously, he was Senior Director of Product Management for F5’s fastest growing business segment – security.
     <p  style='padding-bottom: 10px;'></p>
     Prior to joining F5, Ryan held multiple business and product leadership posts at Websense, including a two year stint in the UK leading product development for Websense’s cloud-based security services. Most recently, he ran Websense’s Corporate Development, Business Development, & Strategy organization which was responsible for M&A, strategic alliances, and new business ventures.
     <p  style='padding-bottom: 10px;'></p>
     Ryan began his IT career as a network engineer over 15 years ago and holds several professional certifications including MCSE and CCNP. Ryan graduated with honors from The Wharton School with an MBA in Finance and holds a BSc in Business Administration from the University of London.    
+    Dr. Lin is widely recognized as a leading expert in cloud networking and system architectures. He is a co-inventor of NVGRE network virtualization framework and an expert in Software Defined Networking. He is a contributing author of 2 books and over 60 papers and conference speeches.
     `
   }
 ];
@@ -497,7 +502,7 @@ export const global_relationships_showioData = [
   },
   {
     title: 'Christos Nikolaou',
-    subTitle: 'Professor at the Department of Computer Science, University of Crete in Heraklion, Crete, Greece ',
+    subTitle: 'Professor at the Department of <br/>Computer Science, University of <br/>Crete in Heraklion, Crete, Greece ',
     image: '/image/global_members/christos.png',
     desc: `Christos Nikolaou is a seasoned and proven leader of innovative or research projects and organizations:
     <p style='padding-bottom: 10px;'></p>  
@@ -1314,13 +1319,13 @@ export const executive_team = [
   {
     name: 'Jay Lee',
     designation: 'Professor at Univ. of Cincinnati Founding Director of NSF Industry/University Cooperative Research',
-    image: '/image/executive_members/Hazra.png'
+    image: '/image/jay_lee.png'
   },
-  {
-    name: 'Dr. Geng Lin',
-    designation: 'CTO of Corporate Networks at Google <br> SRII Cloud Services Innovation Initiatives',
-    image: '/image/executive_members/Geng.png'
-  },
+  // {
+  //   name: 'Dr. Geng Lin',
+  //   designation: 'CTO of Corporate Networks at Google <br> SRII Cloud Services Innovation Initiatives',
+  //   image: '/image/executive_members/Geng.png'
+  // },
   {
     name: 'Grace Lin',
     designation:
