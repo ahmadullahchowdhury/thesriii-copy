@@ -29,7 +29,7 @@ const ScrollTop = () => {
 
   return (
     isVisible && (
-      <div className='fixed z-50 bottom-5 right-8 sm:bottom-8 sm:right-10 md:bottom-12 md:right-12 lg:bottom-20 lg:right-20 xl:bottom-20 xl:right-20'>
+      <div className='fixed z-50 bottom-5 right-8 sm:bottom-8 sm:right-10 md:bottom-12 md:right-12 lg:bottom-20 lg:right-20 xl:bottom-8 xl:right-12'>
         <button className='bg-black rounded-full p-1' onClick={scrollToTop}>
           <IoIosArrowUp color='white' size={50} />
         </button>
