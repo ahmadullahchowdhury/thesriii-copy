@@ -2,7 +2,7 @@
 import { summit } from '@json-db';
 import Image from 'next/image';
 import { Fragment } from 'react';
-import Hero from 'view/page/Summits/hero';
+import Hero from 'view/page/summits/hero';
 import SummitsSlider from 'view/ui/shared-component/component/summitSlider';
 
 const PageBody = () => {

@@ -90,7 +90,7 @@ export default function ProjectModal({
                   >
                     Benefits include
                   </p>
-                  <div className='custom-scroll h-[150px]  overflow-y-scroll mr-8 my-2'>
+                  <div className='custom-scroll h-[150px]  overflow-y-scroll mr-9 my-2'>
                     <ul className='  mx-[70px] p-[8px] list-disc text-[#5C6898] '>
                       {pricingDetails?.benefits.map((benefit, index) => (
                         <li key={index} className='text-[#5C6898] text-[14px] '>

@@ -1,6 +1,6 @@
 'use client';
 
-import Hero from 'view/page/Summits/summits-europe/Hero';
+import Hero from 'view/page/summits/summits-europe/Hero';
 
 const PageBody = () => {
   return (

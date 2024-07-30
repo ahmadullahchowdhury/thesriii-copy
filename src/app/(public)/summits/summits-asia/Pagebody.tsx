@@ -1,6 +1,6 @@
 'use client';
 
-import Hero from 'view/page/Summits/summits-asia/Hero';
+import Hero from 'view/page/summits/summits-asia/Hero';
 
 const PageBody = () => {
   return <Hero />;
