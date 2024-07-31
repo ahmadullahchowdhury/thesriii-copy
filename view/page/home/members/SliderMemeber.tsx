@@ -1,5 +1,5 @@
 
-
+"use client"
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -9,9 +9,14 @@ import { SwiperNavButtons } from 'view/ui/shared-component/component/swiperbutto
 import '../../../../styles/customswiper.css';
 
 import Image from 'next/image';
-import {  members,  } from '@json-db';
+import {  members, board_member_showBioDetails } from '@json-db';
+
+import ShowBioModal from 'view/ui/shared-component/component/showbioModal';
+import { useState } from 'react';
 
 function SliderMember() {
+  const [open, setOpen] = useState(false);
+  const [selectedBioDetails, setSelectedBioDetails] = useState<number>(0);
 
 
 
@@ -34,7 +39,7 @@ function SliderMember() {
             }}>
 
         {
-          members.map(item => (
+          members.map((item, index) => (
             
         <SwiperSlide className=' h-[100px] '>
           {' '}
@@ -53,7 +58,10 @@ function SliderMember() {
                     <div className='text-zinc-800 text-2xl font-bold text-left'>{item.name}</div>
                     <div className='w-[275px] pt-2 text-zinc-500 text-base text-left font-light '>{item.designation}</div>
                   </div>
-                  <div className='text-zinc-500 text-xl font-normal underline'>Show bio</div>
+                  <div                   onClick={() => {
+                    setOpen(true);
+                    setSelectedBioDetails(index);
+                  }} className='text-zinc-500 text-xl font-normal cursor-pointer underline'>Show bio</div>
                 </div>
               </div>
           
@@ -64,6 +72,7 @@ function SliderMember() {
 
         <SwiperNavButtons />
       </Swiper>
+      <ShowBioModal open={open} setOpen={setOpen} showBioDetails={board_member_showBioDetails[selectedBioDetails]} />
     </div>
   );
 }

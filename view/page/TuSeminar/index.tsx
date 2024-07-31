@@ -11,7 +11,7 @@ const TuSeminar = () => {
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>
             Home
           </Link>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black'/>
           <p className='text-black text-[16px] font-medium'>TU Seminar</p>
         </div>
         <h2 className='text-[#5C6898] capitalize text-2xl md:text-[36px] leading-normal lg:text-[50px] font-semibold  pt-[42px]'>

@@ -30,10 +30,10 @@ const SriMission = () => {
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>
             Home
           </Link>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black' />
 
           <p className='text-[#7E7E7E] text-[16px] font-medium'>About us</p>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black' />
           <p className='text-[#1D1D1D] text-[16px] font-medium'>Srii mission, Strategy & partnerships </p>
         </div>
 

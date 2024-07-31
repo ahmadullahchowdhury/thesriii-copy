@@ -127,7 +127,7 @@ const Hero = () => {
         <Link href='https://www.flickr.com/photos/128066616@N06/albums/72157650854040747/' target='_blank' className='pt-8 md:pt-10 lg:pt-14  pb-2 md:pb-2 lg:pb-2.5 flex justify-end items-center'>
           <div
             style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
-            className=' relative px-[50px] py-2 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
+            className=' relative  px-[18px] py-2 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
           >
             <div className='p-[5px] justify-center items-center gap-2.5 flex'>
               <div className='text-center text-slate-500 text-base  lg:text-[24px] font-medium  capitalize'>

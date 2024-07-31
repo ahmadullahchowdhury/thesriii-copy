@@ -1262,15 +1262,16 @@ export const members = [
     designation: 'Managing Director of Hummer Winblad Venture Partners',
     image: '/image/mem_mark.png'
   },
-  {
-    name: 'Ajit Singh',
-    designation: 'Partner at Artiman Venture & Consulting Professor at Stanford University',
-    image: '/image/mem_ajit.png'
-  },
+
   {
     name: 'Rajeeb Hazra',
     designation: 'Vice President at Intel',
     image: '/image/mem_rajeeb.png'
+  },
+  {
+    name: 'Ajit Singh',
+    designation: 'Partner at Artiman Venture & Consulting Professor at Stanford University',
+    image: '/image/mem_ajit.png'
   },
   {
     name: 'Ray Harishankar',

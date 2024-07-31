@@ -25,10 +25,10 @@ const AdvisoryCouncil = () => {
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>
             Home
           </Link>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black' />
 
           <p className='text-[#7E7E7E] text-[16px] font-medium'>About us</p>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black'/>
           <p className='text-[#1D1D1D] text-[16px] font-medium'>Advisory Council</p>
         </div>
         <div className='text-slate-500 text-2xl md:text-4xl lg:text-5xl font-semibold pt-10 md:pt-14 lg:pt-10 '>

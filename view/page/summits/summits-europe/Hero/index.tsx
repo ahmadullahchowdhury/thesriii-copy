@@ -116,7 +116,7 @@ const Hero = () => {
         >
           <div
             style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
-            className=' relative px-[50px] py-2 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
+            className=' relative px-[18px] py-2 bg-white rounded-[50px] justify-center items-center gap-[29px] inline-flex'
           >
             <div className='p-[5px] justify-center items-center gap-2.5 flex'>
               <div className='text-center text-slate-500 text-base  lg:text-[24px] font-medium  capitalize'>

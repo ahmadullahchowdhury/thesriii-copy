@@ -18,7 +18,7 @@ const About = () => {
         <h2 className='text-3xl pb-5 lg:text-5xl font-bold text-slate-500  text-center'>About Us</h2>
         <div className='  mx-auto border-b-2 border-[#A9A9A9]/50  mb-6 relative '>
           <p className='text-slate-500 font-bold text-xl pb-3'>Kris Singh</p>
-          <div className='z-10 absolute left-[0px] -bottom-[4.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
+          <div className='z-10 absolute left-[0px] -bottom-[5.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
         </div>
         <div className='grid grid-col-1  lg:grid-cols-10 p-2.5 gap-5'>
           <Image
@@ -53,7 +53,7 @@ const About = () => {
 
         <div className='  mx-auto border-b-2 pt-12  mb-6 relative '>
           <p className='text-slate-500 font-bold text-2xl pb-3'>Our Mission</p>
-          <div className='z-10 absolute left-[0px] -bottom-[4.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
+          <div className='z-10 absolute left-[0px] -bottom-[5.5px] h-2 w-2 bg-[#A9A9A9]/90 rounded-full'></div>
         </div>
 
         <div className=' text-slate-500 text-lg font-semibold  leading-[22.86px]'>

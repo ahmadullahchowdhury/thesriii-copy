@@ -122,9 +122,9 @@ const Conference2015 = () => {
           <Link href='/' className='text-[#7E7E7E] text-[16px] font-medium'>
             Home
           </Link>
-          <IoIosArrowForward />
+          <IoIosArrowForward  color='black'/>
           <p className='text-[#7E7E7E] text-[16px] font-medium'>Conferences</p>
-          <IoIosArrowForward />
+          <IoIosArrowForward color='black'/>
           <p className='text-[#1D1D1D] text-[16px] font-medium'>Global Conference 2015 </p>
         </div>
         <h2 className='text-slate-500 capitalize text-2xl md:text-4xl lg:text-[50px] font-semibold  pt-[42px]'>
